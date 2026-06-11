@@ -1,0 +1,43 @@
+{
+  "name": "shuati-desktop",
+  "version": "1.0.0",
+  "description": "刷题练习台桌面版",
+  "main": "desktop/main.js",
+  "private": true,
+  "scripts": {
+    "dev": "electron .",
+    "desktop": "electron .",
+    "sync:android": "powershell -ExecutionPolicy Bypass -File scripts/sync_android_assets.ps1",
+    "pack:win": "electron-builder --win portable",
+    "pack:win:dir": "electron-builder --win dir"
+  },
+  "build": {
+    "appId": "com.example.shuati.desktop",
+    "productName": "刷题练习台",
+    "directories": {
+      "output": "dist-desktop"
+    },
+    "files": [
+      "index.html",
+      "app.js",
+      "styles.css",
+      "data/**/*",
+      "assets/**/*",
+      "desktop/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "artifactName": "ShuaTi-Windows.exe"
+    },
+    "portable": {
+      "artifactName": "ShuaTi-Windows.exe"
+    }
+  },
+  "devDependencies": {
+    "electron": "^39.2.7",
+    "electron-builder": "^26.0.12"
+  }
+}

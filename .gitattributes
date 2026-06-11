@@ -1,0 +1,12 @@
+﻿* text=auto
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.sh text eol=lf
+*.exe binary
+*.apk binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.docx binary
+*.zip binary

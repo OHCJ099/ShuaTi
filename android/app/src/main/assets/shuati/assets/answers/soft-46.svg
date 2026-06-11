@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+  <rect width="1000" height="620" fill="#ffffff"/>
+  <defs>
+    <style>
+      .label { fill:#0d0d14; font:700 22px "Microsoft YaHei", "PingFang SC", sans-serif; }
+      .msg { fill:#0d0d14; font:20px "Microsoft YaHei", "PingFang SC", sans-serif; }
+      .actor { stroke:#c24d6b; stroke-width:3; fill:none; }
+      .box { fill:#fff8bd; stroke:#c24d6b; stroke-width:3; }
+      .life { stroke:#424242; stroke-width:2; stroke-dasharray:7 7; }
+      .active { fill:#ffffff; stroke:#c24d6b; stroke-width:3; }
+      .arrow { stroke:#c24d6b; stroke-width:3; fill:none; marker-end:url(#arrow); }
+      .return { stroke:#c24d6b; stroke-width:3; stroke-dasharray:7 7; fill:none; marker-end:url(#arrow); }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#c24d6b"/>
+    </marker>
+  </defs>
+
+  <g transform="translate(100 40)">
+    <circle class="actor" cx="0" cy="22" r="18"/>
+    <line class="actor" x1="0" y1="40" x2="0" y2="95"/>
+    <line class="actor" x1="-38" y1="62" x2="38" y2="62"/>
+    <line class="actor" x1="0" y1="95" x2="-34" y2="145"/>
+    <line class="actor" x1="0" y1="95" x2="34" y2="145"/>
+    <text class="label" x="-65" y="195">银行工作人员</text>
+  </g>
+
+  <rect class="box" x="390" y="78" width="180" height="72"/>
+  <text class="label" x="480" y="124" text-anchor="middle">银行系统</text>
+  <rect class="box" x="780" y="78" width="180" height="72"/>
+  <text class="label" x="870" y="124" text-anchor="middle">数据库</text>
+
+  <line class="life" x1="100" y1="230" x2="100" y2="590"/>
+  <line class="life" x1="480" y1="150" x2="480" y2="590"/>
+  <line class="life" x1="870" y1="150" x2="870" y2="590"/>
+  <rect class="active" x="88" y="230" width="24" height="260"/>
+  <rect class="active" x="468" y="205" width="24" height="285"/>
+  <rect class="active" x="858" y="280" width="24" height="70"/>
+  <rect class="active" x="858" y="405" width="24" height="70"/>
+
+  <path class="arrow" d="M112 230 H468"/>
+  <text class="msg" x="210" y="215">输入取款单...</text>
+
+  <path class="arrow" d="M492 285 H858"/>
+  <text class="msg" x="615" y="270">身份验证...</text>
+  <path class="return" d="M858 345 H492"/>
+  <text class="msg" x="620" y="335">通过验证...</text>
+
+  <path class="arrow" d="M492 410 H858"/>
+  <text class="msg" x="610" y="395">扣除存款额...</text>
+  <path class="return" d="M858 470 H492"/>
+  <text class="msg" x="620" y="460">完成扣款...</text>
+
+  <path class="return" d="M468 490 H112"/>
+  <text class="msg" x="225" y="475">打印取款信息</text>
+</svg>

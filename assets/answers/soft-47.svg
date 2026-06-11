@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="980" viewBox="0 0 720 980">
+  <rect width="720" height="980" fill="#ffffff"/>
+  <defs>
+    <style>
+      .lane { fill:#ffffff; stroke:#6d6d6d; stroke-width:3; }
+      .head { fill:#ffffff; stroke:#6d6d6d; stroke-width:3; }
+      .title { fill:#0d0d14; font:700 20px "Microsoft YaHei", "PingFang SC", sans-serif; }
+      .node { fill:#fff8c9; stroke:#aaa566; stroke-width:2; }
+      .text { fill:#0d0d14; font:700 18px "Microsoft YaHei", "PingFang SC", sans-serif; }
+      .line { stroke:#777; stroke-width:2.4; fill:none; marker-end:url(#arrow); }
+      .note { fill:#0d0d14; font:16px "Microsoft YaHei", "PingFang SC", sans-serif; }
+      .diamond { fill:#dff0b9; stroke:#8c9c65; stroke-width:2; }
+      .start { fill:#5d5d5d; }
+      .endOuter { fill:#dff0b9; stroke:#8c9c65; stroke-width:2; }
+      .endInner { fill:#5d5d5d; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#777"/>
+    </marker>
+  </defs>
+
+  <rect class="lane" x="15" y="15" width="690" height="940"/>
+  <line x1="360" y1="15" x2="360" y2="955" stroke="#6d6d6d" stroke-width="3"/>
+  <rect class="head" x="15" y="15" width="345" height="44"/>
+  <rect class="head" x="360" y="15" width="345" height="44"/>
+  <text class="title" x="187" y="44" text-anchor="middle">学生</text>
+  <text class="title" x="532" y="44" text-anchor="middle">选课系统</text>
+
+  <circle class="start" cx="532" cy="125" r="22"/>
+  <path class="line" d="M532 150 V205"/>
+  <rect class="node" x="405" y="205" width="254" height="54" rx="27"/>
+  <text class="text" x="532" y="239" text-anchor="middle">进入查询页面</text>
+
+  <path class="line" d="M405 235 C350 245 310 265 270 300"/>
+  <rect class="node" x="60" y="300" width="244" height="54" rx="27"/>
+  <text class="text" x="182" y="334" text-anchor="middle">输入查询信息</text>
+
+  <path class="line" d="M304 327 C355 337 388 354 420 383"/>
+  <rect class="node" x="405" y="382" width="254" height="54" rx="27"/>
+  <text class="text" x="532" y="416" text-anchor="middle">查询课程</text>
+
+  <path class="line" d="M532 436 V493"/>
+  <path class="diamond" d="M532 493 L575 536 L532 579 L489 536 Z"/>
+  <path class="line" d="M512 570 C485 600 470 620 455 650"/>
+  <path class="line" d="M552 570 C585 600 608 620 626 650"/>
+  <text class="note" x="397" y="624">[验证成功]</text>
+  <text class="note" x="582" y="624">[验证失败]</text>
+
+  <rect class="node" x="392" y="650" width="166" height="84" rx="35"/>
+  <text class="text" x="475" y="685" text-anchor="middle">显示课</text>
+  <text class="text" x="475" y="713" text-anchor="middle">程信息</text>
+  <rect class="node" x="562" y="650" width="126" height="84" rx="35"/>
+  <text class="text" x="625" y="685" text-anchor="middle">返回查询</text>
+  <text class="text" x="625" y="713" text-anchor="middle">失败页面</text>
+
+  <path class="line" d="M475 734 V795"/>
+  <circle class="endOuter" cx="475" cy="820" r="24"/>
+  <circle class="endInner" cx="475" cy="820" r="12"/>
+
+  <path class="line" d="M625 734 V795"/>
+  <circle class="endOuter" cx="625" cy="820" r="24"/>
+  <circle class="endInner" cx="625" cy="820" r="12"/>
+</svg>

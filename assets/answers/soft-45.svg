@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+  <rect width="960" height="640" fill="#ffffff"/>
+  <defs>
+    <style>
+      .box { fill:#f7f8fb; stroke:#b8c4d4; stroke-width:2; }
+      .head { fill:#5a9bd5; }
+      .title { fill:#ffffff; font:700 24px "Microsoft YaHei", "PingFang SC", sans-serif; }
+      .attr { fill:#425466; font:22px "Microsoft YaHei", "PingFang SC", sans-serif; }
+      .line { stroke:#b8c4d4; stroke-width:2; fill:none; }
+    </style>
+    <marker id="inherit" markerWidth="18" markerHeight="16" refX="9" refY="8" orient="auto">
+      <path d="M1,8 L17,1 L17,15 Z" fill="#ffffff" stroke="#b8c4d4" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <g transform="translate(350 40)">
+    <rect class="box" width="260" height="170"/>
+    <rect class="head" width="260" height="54"/>
+    <text class="title" x="130" y="36" text-anchor="middle">人员</text>
+    <line class="line" x1="0" y1="54" x2="260" y2="54"/>
+    <text class="attr" x="28" y="92">- 登录名称:String</text>
+    <text class="attr" x="28" y="124">- 密码:String</text>
+    <text class="attr" x="28" y="156">- 邮箱:String</text>
+  </g>
+
+  <g transform="translate(40 360)">
+    <rect class="box" width="270" height="230"/>
+    <rect class="head" width="270" height="54"/>
+    <text class="title" x="135" y="36" text-anchor="middle">学生</text>
+    <line class="line" x1="0" y1="54" x2="270" y2="54"/>
+    <text class="attr" x="28" y="92">- 学生编号:String</text>
+    <text class="attr" x="28" y="124">- 性别:String</text>
+    <text class="attr" x="28" y="156">- 年龄:int</text>
+    <text class="attr" x="28" y="188">- 班级:String</text>
+    <text class="attr" x="28" y="220">- 年级:String</text>
+  </g>
+
+  <g transform="translate(345 360)">
+    <rect class="box" width="270" height="190"/>
+    <rect class="head" width="270" height="54"/>
+    <text class="title" x="135" y="36" text-anchor="middle">教师</text>
+    <line class="line" x1="0" y1="54" x2="270" y2="54"/>
+    <text class="attr" x="28" y="96">- 性别:String</text>
+    <text class="attr" x="28" y="132">- 教授课程:String</text>
+    <text class="attr" x="28" y="168">- 电话号码:String</text>
+  </g>
+
+  <g transform="translate(650 360)">
+    <rect class="box" width="270" height="125"/>
+    <rect class="head" width="270" height="54"/>
+    <text class="title" x="135" y="36" text-anchor="middle">系统管理员</text>
+    <line class="line" x1="0" y1="54" x2="270" y2="54"/>
+    <text class="attr" x="28" y="96">- 权限等级:int</text>
+  </g>
+
+  <path class="line" d="M175 360 L480 210" marker-end="url(#inherit)"/>
+  <path class="line" d="M480 360 L480 210" marker-end="url(#inherit)"/>
+  <path class="line" d="M785 360 L480 210" marker-end="url(#inherit)"/>
+</svg>

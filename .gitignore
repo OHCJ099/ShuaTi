@@ -1,0 +1,21 @@
+﻿node_modules/
+dist/
+dist-desktop/
+.tmp/
+tmp_*/
+tmp*.zip
+tmp*.docx
+*.log
+
+# Android / Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+.gradle/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
