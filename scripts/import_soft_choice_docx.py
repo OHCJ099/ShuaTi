@@ -12,6 +12,37 @@ DATA_FILE = ROOT / "data" / "questions.js"
 IMAGE_DIR = ROOT / "assets" / "answers" / "soft-choice"
 IMAGE_PREFIX = "assets/answers/soft-choice"
 
+# These questions in 选择题.docx duplicate questions already present in
+# 2025-2026第二学期软件工程测试.txt. Keep the earlier curated entries to avoid
+# showing the same question twice. Question 41 is intentionally not skipped
+# because the old source lacks the required figure; the old figure-less item is
+# removed below instead.
+DUPLICATE_CHOICE_NUMBERS = {
+    2,
+    3,
+    4,
+    8,
+    9,
+    10,
+    11,
+    13,
+    18,
+    19,
+    24,
+    27,
+    29,
+    31,
+    36,
+    37,
+    39,
+    46,
+    56,
+}
+
+LEGACY_DUPLICATE_IDS_TO_REMOVE = {
+    "q-75f318df3f",  # old sequence-diagram return-message item without its figure
+}
+
 NS = {
     "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main",
     "a": "http://schemas.openxmlformats.org/drawingml/2006/main",
@@ -144,8 +175,17 @@ def main():
     if "选择题.docx" not in soft.setdefault("sources", []):
         soft["sources"].append("选择题.docx")
 
+    removed_choice_ids = {f"q-soft-choice-{number:03d}" for number in DUPLICATE_CHOICE_NUMBERS}
+    soft["questions"] = [
+        question
+        for question in soft["questions"]
+        if question.get("id") not in removed_choice_ids and question.get("id") not in LEGACY_DUPLICATE_IDS_TO_REMOVE
+    ]
+
     existing_by_id = {q["id"]: q for q in soft["questions"]}
     for item in parsed:
+        if item["number"] in DUPLICATE_CHOICE_NUMBERS:
+            continue
         qid = f"q-soft-choice-{item['number']:03d}"
         question = existing_by_id.get(qid)
         if not question:
@@ -185,7 +225,8 @@ def main():
         )
 
     write_bank(bank)
-    print(f"Imported {len(parsed)} questions into {soft['name']}. Total now: {soft['total']}")
+    imported_count = len([item for item in parsed if item["number"] not in DUPLICATE_CHOICE_NUMBERS])
+    print(f"Processed {len(parsed)} questions, imported {imported_count} non-duplicates into {soft['name']}. Total now: {soft['total']}")
 
 
 if __name__ == "__main__":

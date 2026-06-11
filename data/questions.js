@@ -7892,7 +7892,7 @@ window.QUESTION_BANK = {
         "选择题.docx"
       ],
       "counts": {
-        "single": 80,
+        "single": 60,
         "multiple": 0,
         "blank": 10,
         "judge": 10,
@@ -7900,7 +7900,7 @@ window.QUESTION_BANK = {
         "comprehensive": 3,
         "programming": 0
       },
-      "total": 110,
+      "total": 90,
       "questions": [
         {
           "id": "q-0190d55105",
@@ -8151,42 +8151,6 @@ window.QUESTION_BANK = {
               "D"
             ],
             "text": "D. 方法、工具和过程"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-75f318df3f",
-          "subject": "软工",
-          "source": "2025-2026第二学期软件工程测试.txt",
-          "order": 8,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "single",
-          "originalNumber": 8,
-          "prompt": "以下符号哪个是在顺序图中表示返回消息的符号(        )。\nAB\nBC\nCD\nDA",
-          "options": [
-            {
-              "key": "A",
-              "text": "B"
-            },
-            {
-              "key": "B",
-              "text": "C"
-            },
-            {
-              "key": "C",
-              "text": "D"
-            },
-            {
-              "key": "D",
-              "text": "A"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B. C"
           },
           "explanation": ""
         },
@@ -8659,114 +8623,6 @@ window.QUESTION_BANK = {
           "explanation": ""
         },
         {
-          "id": "q-soft-choice-002",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 52,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 2,
-          "prompt": "软件危机的主要原因是(    )。",
-          "options": [
-            {
-              "key": "A",
-              "text": "软件工具落后"
-            },
-            {
-              "key": "B",
-              "text": "实行严格的产品控制"
-            },
-            {
-              "key": "C",
-              "text": "软件生产能力不足"
-            },
-            {
-              "key": "D",
-              "text": "软件本身的特点及开发方法不满足"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "D"
-            ],
-            "text": "D"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-003",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 53,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 3,
-          "prompt": "软件工程的三要素是(    )。",
-          "options": [
-            {
-              "key": "A",
-              "text": "技术、方法和工具"
-            },
-            {
-              "key": "B",
-              "text": "方法、对象和类"
-            },
-            {
-              "key": "C",
-              "text": "方法、工具和过程"
-            },
-            {
-              "key": "D",
-              "text": "过程、模型和方法"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "C"
-            ],
-            "text": "C"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-004",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 54,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 4,
-          "prompt": "在下列选项中，(    )不属于软件工程学科所要研究的基本内容。",
-          "options": [
-            {
-              "key": "A",
-              "text": "软件工程材料"
-            },
-            {
-              "key": "B",
-              "text": "软件工程方法"
-            },
-            {
-              "key": "C",
-              "text": "软件工程原理"
-            },
-            {
-              "key": "D",
-              "text": "软件工程过程"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "A"
-            ],
-            "text": "A"
-          },
-          "explanation": ""
-        },
-        {
           "id": "q-soft-choice-005",
           "subject": "软工",
           "source": "选择题.docx",
@@ -8875,150 +8731,6 @@ window.QUESTION_BANK = {
           "explanation": ""
         },
         {
-          "id": "q-soft-choice-008",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 58,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 8,
-          "prompt": "包含风险分析的软件工程模型是（    )。",
-          "options": [
-            {
-              "key": "A",
-              "text": "螺旋模型"
-            },
-            {
-              "key": "B",
-              "text": "瀑布模型"
-            },
-            {
-              "key": "C",
-              "text": "增量模型"
-            },
-            {
-              "key": "D",
-              "text": "喷泉模型"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "A"
-            ],
-            "text": "A"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-009",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 59,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 9,
-          "prompt": "软件工程中描述生命周期的瀑布模型一般包括计划、需求分析、设计、编码、（    ）和维护等几个阶段。",
-          "options": [
-            {
-              "key": "A",
-              "text": "产品发布"
-            },
-            {
-              "key": "B",
-              "text": "版本更新"
-            },
-            {
-              "key": "C",
-              "text": "可行性分析"
-            },
-            {
-              "key": "D",
-              "text": "测试"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "D"
-            ],
-            "text": "D"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-010",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 60,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 10,
-          "prompt": "软件开发的瀑布模型一般都将开发过程划分为分析、设计、编码和测试等阶段，一般认为可能占用人员最多的阶段是（    ）。",
-          "options": [
-            {
-              "key": "A",
-              "text": "分析阶段"
-            },
-            {
-              "key": "B",
-              "text": "设计阶段"
-            },
-            {
-              "key": "C",
-              "text": "编码阶段"
-            },
-            {
-              "key": "D",
-              "text": "测试阶段"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "C"
-            ],
-            "text": "C"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-011",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 61,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 11,
-          "prompt": "螺旋模型综合了（    ）的优点，并增加了风险分析。",
-          "options": [
-            {
-              "key": "A",
-              "text": "增量模型和喷泉模型"
-            },
-            {
-              "key": "B",
-              "text": "瀑布模型和快速原型模型"
-            },
-            {
-              "key": "C",
-              "text": "瀑布模型和喷泉模型"
-            },
-            {
-              "key": "D",
-              "text": "快速原型模型和喷泉模型"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B"
-          },
-          "explanation": ""
-        },
-        {
           "id": "q-soft-choice-012",
           "subject": "软工",
           "source": "选择题.docx",
@@ -9051,42 +8763,6 @@ window.QUESTION_BANK = {
               "B"
             ],
             "text": "B"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-013",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 63,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 13,
-          "prompt": "我们可以使用UML中的(    )来描述图书馆与书的关系。",
-          "options": [
-            {
-              "key": "A",
-              "text": "关联关系"
-            },
-            {
-              "key": "B",
-              "text": "泛化关系"
-            },
-            {
-              "key": "C",
-              "text": "依赖关系"
-            },
-            {
-              "key": "D",
-              "text": "实现关系"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "A"
-            ],
-            "text": "A"
           },
           "explanation": ""
         },
@@ -9241,78 +8917,6 @@ window.QUESTION_BANK = {
           "explanation": ""
         },
         {
-          "id": "q-soft-choice-018",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 68,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 18,
-          "prompt": "下列关于用例图的描述，错误的是(    )。",
-          "options": [
-            {
-              "key": "A",
-              "text": "用例图表示系统的行为"
-            },
-            {
-              "key": "B",
-              "text": "用例在用例图中使用椭圆表示"
-            },
-            {
-              "key": "C",
-              "text": "参与者在用例图中使用小人表示"
-            },
-            {
-              "key": "D",
-              "text": "一般使用从用例指向参与者的箭头表示关联关系"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "D"
-            ],
-            "text": "D"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-019",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 69,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 19,
-          "prompt": "在进行某网上商店的用例图绘制时，(    )是一个不合适的用例。",
-          "options": [
-            {
-              "key": "A",
-              "text": "打开页面"
-            },
-            {
-              "key": "B",
-              "text": "搜索商品"
-            },
-            {
-              "key": "C",
-              "text": "管理订单"
-            },
-            {
-              "key": "D",
-              "text": "购买商品"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "A"
-            ],
-            "text": "A"
-          },
-          "explanation": ""
-        },
-        {
           "id": "q-soft-choice-020",
           "subject": "软工",
           "source": "选择题.docx",
@@ -9457,42 +9061,6 @@ window.QUESTION_BANK = {
           "explanation": ""
         },
         {
-          "id": "q-soft-choice-024",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 74,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 24,
-          "prompt": "包含关系是在(    )的基础上通过添加构造型实现的。",
-          "options": [
-            {
-              "key": "A",
-              "text": "关联关系"
-            },
-            {
-              "key": "B",
-              "text": "依赖关系"
-            },
-            {
-              "key": "C",
-              "text": "泛化关系"
-            },
-            {
-              "key": "D",
-              "text": "扩展关系"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B"
-          },
-          "explanation": ""
-        },
-        {
           "id": "q-soft-choice-025",
           "subject": "软工",
           "source": "选择题.docx",
@@ -9565,42 +9133,6 @@ window.QUESTION_BANK = {
           "explanation": ""
         },
         {
-          "id": "q-soft-choice-027",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 77,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 27,
-          "prompt": "下列对类和接口的描述不正确的是(    )。",
-          "options": [
-            {
-              "key": "A",
-              "text": "当使用子类去替换一处父类时，设计良好的软件应当可以正确实现功能"
-            },
-            {
-              "key": "B",
-              "text": "当一个类拥有另外一个类的全部属性和方法时，它们之间是实现关系"
-            },
-            {
-              "key": "C",
-              "text": "一个类可以实现多个接口"
-            },
-            {
-              "key": "D",
-              "text": "接口的方法名必须是公开（public）的"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B"
-          },
-          "explanation": ""
-        },
-        {
           "id": "q-soft-choice-028",
           "subject": "软工",
           "source": "选择题.docx",
@@ -9637,42 +9169,6 @@ window.QUESTION_BANK = {
           "explanation": ""
         },
         {
-          "id": "q-soft-choice-029",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 79,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 29,
-          "prompt": "假设类A的一个操作的其中一个参数是类B的一个对象，且这两个类之间不存在其他关系，那么类A和类B之间构成(    )。",
-          "options": [
-            {
-              "key": "A",
-              "text": "关联关系"
-            },
-            {
-              "key": "B",
-              "text": "依赖关系"
-            },
-            {
-              "key": "C",
-              "text": "实现关系"
-            },
-            {
-              "key": "D",
-              "text": "泛化关系"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B"
-          },
-          "explanation": ""
-        },
-        {
           "id": "q-soft-choice-030",
           "subject": "软工",
           "source": "选择题.docx",
@@ -9698,42 +9194,6 @@ window.QUESTION_BANK = {
             {
               "key": "D",
               "text": "关联类"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-031",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 81,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 31,
-          "prompt": "下列关于链的叙述中，正确的一项是(    )。",
-          "options": [
-            {
-              "key": "A",
-              "text": "链就是关联关系"
-            },
-            {
-              "key": "B",
-              "text": "链没有多重性"
-            },
-            {
-              "key": "C",
-              "text": "链用来表示对象和类之间的关系"
-            },
-            {
-              "key": "D",
-              "text": "链使用一根虚线段来表示"
             }
           ],
           "answer": {
@@ -9889,78 +9349,6 @@ window.QUESTION_BANK = {
           "explanation": ""
         },
         {
-          "id": "q-soft-choice-036",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 86,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 36,
-          "prompt": "UML主要应用于(    )。",
-          "options": [
-            {
-              "key": "A",
-              "text": "基于螺旋模型的结构化开发方法"
-            },
-            {
-              "key": "B",
-              "text": "基于数据的数据流开发方法"
-            },
-            {
-              "key": "C",
-              "text": "基于需求动态定义的原型化方法"
-            },
-            {
-              "key": "D",
-              "text": "基于对象的面向对象的方法"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "D"
-            ],
-            "text": "D"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-037",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 87,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 37,
-          "prompt": "活动图中可能出现的终止标记的数量是(    )。",
-          "options": [
-            {
-              "key": "A",
-              "text": "0个"
-            },
-            {
-              "key": "B",
-              "text": "0到多个"
-            },
-            {
-              "key": "C",
-              "text": "1个"
-            },
-            {
-              "key": "D",
-              "text": "0或1个"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B"
-          },
-          "explanation": ""
-        },
-        {
           "id": "q-soft-choice-038",
           "subject": "软工",
           "source": "选择题.docx",
@@ -9993,42 +9381,6 @@ window.QUESTION_BANK = {
               "A"
             ],
             "text": "A"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-039",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 89,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 39,
-          "prompt": "顺序图的组成不包括（）。",
-          "options": [
-            {
-              "key": "A",
-              "text": "对象"
-            },
-            {
-              "key": "B",
-              "text": "生命线"
-            },
-            {
-              "key": "C",
-              "text": "分叉节点"
-            },
-            {
-              "key": "D",
-              "text": "消息"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "C"
-            ],
-            "text": "C"
           },
           "explanation": ""
         },
@@ -10265,42 +9617,6 @@ window.QUESTION_BANK = {
               "alt": "选择题第45题图"
             }
           ]
-        },
-        {
-          "id": "q-soft-choice-046",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 96,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 46,
-          "prompt": "白盒测试技术依据的是(    )。",
-          "options": [
-            {
-              "key": "A",
-              "text": "程序的逻辑结构"
-            },
-            {
-              "key": "B",
-              "text": "程序的物理结构"
-            },
-            {
-              "key": "C",
-              "text": "软件行为的描述"
-            },
-            {
-              "key": "D",
-              "text": "软件功能的描述"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "A"
-            ],
-            "text": "A"
-          },
-          "explanation": ""
         },
         {
           "id": "q-soft-choice-047",
@@ -10623,42 +9939,6 @@ window.QUESTION_BANK = {
               "C"
             ],
             "text": "C"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-056",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 106,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 56,
-          "prompt": "以下对于喷泉模型的说法正确的是（）。",
-          "options": [
-            {
-              "key": "A",
-              "text": "需要分析结束后才开始设计"
-            },
-            {
-              "key": "B",
-              "text": "开发人员可以同步开发"
-            },
-            {
-              "key": "C",
-              "text": "不需要大量的开发人员"
-            },
-            {
-              "key": "D",
-              "text": "审核简单"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B"
           },
           "explanation": ""
         },
