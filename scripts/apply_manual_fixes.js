@@ -30,7 +30,7 @@ function image(src, alt) {
   return { src, alt };
 }
 
-const soft = bank.subjects.find((subject) => subject.total === 47);
+const soft = bank.subjects.find((subject) => subject.name === "软工" || subject.total === 47);
 if (!soft) throw new Error("soft subject not found");
 
 const blankAnswers = {
@@ -153,7 +153,7 @@ for (const extra of extraSoftQuestions) {
   });
 }
 
-const harmony = bank.subjects.find((subject) => subject.total === 56);
+const harmony = bank.subjects.find((subject) => subject.name === "鸿蒙" || subject.total === 56);
 if (harmony) {
   const programming = harmony.questions.find((question) => Number(question.originalNumber) === 56 && /五子棋|ArkTS|页面功能/.test(question.prompt));
   if (programming) {

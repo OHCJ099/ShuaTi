@@ -1,5 +1,5 @@
 window.QUESTION_BANK = {
-  "generatedAt": "2026-06-11T00:46:58.374Z",
+  "generatedAt": "2026-06-11T09:32:55.029Z",
   "typeLabels": {
     "single": "单选",
     "multiple": "多选",
@@ -3730,7 +3730,7 @@ window.QUESTION_BANK = {
           "typeLabel": "填空题",
           "mode": "blank",
           "originalNumber": 17,
-          "prompt": "安全凭证管理：包括密码、访问密钥、________、________，在通过 UI 访问\n或者 API 以及命令访问时，会采用不同的凭证方式。",
+          "prompt": "安全凭证管理：包括密码、访问密钥、________、________，在通过UI 访问\n或者 API 以及命令访问时，会采用不同的凭证方式。",
           "options": [],
           "answer": {
             "blanks": [
@@ -7892,15 +7892,15 @@ window.QUESTION_BANK = {
         "选择题.docx"
       ],
       "counts": {
-        "single": 60,
+        "single": 61,
         "multiple": 0,
         "blank": 10,
         "judge": 10,
-        "short": 7,
-        "comprehensive": 3,
+        "short": 11,
+        "comprehensive": 5,
         "programming": 0
       },
-      "total": 90,
+      "total": 97,
       "questions": [
         {
           "id": "q-0190d55105",
@@ -7931,10 +7931,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "C"
-            ],
-            "text": "C. 0到多个"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -7967,10 +7965,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "A"
-            ],
-            "text": "A. 测试"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8003,10 +7999,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B. 当一个类拥有另外一个类的全部属性和方法时，它们之间是实现关系"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8039,10 +8033,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B. 链没有多重性"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8075,10 +8067,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "D"
-            ],
-            "text": "D. 软件工程材料"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8111,10 +8101,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "C"
-            ],
-            "text": "C. 编码阶段"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8147,10 +8135,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "D"
-            ],
-            "text": "D. 方法、工具和过程"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8183,10 +8169,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B. 关联关系"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8219,10 +8203,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "C"
-            ],
-            "text": "C. 依赖关系"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8255,10 +8237,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "C"
-            ],
-            "text": "C. 一般使用从用例指向参与者的箭头表示关联关系"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8291,10 +8271,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "C"
-            ],
-            "text": "C. 分叉节点"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8327,10 +8305,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B. 开发人员可以同步开发"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8363,10 +8339,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "C"
-            ],
-            "text": "C. 打开页面"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8399,10 +8373,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B. 螺旋模型"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8435,10 +8407,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "A"
-            ],
-            "text": "A. 基于对象的面向对象的方法"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8471,10 +8441,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B. 依赖关系"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8507,10 +8475,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "C"
-            ],
-            "text": "C. 程序的逻辑结构"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8543,10 +8509,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "D"
-            ],
-            "text": "D. 瀑布模型和快速原型模型"
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8579,10 +8543,988 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "A"
-            ],
-            "text": "A. 软件本身的特点及开发方法不满足"
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-60cd50568e",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 48,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 54,
+          "prompt": "1、下列说法中正确的是(    )",
+          "options": [
+            {
+              "key": "A",
+              "text": "20世纪50年代提出了软件工程的概念"
+            },
+            {
+              "key": "B",
+              "text": "20世纪60年代提出了软件工程的概念"
+            },
+            {
+              "key": "C",
+              "text": "20世纪70年代出现了客户机/服务器技术"
+            },
+            {
+              "key": "D",
+              "text": "在20世纪80年代软件工程学科达到成熟 2、软件危机的主要原因是( )。"
+            },
+            {
+              "key": "A",
+              "text": "软件工具落后"
+            },
+            {
+              "key": "B",
+              "text": "实行严格的产品控制"
+            },
+            {
+              "key": "C",
+              "text": "软件生产能力不足"
+            },
+            {
+              "key": "D",
+              "text": "软件本身的特点及开发方法不满足 3、软件工程的三要素是( )。"
+            },
+            {
+              "key": "A",
+              "text": "技术、方法和工具"
+            },
+            {
+              "key": "B",
+              "text": "方法、对象和类"
+            },
+            {
+              "key": "C",
+              "text": "方法、工具和过程"
+            },
+            {
+              "key": "D",
+              "text": "过程、模型和方法 4、在下列选项中，( )不属于软件工程学科所要研究的基本内容。"
+            },
+            {
+              "key": "A",
+              "text": "软件工程材料"
+            },
+            {
+              "key": "B",
+              "text": "软件工程方法"
+            },
+            {
+              "key": "C",
+              "text": "软件工程原理"
+            },
+            {
+              "key": "D",
+              "text": "软件工程过程 5、增量模型本质上是一种（ ）。"
+            },
+            {
+              "key": "A",
+              "text": "线性顺序模型"
+            },
+            {
+              "key": "B",
+              "text": "整体开发模型"
+            },
+            {
+              "key": "C",
+              "text": "非整体开发模型"
+            },
+            {
+              "key": "D",
+              "text": "螺旋模型 6、软件过程是（ ）。"
+            },
+            {
+              "key": "A",
+              "text": "特定的开发模型"
+            },
+            {
+              "key": "B",
+              "text": "一种软件求解的计算逻辑"
+            },
+            {
+              "key": "C",
+              "text": "软件开发活动的集合"
+            },
+            {
+              "key": "D",
+              "text": "软件生命周期模型 7、软件生命周期模型不包括（ ）。"
+            },
+            {
+              "key": "A",
+              "text": "瀑布模型"
+            },
+            {
+              "key": "B",
+              "text": "用例模型"
+            },
+            {
+              "key": "C",
+              "text": "增量模型"
+            },
+            {
+              "key": "D",
+              "text": "螺旋模型 8、包含风险分析的软件工程模型是（ )。"
+            },
+            {
+              "key": "A",
+              "text": "螺旋模型"
+            },
+            {
+              "key": "B",
+              "text": "瀑布模型"
+            },
+            {
+              "key": "C",
+              "text": "增量模型"
+            },
+            {
+              "key": "D",
+              "text": "喷泉模型 9、软件工程中描述生命周期的瀑布模型一般包括计划、需求分析、设计、编码、（ ）和维护等几个阶段。"
+            },
+            {
+              "key": "A",
+              "text": "产品发布"
+            },
+            {
+              "key": "B",
+              "text": "版本更新"
+            },
+            {
+              "key": "C",
+              "text": "可行性分析"
+            },
+            {
+              "key": "D",
+              "text": "测试 10、软件开发的瀑布模型一般都将开发过程划分为分析、设计、编码和测试等阶段，一般认为可能占用人员最多的阶段是（ ）。"
+            },
+            {
+              "key": "A",
+              "text": "分析阶段"
+            },
+            {
+              "key": "B",
+              "text": "设计阶段"
+            },
+            {
+              "key": "C",
+              "text": "编码阶段"
+            },
+            {
+              "key": "D",
+              "text": "测试阶段 11、螺旋模型综合了（ ）的优点，并增加了风险分析。"
+            },
+            {
+              "key": "A",
+              "text": "增量模型和喷泉模型"
+            },
+            {
+              "key": "B",
+              "text": "瀑布模型和快速原型模型"
+            },
+            {
+              "key": "C",
+              "text": "瀑布模型和喷泉模型"
+            },
+            {
+              "key": "D",
+              "text": "快速原型模型和喷泉模型 12、在UML中表示一般事物与特殊事物之间的关系是( )。"
+            },
+            {
+              "key": "A",
+              "text": "关联关系"
+            },
+            {
+              "key": "B",
+              "text": "泛化关系"
+            },
+            {
+              "key": "C",
+              "text": "依赖关系"
+            },
+            {
+              "key": "D",
+              "text": "实现关系 13、我们可以使用UML中的( )来描述图书馆与书的关系。"
+            },
+            {
+              "key": "A",
+              "text": "关联关系"
+            },
+            {
+              "key": "B",
+              "text": "泛化关系"
+            },
+            {
+              "key": "C",
+              "text": "依赖关系"
+            },
+            {
+              "key": "D",
+              "text": "实现关系 14、UML使用( )来描述接口和实现接口的类之间的关系。"
+            },
+            {
+              "key": "A",
+              "text": "关联关系"
+            },
+            {
+              "key": "B",
+              "text": "泛化关系"
+            },
+            {
+              "key": "C",
+              "text": "依赖关系"
+            },
+            {
+              "key": "D",
+              "text": "实现关系 15、下列UML图中不属于结构图的一项是( )。"
+            },
+            {
+              "key": "A",
+              "text": "类图"
+            },
+            {
+              "key": "B",
+              "text": "顺序图"
+            },
+            {
+              "key": "C",
+              "text": "组件图 对象图 16、以下符号哪一个是数据流图中表示数据变换的符号( )。"
+            },
+            {
+              "key": "A",
+              "text": "A"
+            },
+            {
+              "key": "B",
+              "text": "B"
+            },
+            {
+              "key": "C",
+              "text": "C"
+            },
+            {
+              "key": "D",
+              "text": "D 17、在“4+1”架构中，( )主要用来描述软件的各个模块的组织方式。"
+            },
+            {
+              "key": "A",
+              "text": "逻辑视图"
+            },
+            {
+              "key": "B",
+              "text": "进程视图"
+            },
+            {
+              "key": "C",
+              "text": "开发视图"
+            },
+            {
+              "key": "D",
+              "text": "物理视图 18、下列关于用例图的描述，错误的是( )。"
+            },
+            {
+              "key": "A",
+              "text": "用例图表示系统的行为"
+            },
+            {
+              "key": "B",
+              "text": "用例在用例图中使用椭圆表示"
+            },
+            {
+              "key": "C",
+              "text": "参与者在用例图中使用小人表示"
+            },
+            {
+              "key": "D",
+              "text": "一般使用从用例指向参与者的箭头表示关联关系 19、在进行某网上商店的用例图绘制时，( )是一个不合适的用例。"
+            },
+            {
+              "key": "A",
+              "text": "打开页面"
+            },
+            {
+              "key": "B",
+              "text": "搜索商品"
+            },
+            {
+              "key": "C",
+              "text": "管理订单"
+            },
+            {
+              "key": "D",
+              "text": "购买商品 20、下面不是用例图组成要素的是( )。"
+            },
+            {
+              "key": "A",
+              "text": "用例"
+            },
+            {
+              "key": "B",
+              "text": "系统边界"
+            },
+            {
+              "key": "C",
+              "text": "泳道"
+            },
+            {
+              "key": "D",
+              "text": "参与者 21、下列说法中，不正确的是( )。"
+            },
+            {
+              "key": "A",
+              "text": "用例和参与者之间的对应关系是关联关系，它表示参与者使用了系统的用例"
+            },
+            {
+              "key": "B",
+              "text": "参与者指的是人，不能是子系统和时间等概念"
+            },
+            {
+              "key": "C",
+              "text": "在扩展关系中，基础用例提供了一个或多个插入点，扩展用例在这些插入点中提供了另外的行为"
+            },
+            {
+              "key": "D",
+              "text": "特殊需求指的是一个用例的非功能需求和设计约束 22、对于ATM系统的“取款”用例（客户通过插入银行卡并输入正确的密码从ATM机中成功取款的过程），( )应该作为该用例的参与者。"
+            },
+            {
+              "key": "A",
+              "text": "ATM机"
+            },
+            {
+              "key": "B",
+              "text": "银行工作人员"
+            },
+            {
+              "key": "C",
+              "text": "取款客户"
+            },
+            {
+              "key": "D",
+              "text": "取款 23、下列UML关系中用例之间不会出现的一项是( )。"
+            },
+            {
+              "key": "A",
+              "text": "关联关系"
+            },
+            {
+              "key": "B",
+              "text": "扩展关系"
+            },
+            {
+              "key": "C",
+              "text": "包含关系"
+            },
+            {
+              "key": "D",
+              "text": "泛化关系 24、包含关系是在( )的基础上通过添加构造型实现的。"
+            },
+            {
+              "key": "A",
+              "text": "关联关系"
+            },
+            {
+              "key": "B",
+              "text": "依赖关系"
+            },
+            {
+              "key": "C",
+              "text": "泛化关系"
+            },
+            {
+              "key": "D",
+              "text": "扩展关系 25、下列关于类图的说法中正确的是( )。"
+            },
+            {
+              "key": "A",
+              "text": "类图是由类、组件、包等模型元素以及它们间的关系构成的"
+            },
+            {
+              "key": "B",
+              "text": "类图的目的在于描述系统的运行方式，而不是系统如何构成"
+            },
+            {
+              "key": "C",
+              "text": "类图通过系统中的类和类间关系描述了系统的静态特性"
+            },
+            {
+              "key": "D",
+              "text": "类图和数据模型有许多相似之处，区别是数据模型不仅描述了内部信息的结构，也包含了系统的内部行为 26、当类的属性与操作添加了( )限定符后表示该属性或操作只对本类可见，不能被其他类访问。"
+            },
+            {
+              "key": "A",
+              "text": "public"
+            },
+            {
+              "key": "B",
+              "text": "private"
+            },
+            {
+              "key": "C",
+              "text": "protected"
+            },
+            {
+              "key": "D",
+              "text": "package 27、下列对类和接口的描述不正确的是( )。"
+            },
+            {
+              "key": "A",
+              "text": "当使用子类去替换一处父类时，设计良好的软件应当可以正确实现功能"
+            },
+            {
+              "key": "B",
+              "text": "当一个类拥有另外一个类的全部属性和方法时，它们之间是实现关系"
+            },
+            {
+              "key": "C",
+              "text": "一个类可以实现多个接口"
+            },
+            {
+              "key": "D",
+              "text": "接口的方法名必须是公开（public）的 28、汽车（Car）由轮子、发动机、油箱、座椅、方向盘等组成，那么Car类和其他类（Wheel、Engin、Tank、Chair、SteeringWheel）之间的关系是( )。"
+            },
+            {
+              "key": "A",
+              "text": "关联关系"
+            },
+            {
+              "key": "B",
+              "text": "依赖关系"
+            },
+            {
+              "key": "C",
+              "text": "实现关系"
+            },
+            {
+              "key": "D",
+              "text": "泛化关系 29、假设类A的一个操作的其中一个参数是类B的一个对象，且这两个类之间不存在其他关系，那么类A和类B之间构成( )。"
+            },
+            {
+              "key": "A",
+              "text": "关联关系"
+            },
+            {
+              "key": "B",
+              "text": "依赖关系"
+            },
+            {
+              "key": "C",
+              "text": "实现关系"
+            },
+            {
+              "key": "D",
+              "text": "泛化关系 30、在下列选项中不属于类图的元素的是( )。"
+            },
+            {
+              "key": "A",
+              "text": "类"
+            },
+            {
+              "key": "B",
+              "text": "用例"
+            },
+            {
+              "key": "C",
+              "text": "接口"
+            },
+            {
+              "key": "D",
+              "text": "关联类 31、下列关于链的叙述中，正确的一项是( )。"
+            },
+            {
+              "key": "A",
+              "text": "链就是关联关系"
+            },
+            {
+              "key": "B",
+              "text": "链没有多重性"
+            },
+            {
+              "key": "C",
+              "text": "链用来表示对象和类之间的关系"
+            },
+            {
+              "key": "D",
+              "text": "链使用一根虚线段来表示 32、在UML的顺序图中将交互关系表现成一幅二维图，其中纵向是( )，横向是( )。"
+            },
+            {
+              "key": "A",
+              "text": "时间，对象角色"
+            },
+            {
+              "key": "B",
+              "text": "交互，泛化"
+            },
+            {
+              "key": "C",
+              "text": "时间，消息"
+            },
+            {
+              "key": "D",
+              "text": "交互，消息 33、关于状态机图的说法，不正确的是( )。"
+            },
+            {
+              "key": "A",
+              "text": "状态机图通过建立类对象的生命周期模型来描述对象随时间变化的动态行为"
+            },
+            {
+              "key": "B",
+              "text": "状态机图用于对系统的静态方面建模"
+            },
+            {
+              "key": "C",
+              "text": "状态机图用于模型元素的实例（对象、交互等）的行为"
+            },
+            {
+              "key": "D",
+              "text": "状态机图适用于描述状态和动作的顺序，不仅可以展现一个对象拥有的状态，还可以说明事件如何随着事件的推移来影响这些状态 34、在活动图中用于对元素按照负责对象分组的元素是( )。"
+            },
+            {
+              "key": "A",
+              "text": "判断节点"
+            },
+            {
+              "key": "B",
+              "text": "控制流"
+            },
+            {
+              "key": "C",
+              "text": "分叉节点"
+            },
+            {
+              "key": "D",
+              "text": "泳道 35、UML的全称是( )。"
+            },
+            {
+              "key": "A",
+              "text": "Unify Modeling Language"
+            },
+            {
+              "key": "B",
+              "text": "Unified Modeling Language"
+            },
+            {
+              "key": "C",
+              "text": "Unified Making Language"
+            },
+            {
+              "key": "D",
+              "text": "Unified Modem Language 36、UML主要应用于( )。"
+            },
+            {
+              "key": "A",
+              "text": "基于螺旋模型的结构化开发方法"
+            },
+            {
+              "key": "B",
+              "text": "基于数据的数据流开发方法"
+            },
+            {
+              "key": "C",
+              "text": "基于需求动态定义的原型化方法"
+            },
+            {
+              "key": "D",
+              "text": "基于对象的面向对象的方法 37、活动图中可能出现的终止标记的数量是( )。"
+            },
+            {
+              "key": "A",
+              "text": "0个"
+            },
+            {
+              "key": "B",
+              "text": "0到多个"
+            },
+            {
+              "key": "C",
+              "text": "1个"
+            },
+            {
+              "key": "D",
+              "text": "0或1个 38、UML中有四种交互图, 其中强调控制流时间顺序的是（）。"
+            },
+            {
+              "key": "A",
+              "text": "顺序图"
+            },
+            {
+              "key": "B",
+              "text": "通信图"
+            },
+            {
+              "key": "C",
+              "text": "定时图"
+            },
+            {
+              "key": "D",
+              "text": "交互概述图 39、顺序图的组成不包括（）。"
+            },
+            {
+              "key": "A",
+              "text": "对象"
+            },
+            {
+              "key": "B",
+              "text": "生命线"
+            },
+            {
+              "key": "C",
+              "text": "分叉节点"
+            },
+            {
+              "key": "D",
+              "text": "消息 40、假设选修课程数目的输入范围为1-4，则根据黑盒测试中的等价类划分技术，下列划分正确的是( )。"
+            },
+            {
+              "key": "A",
+              "text": "2个有效等价类，2个无效等价类"
+            },
+            {
+              "key": "B",
+              "text": "1个有效等价类，2个无效等价类"
+            },
+            {
+              "key": "C",
+              "text": "2个有效等价类，1个无效等价类"
+            },
+            {
+              "key": "D",
+              "text": "1个有效等价类，1个无效等价类 41、以下符号哪个是在顺序图中表示返回消息的符号（）。"
+            },
+            {
+              "key": "A",
+              "text": "A"
+            },
+            {
+              "key": "B",
+              "text": "B"
+            },
+            {
+              "key": "C",
+              "text": "C"
+            },
+            {
+              "key": "D",
+              "text": "D 42、以下图形哪一个是PAD图中表示选择性的结构（）。"
+            },
+            {
+              "key": "A",
+              "text": "A"
+            },
+            {
+              "key": "B",
+              "text": "B"
+            },
+            {
+              "key": "C",
+              "text": "C"
+            },
+            {
+              "key": "D",
+              "text": "D 43、面向对象分析的首要工作是建立（）。"
+            },
+            {
+              "key": "A",
+              "text": "系统的动态模型"
+            },
+            {
+              "key": "B",
+              "text": "系统的功能模型"
+            },
+            {
+              "key": "C",
+              "text": "基本的E-R图"
+            },
+            {
+              "key": "D",
+              "text": "问题的对象模型 44、顺序图是( )的：( )表示时间，( )表示不同的对象或参与者。"
+            },
+            {
+              "key": "A",
+              "text": "二维，垂直方向，水平方向"
+            },
+            {
+              "key": "B",
+              "text": "一维，水平方向，垂直方向"
+            },
+            {
+              "key": "C",
+              "text": "二维，水平方向，垂直方向"
+            },
+            {
+              "key": "D",
+              "text": "一维，垂直方向，水平方向 45、题图为一个飞机票预定系统的数据流图,图中5表示的基本术语是( )。"
+            },
+            {
+              "key": "A",
+              "text": "外部实体"
+            },
+            {
+              "key": "B",
+              "text": "数据存储"
+            },
+            {
+              "key": "C",
+              "text": "数据流"
+            },
+            {
+              "key": "D",
+              "text": "加工 46、白盒测试技术依据的是( )。"
+            },
+            {
+              "key": "A",
+              "text": "程序的逻辑结构"
+            },
+            {
+              "key": "B",
+              "text": "程序的物理结构"
+            },
+            {
+              "key": "C",
+              "text": "软件行为的描述"
+            },
+            {
+              "key": "D",
+              "text": "软件功能的描述 47、假设某网站发帖数目的输入范围为0—20,则根据黑盒测试中的等价类划分技术,下列划分正确的是( )。"
+            },
+            {
+              "key": "A",
+              "text": "可划分为2个有效等价类,2个无效等价类"
+            },
+            {
+              "key": "B",
+              "text": "可划分为1个有效等价类,2个无效等价类"
+            },
+            {
+              "key": "C",
+              "text": "可划分为2个有效等价类,1个无效等价类"
+            },
+            {
+              "key": "D",
+              "text": "可划分为1个有效等价类,1个无效等价类 48、在面向对象的动态模型中，每张状态图表示（）的动态行为。"
+            },
+            {
+              "key": "A",
+              "text": "某一个类"
+            },
+            {
+              "key": "B",
+              "text": "有关联的若干个类"
+            },
+            {
+              "key": "C",
+              "text": "一系列事件"
+            },
+            {
+              "key": "D",
+              "text": "一系列状态 49、黑盒测试技术,又称为( )。"
+            },
+            {
+              "key": "A",
+              "text": "路径测试技术"
+            },
+            {
+              "key": "B",
+              "text": "系统测试技术"
+            },
+            {
+              "key": "C",
+              "text": "功能测试技术"
+            },
+            {
+              "key": "D",
+              "text": "结构测试技术 50、对象模型的描述工具是（）。"
+            },
+            {
+              "key": "A",
+              "text": "状态图"
+            },
+            {
+              "key": "B",
+              "text": "数据流图"
+            },
+            {
+              "key": "C",
+              "text": "结构图"
+            },
+            {
+              "key": "D",
+              "text": "类图 51、在面向数据流的软件设计方法中，一般将信息流分为（）。"
+            },
+            {
+              "key": "A",
+              "text": "变换流和事务流"
+            },
+            {
+              "key": "B",
+              "text": "数据流和控制流"
+            },
+            {
+              "key": "C",
+              "text": "变换流和控制流"
+            },
+            {
+              "key": "D",
+              "text": "事务流和控制流 52、在UML类图中,聚合关系的图形表示符号是以下哪一种( )。"
+            },
+            {
+              "key": "A",
+              "text": "实心菱形"
+            },
+            {
+              "key": "B",
+              "text": "空心菱形"
+            },
+            {
+              "key": "C",
+              "text": "空心三角形"
+            },
+            {
+              "key": "D",
+              "text": "实心三角形 53、UML用例图中用例的标准表示符号是什么( )。"
+            },
+            {
+              "key": "A",
+              "text": "矩形"
+            },
+            {
+              "key": "B",
+              "text": "椭圆"
+            },
+            {
+              "key": "C",
+              "text": "小人图标"
+            },
+            {
+              "key": "D",
+              "text": "菱形 54、 在UML类图中,接口的矩形表示法需要在顶部显式标注以下哪种构造型()。"
+            },
+            {
+              "key": "A",
+              "text": "<<class>>"
+            },
+            {
+              "key": "B",
+              "text": "<<interface>>"
+            },
+            {
+              "key": "C",
+              "text": "<<abstract>>"
+            },
+            {
+              "key": "D",
+              "text": "<<implement>>"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-aaf140bbd0",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 49,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 55,
+          "prompt": "在敏捷开发中，系统交付的周期称之为（  ）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "需求"
+            },
+            {
+              "key": "B",
+              "text": "设计"
+            },
+            {
+              "key": "C",
+              "text": "冲刺（sprint）"
+            },
+            {
+              "key": "D",
+              "text": "测试"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-b365ca36ee",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 50,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 56,
+          "prompt": "以下对于喷泉模型的说法正确的是（）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "需要分析结束后才开始设计"
+            },
+            {
+              "key": "B",
+              "text": "开发人员可以同步开发"
+            },
+            {
+              "key": "C",
+              "text": "不需要大量的开发人员"
+            },
+            {
+              "key": "D",
+              "text": "审核简单"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d271ee6296",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 51,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 57,
+          "prompt": "如图所示的两个类的关联关系是（      ）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "泛化"
+            },
+            {
+              "key": "B",
+              "text": "聚合"
+            },
+            {
+              "key": "C",
+              "text": "细化"
+            },
+            {
+              "key": "D",
+              "text": "实现"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8619,6 +9561,108 @@ window.QUESTION_BANK = {
               "B"
             ],
             "text": "B"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-8ee4929dfe",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 52,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 58,
+          "prompt": "已知Shape类的类图如图所示,则方法个数有(      )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "1个"
+            },
+            {
+              "key": "B",
+              "text": "2个"
+            },
+            {
+              "key": "C",
+              "text": "3个"
+            },
+            {
+              "key": "D",
+              "text": "4个"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-54431fb55d",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 53,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 59,
+          "prompt": "关于统一建模语言UML说法正确的是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "UML是一种可视化的程序设计语言"
+            },
+            {
+              "key": "B",
+              "text": "UML只在需求分析阶段有重要作用"
+            },
+            {
+              "key": "C",
+              "text": "UML是工具或知识库的规格说明"
+            },
+            {
+              "key": "D",
+              "text": "UML以面向对象的方式来描述系统"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d1d63df2e9",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 54,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 60,
+          "prompt": "下列工具中,常用在需求分析阶段的是(      )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "HIPO图"
+            },
+            {
+              "key": "B",
+              "text": "N-S图"
+            },
+            {
+              "key": "C",
+              "text": "DFD图"
+            },
+            {
+              "key": "D",
+              "text": "PAD图 1、B 2、D 3、 C 4、A 5、C 6、C 7、 B 8、A 9、D 10、C 11、B 12、B 13、A 14、D 15、B 16、A 17、C 18、D 19、A 20、C 21、B 22、C 23、A 24、B 25、C 26、B 27、B 28、A 29、B 30、B 31、B 32、A 33、B 34、D 35、B 36、D 37、B 38、A 39、C 40、B 41、C 42、B 43、D 44、A 45、A 46、A 47、B 48、A 49、C 50、D 51、A 52、B 53、B 54、B 55、C 56、B 57、B 58、C 59、D 60、C"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -8981,10 +10025,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "B"
+            "blanks": [
+              "参与者"
             ],
-            "text": "B"
+            "text": "参与者"
           },
           "explanation": ""
         },
@@ -9017,10 +10061,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "C"
+            "blanks": [
+              "链"
             ],
-            "text": "C"
+            "text": "链"
           },
           "explanation": ""
         },
@@ -9053,10 +10097,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "A"
+            "blanks": [
+              "状态图"
             ],
-            "text": "A"
+            "text": "状态图"
           },
           "explanation": ""
         },
@@ -9089,10 +10133,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "C"
+            "blanks": [
+              "等价类划分法"
             ],
-            "text": "C"
+            "text": "等价类划分法"
           },
           "explanation": ""
         },
@@ -9125,10 +10169,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "B"
+            "blanks": [
+              "消息"
             ],
-            "text": "B"
+            "text": "消息"
           },
           "explanation": ""
         },
@@ -9161,10 +10205,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "A"
+            "blanks": [
+              "数据流图"
             ],
-            "text": "A"
+            "text": "数据流图"
           },
           "explanation": ""
         },
@@ -9197,10 +10241,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "B"
+            "blanks": [
+              "技术可行性"
             ],
-            "text": "B"
+            "text": "技术可行性"
           },
           "explanation": ""
         },
@@ -9233,10 +10277,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "A"
-            ],
-            "text": "A"
+            "judge": true,
+            "text": "对"
           },
           "explanation": ""
         },
@@ -9269,10 +10311,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B"
+            "judge": false,
+            "text": "错"
           },
           "explanation": ""
         },
@@ -9305,10 +10345,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "D"
-            ],
-            "text": "D"
+            "judge": false,
+            "text": "错"
           },
           "explanation": ""
         },
@@ -9341,10 +10379,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B"
+            "judge": true,
+            "text": "对"
           },
           "explanation": ""
         },
@@ -9377,10 +10413,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "A"
-            ],
-            "text": "A"
+            "judge": true,
+            "text": "对"
           },
           "explanation": ""
         },
@@ -9413,244 +10447,8 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-041",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 91,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 41,
-          "prompt": "以下符号哪个是在顺序图中表示返回消息的符号（）。",
-          "options": [
-            {
-              "key": "A",
-              "text": "A"
-            },
-            {
-              "key": "B",
-              "text": "B"
-            },
-            {
-              "key": "C",
-              "text": "C"
-            },
-            {
-              "key": "D",
-              "text": "D"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "C"
-            ],
-            "text": "C"
-          },
-          "explanation": "",
-          "images": [
-            {
-              "src": "assets/answers/soft-choice/image2.png",
-              "alt": "选择题第41题图"
-            }
-          ]
-        },
-        {
-          "id": "q-soft-choice-042",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 92,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 42,
-          "prompt": "以下图形哪一个是PAD图中表示选择性的结构（）。",
-          "options": [
-            {
-              "key": "A",
-              "text": "A"
-            },
-            {
-              "key": "B",
-              "text": "B"
-            },
-            {
-              "key": "C",
-              "text": "C"
-            },
-            {
-              "key": "D",
-              "text": "D"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B"
-          },
-          "explanation": "",
-          "images": [
-            {
-              "src": "assets/answers/soft-choice/image3.png",
-              "alt": "选择题第42题图"
-            }
-          ]
-        },
-        {
-          "id": "q-soft-choice-043",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 93,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 43,
-          "prompt": "面向对象分析的首要工作是建立（）。",
-          "options": [
-            {
-              "key": "A",
-              "text": "系统的动态模型"
-            },
-            {
-              "key": "B",
-              "text": "系统的功能模型"
-            },
-            {
-              "key": "C",
-              "text": "基本的E-R图"
-            },
-            {
-              "key": "D",
-              "text": "问题的对象模型"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "D"
-            ],
-            "text": "D"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-044",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 94,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 44,
-          "prompt": "顺序图是(    )的：(    )表示时间，(    )表示不同的对象或参与者。",
-          "options": [
-            {
-              "key": "A",
-              "text": "二维，垂直方向，水平方向"
-            },
-            {
-              "key": "B",
-              "text": "一维，水平方向，垂直方向"
-            },
-            {
-              "key": "C",
-              "text": "二维，水平方向，垂直方向"
-            },
-            {
-              "key": "D",
-              "text": "一维，垂直方向，水平方向"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "A"
-            ],
-            "text": "A"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-soft-choice-045",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 95,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 45,
-          "prompt": "题图为一个飞机票预定系统的数据流图,图中5表示的基本术语是(    )。",
-          "options": [
-            {
-              "key": "A",
-              "text": "外部实体"
-            },
-            {
-              "key": "B",
-              "text": "数据存储"
-            },
-            {
-              "key": "C",
-              "text": "数据流"
-            },
-            {
-              "key": "D",
-              "text": "加工"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "A"
-            ],
-            "text": "A"
-          },
-          "explanation": "",
-          "images": [
-            {
-              "src": "assets/answers/soft-choice/image4.png",
-              "alt": "选择题第45题图"
-            }
-          ]
-        },
-        {
-          "id": "q-soft-choice-047",
-          "subject": "软工",
-          "source": "选择题.docx",
-          "order": 97,
-          "type": "single",
-          "typeLabel": "单选",
-          "mode": "choice",
-          "originalNumber": 47,
-          "prompt": "假设某网站发帖数目的输入范围为0—20,则根据黑盒测试中的等价类划分技术,下列划分正确的是(    )。",
-          "options": [
-            {
-              "key": "A",
-              "text": "可划分为2个有效等价类,2个无效等价类"
-            },
-            {
-              "key": "B",
-              "text": "可划分为1个有效等价类,2个无效等价类"
-            },
-            {
-              "key": "C",
-              "text": "可划分为2个有效等价类,1个无效等价类"
-            },
-            {
-              "key": "D",
-              "text": "可划分为1个有效等价类,1个无效等价类"
-            }
-          ],
-          "answer": {
-            "keys": [
-              "B"
-            ],
-            "text": "B"
+            "judge": false,
+            "text": "错"
           },
           "explanation": ""
         },
@@ -10662,6 +11460,150 @@ window.QUESTION_BANK = {
           }
         },
         {
+          "id": "q-soft-choice-041",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 91,
+          "type": "short",
+          "typeLabel": "简答题",
+          "mode": "short",
+          "originalNumber": 41,
+          "prompt": "以下符号哪个是在顺序图中表示返回消息的符号（）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "A"
+            },
+            {
+              "key": "B",
+              "text": "B"
+            },
+            {
+              "key": "C",
+              "text": "C"
+            },
+            {
+              "key": "D",
+              "text": "D"
+            }
+          ],
+          "answer": {
+            "text": "顺序图是按时间顺序显示对象交互的图。它显示参与交互的对象和所交换信息的先后顺序，用来表示用例中的行为，并将这些行为建模成信息交换。顺序图的主要组成元素包括对象及生命线、激活和消息。"
+          },
+          "explanation": "",
+          "images": [
+            {
+              "src": "assets/answers/soft-choice/image2.png",
+              "alt": "选择题第41题图"
+            }
+          ]
+        },
+        {
+          "id": "q-soft-choice-042",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 92,
+          "type": "short",
+          "typeLabel": "简答题",
+          "mode": "short",
+          "originalNumber": 42,
+          "prompt": "以下图形哪一个是PAD图中表示选择性的结构（）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "A"
+            },
+            {
+              "key": "B",
+              "text": "B"
+            },
+            {
+              "key": "C",
+              "text": "C"
+            },
+            {
+              "key": "D",
+              "text": "D"
+            }
+          ],
+          "answer": {
+            "text": "传统软件生命周期的六个阶段是：1）可行性研究；2）需求分析；3）软件设计；4）编码；5）软件测试；6）软件维护。"
+          },
+          "explanation": "",
+          "images": [
+            {
+              "src": "assets/answers/soft-choice/image3.png",
+              "alt": "选择题第42题图"
+            }
+          ]
+        },
+        {
+          "id": "q-soft-choice-043",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 93,
+          "type": "short",
+          "typeLabel": "简答题",
+          "mode": "short",
+          "originalNumber": 43,
+          "prompt": "面向对象分析的首要工作是建立（）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "系统的动态模型"
+            },
+            {
+              "key": "B",
+              "text": "系统的功能模型"
+            },
+            {
+              "key": "C",
+              "text": "基本的E-R图"
+            },
+            {
+              "key": "D",
+              "text": "问题的对象模型"
+            }
+          ],
+          "answer": {
+            "text": "软件工程的基本原则包括：1）用分阶段的生命周期计划进行严格的管理；2）坚持进行阶段评审；3）实行严格的产品控制；4）采用现代程序设计技术；5）软件工程结果应能清楚地审查；6）开发小组的人员应该少而精；7）承认不断改进软件工程实践的必要性。"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-soft-choice-044",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 94,
+          "type": "short",
+          "typeLabel": "简答题",
+          "mode": "short",
+          "originalNumber": 44,
+          "prompt": "顺序图是(    )的：(    )表示时间，(    )表示不同的对象或参与者。",
+          "options": [
+            {
+              "key": "A",
+              "text": "二维，垂直方向，水平方向"
+            },
+            {
+              "key": "B",
+              "text": "一维，水平方向，垂直方向"
+            },
+            {
+              "key": "C",
+              "text": "二维，水平方向，垂直方向"
+            },
+            {
+              "key": "D",
+              "text": "一维，垂直方向，水平方向"
+            }
+          ],
+          "answer": {
+            "text": "与计算机硬件相比，计算机软件的特点包括：1）具有抽象性；2）无明显的制造过程；3）存在退化问题；4）对计算机系统有着不同程度的依赖性；5）尚未完全摆脱人工的开发方式；6）软件本身是复杂的；7）成本相当昂贵；8）相当多的软件工作涉及社会因素。"
+          },
+          "explanation": ""
+        },
+        {
           "id": "q-f3aef3707a",
           "subject": "软工",
           "source": "2025-2026第二学期软件工程测试.txt",
@@ -10723,6 +11665,88 @@ window.QUESTION_BANK = {
             ]
           },
           "explanation": ""
+        },
+        {
+          "id": "q-soft-choice-045",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 95,
+          "type": "comprehensive",
+          "typeLabel": "综合题",
+          "mode": "comprehensive",
+          "originalNumber": 45,
+          "prompt": "题图为一个飞机票预定系统的数据流图,图中5表示的基本术语是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "外部实体"
+            },
+            {
+              "key": "B",
+              "text": "数据存储"
+            },
+            {
+              "key": "C",
+              "text": "数据流"
+            },
+            {
+              "key": "D",
+              "text": "加工"
+            }
+          ],
+          "answer": {
+            "images": [
+              {
+                "src": "assets/answers/soft-45.svg",
+                "alt": "answer image 45"
+              }
+            ]
+          },
+          "explanation": "",
+          "images": [
+            {
+              "src": "assets/answers/soft-choice/image4.png",
+              "alt": "选择题第45题图"
+            }
+          ]
+        },
+        {
+          "id": "q-soft-choice-047",
+          "subject": "软工",
+          "source": "选择题.docx",
+          "order": 97,
+          "type": "comprehensive",
+          "typeLabel": "综合题",
+          "mode": "comprehensive",
+          "originalNumber": 47,
+          "prompt": "假设某网站发帖数目的输入范围为0—20,则根据黑盒测试中的等价类划分技术,下列划分正确的是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "可划分为2个有效等价类,2个无效等价类"
+            },
+            {
+              "key": "B",
+              "text": "可划分为1个有效等价类,2个无效等价类"
+            },
+            {
+              "key": "C",
+              "text": "可划分为2个有效等价类,1个无效等价类"
+            },
+            {
+              "key": "D",
+              "text": "可划分为1个有效等价类,1个无效等价类"
+            }
+          ],
+          "answer": {
+            "images": [
+              {
+                "src": "assets/answers/soft-47.svg",
+                "alt": "answer image 47"
+              }
+            ]
+          },
+          "explanation": ""
         }
       ]
     },
@@ -10730,18 +11754,19 @@ window.QUESTION_BANK = {
       "id": "subject-e75ea7ca",
       "name": "鸿蒙",
       "sources": [
-        "复习测试卷.txt"
+        "复习测试卷.txt",
+        "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx"
       ],
       "counts": {
-        "single": 20,
-        "multiple": 10,
-        "blank": 10,
-        "judge": 10,
+        "single": 67,
+        "multiple": 36,
+        "blank": 35,
+        "judge": 35,
         "short": 5,
         "comprehensive": 0,
         "programming": 1
       },
-      "total": 56,
+      "total": 179,
       "questions": [
         {
           "id": "q-36ad2bbaa1",
@@ -11464,6 +12489,1604 @@ window.QUESTION_BANK = {
           "explanation": ""
         },
         {
+          "id": "q-6e37b05766",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 57,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 1,
+          "prompt": "下列属性中，用于设置Scroll组件是否启用水平滚动的是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "bounce"
+            },
+            {
+              "key": "B",
+              "text": "horizontal"
+            },
+            {
+              "key": "C",
+              "text": "scrollable"
+            },
+            {
+              "key": "D",
+              "text": "vertical 【答案】B 【解析】horizontal属性用于设置是否启用水平滚动。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-c8ba01cf48",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 58,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 2,
+          "prompt": "加载1000条数据时，下列哪种做法可能引发性能问题？（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "在ListItem内部嵌套3层Column/Row"
+            },
+            {
+              "key": "B",
+              "text": "启用懒加载（lazyForEach）"
+            },
+            {
+              "key": "C",
+              "text": "使用ForEach绑定数据源"
+            },
+            {
+              "key": "D",
+              "text": "设置cachedCount=5 【答案】A"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-583213d378",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 59,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 3,
+          "prompt": "下列选项中，在构建UI时通常依赖的数据被称为（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "状态"
+            },
+            {
+              "key": "B",
+              "text": "组件"
+            },
+            {
+              "key": "C",
+              "text": "生命周期"
+            },
+            {
+              "key": "D",
+              "text": "事件处理程序 【答案】A"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-6971f2afdf",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 60,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 4,
+          "prompt": "下面代码执行后，可能正确的顺序是（）\nconsole.log('1');\nasync function main() {\nconsole.log('2');\nawait task();\nconsole.log('4');\n}\nasync function task() {\nconsole.log('3');\n}\nmain();\nnew Promise<void>((resolve: Function) => {\nconsole.log('5');\nresolve();\n}).then(() => console.log('6'));\nconsole.log('7');",
+          "options": [
+            {
+              "key": "A",
+              "text": "1  2  3  5  7  4  6"
+            },
+            {
+              "key": "B",
+              "text": "1  5  2  3  7  6  4"
+            },
+            {
+              "key": "C",
+              "text": "1  2  3  5  4  6  7"
+            },
+            {
+              "key": "D",
+              "text": "1 2 3 4 5 6 7 【答案】A"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-a483e5b684",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 61,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 5,
+          "prompt": "应该在哪个生命周期函数中释放组件占用的资源？（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "onDestroy"
+            },
+            {
+              "key": "B",
+              "text": "aboutToRecycle"
+            },
+            {
+              "key": "C",
+              "text": "onPageHide"
+            },
+            {
+              "key": "D",
+              "text": "aboutToDisappear 【答案】D"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-92b9e14c31",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 62,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 6,
+          "prompt": "如果一个应用需要访问网络，需要申请的权限是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "ohos.permission.LOCATION"
+            },
+            {
+              "key": "B",
+              "text": "ohos.permission.READ_CONTACTS"
+            },
+            {
+              "key": "C",
+              "text": "ohos.permission.INTERNET"
+            },
+            {
+              "key": "D",
+              "text": "ohos.permission.CAMERA 【答案】C"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-6919638af5",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 63,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 7,
+          "prompt": "在ArkUI中，Grid组件主要用于的布局方式是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "网格布局"
+            },
+            {
+              "key": "B",
+              "text": "固定布局"
+            },
+            {
+              "key": "C",
+              "text": "弹性布局"
+            },
+            {
+              "key": "D",
+              "text": "表格布局 【答案】A 【解析】Grid组件是网格容器组件，用于创建网格布局。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d473701395",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 64,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 8,
+          "prompt": "在面向对象编程中，以下哪项说法不正确？（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "接口定义了一组方法签名作为行为契约，但本身不能被直接实例化为对象"
+            },
+            {
+              "key": "B",
+              "text": "一个类可以实现多个接口，但该类的对象必须同时满足所有接口的规范要求"
+            },
+            {
+              "key": "C",
+              "text": "接口可以通过继承机制扩展其他接口，形成新的行为契约，且子接口可被直接实例化"
+            },
+            {
+              "key": "D",
+              "text": "对象是类的具体实例，包含实际的状态（属性）和行为实现（方法），可直接用于业务逻辑执行 【答案】C"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-ce210a5717",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 65,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 9,
+          "prompt": "在ArkUI中，用于决定是否渲染某个组件的条件渲染语句不包括的是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "if...else语句"
+            },
+            {
+              "key": "B",
+              "text": "if...else if...else语句"
+            },
+            {
+              "key": "C",
+              "text": "while语句"
+            },
+            {
+              "key": "D",
+              "text": "if语句 【答案】C"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-8da67d72db",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 66,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 10,
+          "prompt": "关于Flex组件属性配置说法错误的是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "justifyContent属性用于设置Flex容器中子组件在主轴方向上的对齐方式"
+            },
+            {
+              "key": "B",
+              "text": "wrap属性用于设置Flex容器中子组件的换行方式"
+            },
+            {
+              "key": "C",
+              "text": "alignItems属性用于设置Flex容器中子组件在交叉轴方向上的对齐方式"
+            },
+            {
+              "key": "D",
+              "text": "direction属性用于设置Flex容器中子组件的排列方式，即交叉轴的方向 【答案】D"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-12d4417eb5",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 67,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 11,
+          "prompt": "下列代码执行后，最终在控制台打印的结果为（）。\nfunction test(): string {\ntry {\nconsole.log(\"A\");\nthrow new Error(\"Intentional error\");\nreturn \"Try return\";\n} catch (e) {\nconsole.log(\"B\");\nreturn \"Catch return\";\n} finally {\nconsole.log(\"C\");\nreturn \"Finally return\";\n}\n}\nconsole.log(test());",
+          "options": [
+            {
+              "key": "A",
+              "text": "A B C Try return"
+            },
+            {
+              "key": "B",
+              "text": "A B C Finally return"
+            },
+            {
+              "key": "C",
+              "text": "A B C Catch return"
+            },
+            {
+              "key": "D",
+              "text": "A C Finally return 【答案】B"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-e7dc0edced",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 68,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 12,
+          "prompt": "UIAbility从前台转到后台时触发的方法是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "onBackground()"
+            },
+            {
+              "key": "B",
+              "text": "onWindowStageDestroy()"
+            },
+            {
+              "key": "C",
+              "text": "onDestroy()"
+            },
+            {
+              "key": "D",
+              "text": "onForeground() 【答案】A"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-268e8d544c",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 69,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 13,
+          "prompt": "在ArkUI中设置组件宽度时，默认使用的单位是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "dp"
+            },
+            {
+              "key": "B",
+              "text": "vp"
+            },
+            {
+              "key": "C",
+              "text": "mm"
+            },
+            {
+              "key": "D",
+              "text": "px 【答案】B"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-b63a244e75",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 70,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 14,
+          "prompt": "以下哪种组件嵌套关系是正确的？（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "ImageSpan ＞ Text ＞ Span"
+            },
+            {
+              "key": "B",
+              "text": "Text ＞ Span ＞ ImageSpan"
+            },
+            {
+              "key": "C",
+              "text": "ContainerSpan ＞ Span ＞ Text"
+            },
+            {
+              "key": "D",
+              "text": "Span ＞ Text＞ ContainerSpan 【答案】B"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-5a0d69cdd0",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 71,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 15,
+          "prompt": "下列选项中，不属于鸿蒙模拟器对计算机的基本要求的是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "支持OpenGL 4.1及以上版本"
+            },
+            {
+              "key": "B",
+              "text": "至少16GB内存"
+            },
+            {
+              "key": "C",
+              "text": "安装了Android Studio"
+            },
+            {
+              "key": "D",
+              "text": "屏幕分辨率不低于1280x800像素 【答案】C 【解析】安装鸿蒙模拟器不需要Android Studio，但需要满足内存、图形处理能力和屏幕分辨率的要求。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d4a58a2f77",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 72,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 16,
+          "prompt": "在路由中，用于实现页面跳转并保留当前页的状态的方法是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "clear()"
+            },
+            {
+              "key": "B",
+              "text": "back()"
+            },
+            {
+              "key": "C",
+              "text": "replaceUrl()"
+            },
+            {
+              "key": "D",
+              "text": "pushUrl() 【答案】D"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-8a746057cd",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 73,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 17,
+          "prompt": "在ArkUI中，List组件的主要作用是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "创建列表视图"
+            },
+            {
+              "key": "B",
+              "text": "显示图片"
+            },
+            {
+              "key": "C",
+              "text": "输入文本内容"
+            },
+            {
+              "key": "D",
+              "text": "调节设置值 【答案】A 【解析】List组件用于创建可以展示多个项目的列表视图。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-aee3c546cb",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 74,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 18,
+          "prompt": "下列选项中，正确的箭头函数写法是（）",
+          "options": [
+            {
+              "key": "B",
+              "text": "let add = function(a:number, b:number) { return a + b; }"
+            },
+            {
+              "key": "C",
+              "text": "let add = (a:number, b:number) => return a + b;"
+            },
+            {
+              "key": "D",
+              "text": "let add = (a:number, b:number) => { return a + b; };"
+            },
+            {
+              "key": "A",
+              "text": "let add = function(a:number, b:number) => a + b; 【答案】D"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-e7c986092d",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 75,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 19,
+          "prompt": "在NavPathStack对象中，用于将指定子页压入栈中的方法是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "popToName()"
+            },
+            {
+              "key": "B",
+              "text": "pop()"
+            },
+            {
+              "key": "C",
+              "text": "replacePath()"
+            },
+            {
+              "key": "D",
+              "text": "pushPath() 【答案】D"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-c127e1f045",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 76,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 20,
+          "prompt": "下列选项中，鸿蒙项目中默认提供的主模块目录是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "entry"
+            },
+            {
+              "key": "B",
+              "text": "oh_modules"
+            },
+            {
+              "key": "C",
+              "text": "AppScope"
+            },
+            {
+              "key": "D",
+              "text": "hvigor 【答案】A 【解析】entry目录用于存放应用模块文件，包括入口文件、代码和资源等，是默认的主模块目录。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-19a02405eb",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 107,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 51,
+          "prompt": "在Column组件的value参数的属性中，用于设置垂直方向上子组件之间间距的是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "space"
+            },
+            {
+              "key": "B",
+              "text": "margin"
+            },
+            {
+              "key": "C",
+              "text": "padding"
+            },
+            {
+              "key": "D",
+              "text": "gap 【答案】A 【解析】space属性用于设置垂直方向上子组件之间的间距。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-756a2c861a",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 108,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 52,
+          "prompt": "在ArkTS中，定义泛型函数时，在函数名右侧指定泛型的符号是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "<>"
+            },
+            {
+              "key": "B",
+              "text": "()"
+            },
+            {
+              "key": "C",
+              "text": "{}"
+            },
+            {
+              "key": "D",
+              "text": "[] 【答案】A 【解析】定义泛型函数时，在函数名右侧添加<>符号来指定泛型。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d8ab5aa253",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 109,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 53,
+          "prompt": "下列关于@Link装饰器的描述中，正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "支持父子组件状态双向同步"
+            },
+            {
+              "key": "B",
+              "text": "只能在入口组件中使用"
+            },
+            {
+              "key": "C",
+              "text": "不支持设置初始值"
+            },
+            {
+              "key": "D",
+              "text": "用于装饰子组件中的状态变量 【答案】A"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-3f2065cc86",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 110,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 54,
+          "prompt": "在ArkUI中，Scroll组件的主要作用是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "显示图片"
+            },
+            {
+              "key": "B",
+              "text": "创建滚动视图"
+            },
+            {
+              "key": "C",
+              "text": "调节设置值"
+            },
+            {
+              "key": "D",
+              "text": "输入文本内容 【答案】B"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d7a0307c4d",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 111,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 55,
+          "prompt": "在ArkUI中，Stack组件主要用于的布局方式是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "网格布局"
+            },
+            {
+              "key": "B",
+              "text": "堆叠布局"
+            },
+            {
+              "key": "C",
+              "text": "弹性布局"
+            },
+            {
+              "key": "D",
+              "text": "固定布局 【答案】B 【解析】Stack组件是堆叠容器组件，其子组件按照顺序依次入栈。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-089dc51742",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 112,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 56,
+          "prompt": "在ArkUI中，用来定义一个方法使得该方法能够被组件调用以复用通用属性和事件的装饰器是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "@Styles"
+            },
+            {
+              "key": "B",
+              "text": "@BuilderParam"
+            },
+            {
+              "key": "C",
+              "text": "@Builder"
+            },
+            {
+              "key": "D",
+              "text": "@Extend 【答案】A"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-a2e7236bc5",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 113,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 57,
+          "prompt": "下列属性中，用于设置Flex容器内子组件在主轴上的对齐方式的是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "alignItems"
+            },
+            {
+              "key": "B",
+              "text": "alignContent"
+            },
+            {
+              "key": "C",
+              "text": "justifyContent"
+            },
+            {
+              "key": "D",
+              "text": "flexWrap 【答案】C"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d4c6be787e",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 114,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 58,
+          "prompt": "下列选项中，属于华为应用市场推出的应用一站式服务平台的是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "AppGallery Connect(AGC)"
+            },
+            {
+              "key": "B",
+              "text": "DevEco Studio"
+            },
+            {
+              "key": "C",
+              "text": "ArkTS"
+            },
+            {
+              "key": "D",
+              "text": "ArkCompiler 【答案】A 【解析】AppGallery Connect（AGC）是华为应用市场推出的应用一站式服务平台。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-17aa8799dd",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 115,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 59,
+          "prompt": "鸿蒙ArkTS中，以下关于异常处理的描述错误的是？",
+          "options": [
+            {
+              "key": "A",
+              "text": "Exception是所有异常的父类"
+            },
+            {
+              "key": "B",
+              "text": "可以使用try-catch-finally语句捕获异常"
+            },
+            {
+              "key": "C",
+              "text": "finally块中的代码无论是否发生异常都会执行"
+            },
+            {
+              "key": "D",
+              "text": "throw语句可以抛出任意类型的对象 【答案】D 【解析】ArkTS中throw语句只能抛出Exception及其子类的实例，不能抛出任意类型对象。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-b2d8fb8922",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 116,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 60,
+          "prompt": "在ArkUI中，用于实现导航页的组件是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "NavPathStack"
+            },
+            {
+              "key": "B",
+              "text": "Router"
+            },
+            {
+              "key": "C",
+              "text": "Navigation"
+            },
+            {
+              "key": "D",
+              "text": "NavDestination 【答案】C"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d67ae3318b",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 117,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 61,
+          "prompt": "在路由表文件router_map.json中，用于指定子页名称的字段是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "routerMap"
+            },
+            {
+              "key": "B",
+              "text": "buildFunction"
+            },
+            {
+              "key": "C",
+              "text": "name"
+            },
+            {
+              "key": "D",
+              "text": "pageSourceFile 【答案】C"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-3ae8889961",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 118,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 62,
+          "prompt": "下列选项中，正确的导入组件的方式是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "import MyComponent"
+            },
+            {
+              "key": "B",
+              "text": "import MyComponent='./MyComponent'"
+            },
+            {
+              "key": "C",
+              "text": "import './MyComponent' as MyComponent"
+            },
+            {
+              "key": "D",
+              "text": "import MyComponent from './MyComponent' 【答案】D"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-20a9dbcff5",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 119,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 63,
+          "prompt": "在Navigation组件中，用于设置页面标题的属性是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "mode"
+            },
+            {
+              "key": "B",
+              "text": "title"
+            },
+            {
+              "key": "C",
+              "text": "menus"
+            },
+            {
+              "key": "D",
+              "text": "titleMode 【答案】B"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-366d1e56db",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 120,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 64,
+          "prompt": "下列选项中，鸿蒙系统采用的设计架构的是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "分布式架构"
+            },
+            {
+              "key": "B",
+              "text": "集中式架构"
+            },
+            {
+              "key": "C",
+              "text": "模块化架构"
+            },
+            {
+              "key": "D",
+              "text": "层次架构 【答案】A 【解析】鸿蒙采用了分布式架构设计，以实现设备间的高效连接和通信。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-e6e161105d",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 121,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 65,
+          "prompt": "下列选项中，用于保存状态数据，并且状态数据变化会触发UI重新渲染的装饰器是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "@State"
+            },
+            {
+              "key": "B",
+              "text": "@Entry"
+            },
+            {
+              "key": "C",
+              "text": "@Preview"
+            },
+            {
+              "key": "D",
+              "text": "@Component 【答案】A"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-fc27d88245",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 148,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 92,
+          "prompt": "在子类构造方法中，如果需要调用父类构造方法并传入参数，应该使用的是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "father()"
+            },
+            {
+              "key": "B",
+              "text": "super()"
+            },
+            {
+              "key": "C",
+              "text": "base()"
+            },
+            {
+              "key": "D",
+              "text": "parent() 【答案】B 【解析】调用父类构造方法的语法格式为super()。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-0f9465840c",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 149,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 93,
+          "prompt": "当把一个字面量对象赋值给变量时，指定变量类型的方式为（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "枚举"
+            },
+            {
+              "key": "B",
+              "text": "接口"
+            },
+            {
+              "key": "C",
+              "text": "数组"
+            },
+            {
+              "key": "D",
+              "text": "函数 【答案】B 【解析】当把一个字面量对象赋值给变量时，可以通过接口定义变量的类型。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-da4e6a32f9",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 150,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 94,
+          "prompt": "下列选项中，对枚举的使用正确的是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "enum Color: {Red, Green, Blue}"
+            },
+            {
+              "key": "B",
+              "text": "enum Color (Red, Green, Blue)"
+            },
+            {
+              "key": "C",
+              "text": "enum Color {Red, Green, Blue}"
+            },
+            {
+              "key": "D",
+              "text": "enum Color = {Red, Green, Blue} 【答案】C 【解析】正确的语法是使用enum关键字后跟枚举名和枚举常量列表。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-0ed56c337b",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 151,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 95,
+          "prompt": "下列选项中，可以让子组件的状态与父组件的状态建立单向同步关系的装饰器是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "@Link"
+            },
+            {
+              "key": "B",
+              "text": "@State"
+            },
+            {
+              "key": "C",
+              "text": "@Provide"
+            },
+            {
+              "key": "D",
+              "text": "@Prop 【答案】D"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-c2ba10e5c2",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 152,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 96,
+          "prompt": "Image支持渐进式图片加载的属性是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "progressive"
+            },
+            {
+              "key": "B",
+              "text": "interlaced"
+            },
+            {
+              "key": "C",
+              "text": "gradual"
+            },
+            {
+              "key": "D",
+              "text": "ArkUI5.0不支持 【答案】D"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-8ff224c3d7",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 153,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 97,
+          "prompt": "当使用router.back()方法时，若要返回到指定页面而不是前一页，应使用的属性是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "url"
+            },
+            {
+              "key": "B",
+              "text": "callback"
+            },
+            {
+              "key": "C",
+              "text": "params"
+            },
+            {
+              "key": "D",
+              "text": "mode 【答案】A"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-b465e91b6c",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 154,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 98,
+          "prompt": "下列关于@Builder装饰器的说法中，正确的是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "必须定义在struct外"
+            },
+            {
+              "key": "B",
+              "text": "只能用于定义样式"
+            },
+            {
+              "key": "C",
+              "text": "可以被多个组件调用"
+            },
+            {
+              "key": "D",
+              "text": "不能传递参数 【答案】C"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-8bdb192a28",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 155,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 99,
+          "prompt": "当UIAbility被创建时调用，可以进行页面初始化操作的方法是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "onForeground()"
+            },
+            {
+              "key": "B",
+              "text": "onCreate()"
+            },
+            {
+              "key": "C",
+              "text": "onWindowStageCreate()"
+            },
+            {
+              "key": "D",
+              "text": "onDestroy() 【答案】B"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-2afdaa559a",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 156,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 100,
+          "prompt": "在ArkUI中，循环渲染语句主要使用的函数是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "Map()"
+            },
+            {
+              "key": "B",
+              "text": "If()"
+            },
+            {
+              "key": "C",
+              "text": "ForEach()"
+            },
+            {
+              "key": "D",
+              "text": "List() 【答案】C"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-a0c3c2d384",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 157,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 101,
+          "prompt": "创建鸿蒙项目时，Bundle name通常使用的形式为（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "随机字符组合"
+            },
+            {
+              "key": "B",
+              "text": "数字序列"
+            },
+            {
+              "key": "C",
+              "text": "简单英文单词"
+            },
+            {
+              "key": "D",
+              "text": "反写域名的形式 【答案】D 【解析】Bundle name一般采用反写域名的形式设置，例如com.example.myapp。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-de1ddba5b3",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 158,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 102,
+          "prompt": "以下关于鸿蒙状态管理的描述，正确的是？",
+          "options": [
+            {
+              "key": "A",
+              "text": "@Link装饰的变量需要父组件传递不可变数据"
+            },
+            {
+              "key": "B",
+              "text": "@Provide/@Consume是用于父子组件间的双向同步"
+            },
+            {
+              "key": "C",
+              "text": "@State装饰的变量只能在当前组件内部修改"
+            },
+            {
+              "key": "D",
+              "text": "@Prop装饰的变量是单向同步的父组件状态 【答案】D 【解析】@Prop是单向同步父组件的状态，子组件修改不会影响父组件；@State可以在组件内部修改且影响UI；@Link是双向同步；@Provide/@Consume是跨层级的状态传递。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-2269f3008e",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 159,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 103,
+          "prompt": "在ArkUI中，用于将一个自定义组件标记为页面入口组件的装饰器是（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "@Entry"
+            },
+            {
+              "key": "B",
+              "text": "@State"
+            },
+            {
+              "key": "C",
+              "text": "@Component"
+            },
+            {
+              "key": "D",
+              "text": "@Preview 【答案】A 【解析】@Entry装饰器用于将自定义组件标记为页面的入口组件。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
           "id": "q-b63214abec",
           "subject": "鸿蒙",
           "source": "复习测试卷.txt",
@@ -11845,6 +14468,890 @@ window.QUESTION_BANK = {
           "explanation": ""
         },
         {
+          "id": "q-92e28f2af9",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 87,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 31,
+          "prompt": "下列选项中，Button组件支持的类型有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "ButtonType.Capsule"
+            },
+            {
+              "key": "B",
+              "text": "ButtonType.Normal"
+            },
+            {
+              "key": "C",
+              "text": "ButtonType.Square"
+            },
+            {
+              "key": "D",
+              "text": "ButtonType.Circle 【答案】ABD"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-28eee7dcc6",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 88,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 32,
+          "prompt": "关于变量的作用域，下列说法正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "变量的作用域决定了变量的可见性和生命周期"
+            },
+            {
+              "key": "B",
+              "text": "块级作用域在大括号{}范围内"
+            },
+            {
+              "key": "C",
+              "text": "函数内部无法访问到外部的变量"
+            },
+            {
+              "key": "D",
+              "text": "在同一作用域内不能声明两个同名的变量 【答案】ABD 【解析】在函数内部可以访问外部的变量。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-4ad2551465",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 89,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 33,
+          "prompt": "关于JavaScript、TypeScript和ArkTS的关系，下列说法正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "ArkTS扩展了TypeScript的功能"
+            },
+            {
+              "key": "B",
+              "text": "这3种语言都属于强类型语言"
+            },
+            {
+              "key": "C",
+              "text": "JavaScript是ECMAScript标准的一种实现"
+            },
+            {
+              "key": "D",
+              "text": "TypeScript是JavaScript的一个严格子集 【答案】AC 【解析】JavaScript实现了ECMAScript标准；ArkTS在TypeScript基础上进行了扩展，增强了执行稳定性和性能。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-c24c238b84",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 90,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 34,
+          "prompt": "关于ArkUI中Input组件的描述，正确的有哪些？",
+          "options": [
+            {
+              "key": "A",
+              "text": "placeholder属性用于显示输入提示文本"
+            },
+            {
+              "key": "B",
+              "text": "type属性可以设置输入框类型（如text、password）"
+            },
+            {
+              "key": "C",
+              "text": "value属性可以双向绑定输入框内容"
+            },
+            {
+              "key": "D",
+              "text": "onChange事件可以监听输入内容的变化 【答案】ABCD 【解析】Input组件的type、placeholder、onChange事件、双向绑定均正确，ABCD均符合特性。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d578203d37",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 91,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 35,
+          "prompt": "以下关于ArkTS运算符和流程控制的说法，正确的有哪些？",
+          "options": [
+            {
+              "key": "A",
+              "text": "for循环的初始化表达式可以声明多个变量"
+            },
+            {
+              "key": "B",
+              "text": "switch语句的case分支必须包含break"
+            },
+            {
+              "key": "C",
+              "text": "三元运算符的结果类型由第二个操作数决定"
+            },
+            {
+              "key": "D",
+              "text": "&&运算符具有短路求值特性 【答案】AD 【解析】switch的case分支可以没有break（会穿透），三元运算符结果类型由两个操作数共同决定。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-95a87306bb",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 92,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 36,
+          "prompt": "关于ArkUI条件渲染和循环渲染的描述，正确的有哪些？",
+          "options": [
+            {
+              "key": "A",
+              "text": "条件渲染的条件变量必须是@State装饰的状态变量"
+            },
+            {
+              "key": "B",
+              "text": "LazyForEach比ForEach更适合大数据量渲染"
+            },
+            {
+              "key": "C",
+              "text": "ForEach的itemGenerator参数用于生成列表数据"
+            },
+            {
+              "key": "D",
+              "text": "if/else可以根据条件渲染不同组件 【答案】BCD 【解析】条件渲染的条件变量可以是任意响应式变量（如@State、@Prop等），并非必须是@State。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-c600801a4c",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 93,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 37,
+          "prompt": "关于ArkTS函数和泛型的描述，正确的有哪些？",
+          "options": [
+            {
+              "key": "A",
+              "text": "箭头函数的this指向定义时的上下文"
+            },
+            {
+              "key": "B",
+              "text": "函数参数可以指定默认值"
+            },
+            {
+              "key": "C",
+              "text": "泛型类可以约束类型参数的范围"
+            },
+            {
+              "key": "D",
+              "text": "泛型方法的类型参数必须显式指定 【答案】ABC 【解析】泛型方法的类型参数可以通过类型推断省略。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-a5f222b5ca",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 94,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 38,
+          "prompt": "下列选项中，属于鸿蒙提供的开发技术的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "Android SDK"
+            },
+            {
+              "key": "B",
+              "text": "ArkTS"
+            },
+            {
+              "key": "C",
+              "text": "ArkCompiler"
+            },
+            {
+              "key": "D",
+              "text": "DevEco Studio 【答案】BCD"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-f1676114d1",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 95,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 39,
+          "prompt": "下列选项中，需要用到super关键字的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "创建父类的对象"
+            },
+            {
+              "key": "B",
+              "text": "调用父类的普通方法"
+            },
+            {
+              "key": "C",
+              "text": "访问父类的属性"
+            },
+            {
+              "key": "D",
+              "text": "调用父类的构造方法 【答案】BD 【解析】super关键字用于调用父类的构造方法和非构造方法，但不直接用于访问父类的属性或创建父类对象。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-9ab31dc22c",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 96,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 40,
+          "prompt": "关于ArkUI中Text组件的说法，正确的有哪些？",
+          "options": [
+            {
+              "key": "A",
+              "text": "textAlign属性用于设置文本的对齐方式"
+            },
+            {
+              "key": "B",
+              "text": "maxLines属性可以限制文本的最大行数"
+            },
+            {
+              "key": "C",
+              "text": "可以通过fontSize属性设置字体大小"
+            },
+            {
+              "key": "D",
+              "text": "Text组件默认支持长按复制文本 【答案】ABC 【解析】Text组件默认不支持长按复制（需额外配置）。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-2fa86d3b71",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 129,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 73,
+          "prompt": "关于ArkUI中Button组件的说法，正确的有哪些？",
+          "options": [
+            {
+              "key": "A",
+              "text": "onClick事件用于绑定点击回调函数"
+            },
+            {
+              "key": "B",
+              "text": "Button组件可以嵌套其他组件（如Image）"
+            },
+            {
+              "key": "C",
+              "text": "disabled属性可以设置按钮是否禁用"
+            },
+            {
+              "key": "D",
+              "text": "type属性可以设置按钮样式（如capsule、circle） 【答案】ABCD 【解析】Button组件的type样式、onClick事件、嵌套能力、disabled状态均正确。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-b22d31ff84",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 130,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 74,
+          "prompt": "下列选项中，关于导入和导出的描述正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "在一个文件中，导入的代码必须写在其他代码的前面"
+            },
+            {
+              "key": "B",
+              "text": "导入使用的关键字是import"
+            },
+            {
+              "key": "C",
+              "text": "如果想要更改导入的名称，可以在名称后面加上“as新名称”"
+            },
+            {
+              "key": "D",
+              "text": "默认导出和命名导出的导入方式相同 【答案】ABC 【解析】默认导出和命名导出导入格式不一致。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-696364bcff",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 131,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 75,
+          "prompt": "关于鸿蒙应用路由管理的说法，正确的有哪些？",
+          "options": [
+            {
+              "key": "A",
+              "text": "router.clear可以清空路由栈"
+            },
+            {
+              "key": "B",
+              "text": "可以通过router.pushUrl实现页面跳转"
+            },
+            {
+              "key": "C",
+              "text": "路由参数可以通过params传递"
+            },
+            {
+              "key": "D",
+              "text": "router.back可以返回上一页 【答案】ABCD"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-f1e202ddb8",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 132,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 76,
+          "prompt": "关于继承关系，下列说法是正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "继承层次不宜过深"
+            },
+            {
+              "key": "B",
+              "text": "继承只能单继承，不能多继承"
+            },
+            {
+              "key": "C",
+              "text": "使用继承可以减少重复代码"
+            },
+            {
+              "key": "D",
+              "text": "继承有助于代码复用 【答案】ACD 【解析】继承确实有助于代码复用，并且建议继承层次不要过深以保持代码清晰，同时它可以减少重复代码。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-7458f5da43",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 133,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 77,
+          "prompt": "下列选项中，属于ArkUI中的通用属性和事件的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "width"
+            },
+            {
+              "key": "B",
+              "text": "border"
+            },
+            {
+              "key": "C",
+              "text": "backgroundColor"
+            },
+            {
+              "key": "D",
+              "text": "onClick 【答案】ABCD"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-a3b6867319",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 134,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 78,
+          "prompt": "下列关于循环渲染语句的描述中，正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "可以减少重复代码的编写"
+            },
+            {
+              "key": "B",
+              "text": "用于控制组件的显示和隐藏"
+            },
+            {
+              "key": "C",
+              "text": "能够根据数组元素动态创建组件"
+            },
+            {
+              "key": "D",
+              "text": "无法自定义键生成规则 【答案】AC 【解析】循环渲染不仅减少了重复代码，还允许根据数组内容动态创建组件，并且可以通过keyGenerator自定义键生成规则。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-89e078942c",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 135,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 79,
+          "prompt": "下列选项中，TypeScript相对于JavaScript的优势有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "不支持接口和泛型"
+            },
+            {
+              "key": "B",
+              "text": "支持静态类型检查"
+            },
+            {
+              "key": "C",
+              "text": "只能在浏览器环境中运行"
+            },
+            {
+              "key": "D",
+              "text": "提供更严格的语法规则 【答案】BD 【解析】TypeScript支持静态类型检查和更严格的语法规则，并且它不仅仅限于浏览器环境。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-f155ecd43e",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 136,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 80,
+          "prompt": "关于装饰器的使用，下列说法正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "@Preview仅用于预览非入口组件"
+            },
+            {
+              "key": "B",
+              "text": "@Entry和@Component可以同时使用"
+            },
+            {
+              "key": "C",
+              "text": "装饰器可以写在同一行或单独一行"
+            },
+            {
+              "key": "D",
+              "text": "@State装饰器不需要设置初始值 【答案】ABC"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d01f420b27",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 137,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 81,
+          "prompt": "下列关于条件渲染语句的描述中，正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "不能嵌套使用"
+            },
+            {
+              "key": "B",
+              "text": "可以用来控制组件是否渲染"
+            },
+            {
+              "key": "C",
+              "text": "仅支持Image组件"
+            },
+            {
+              "key": "D",
+              "text": "可以根据用户交互更新渲染 【答案】BD"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-2bedf56a9b",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 168,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 112,
+          "prompt": "下列选项中，Row组件的常用属性有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "rowsTemplate"
+            },
+            {
+              "key": "B",
+              "text": "columnsTemplate"
+            },
+            {
+              "key": "C",
+              "text": "alignItems"
+            },
+            {
+              "key": "D",
+              "text": "justifyContent 【答案】CD"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-bb5f2a338c",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 169,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 113,
+          "prompt": "以下关于Column容器内子组件在水平方向上的对齐方式的描述中，正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "HorizontalAlign.End表示右对齐"
+            },
+            {
+              "key": "B",
+              "text": "HorizontalAlign.Stretch表示拉伸对齐"
+            },
+            {
+              "key": "C",
+              "text": "HorizontalAlign.Start表示左对齐"
+            },
+            {
+              "key": "D",
+              "text": "HorizontalAlign.Center表示居中对齐 【答案】ACD"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-9e0d5ec6ca",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 170,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 114,
+          "prompt": "下列关于@Builder装饰器的描述中，正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "不能传递参数"
+            },
+            {
+              "key": "B",
+              "text": "可作为方法被多次调用"
+            },
+            {
+              "key": "C",
+              "text": "能提高代码复用性"
+            },
+            {
+              "key": "D",
+              "text": "能封装复杂布局 【答案】BCD"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-de5495bbb0",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 171,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 115,
+          "prompt": "关于ArkUI垂直布局（Column）的描述，正确的有哪些？",
+          "options": [
+            {
+              "key": "A",
+              "text": "Column的宽度默认与父组件一致"
+            },
+            {
+              "key": "B",
+              "text": "可以通过space属性设置子组件间距"
+            },
+            {
+              "key": "C",
+              "text": "justifyContent属性用于设置交叉轴对齐方式"
+            },
+            {
+              "key": "D",
+              "text": "子组件默认沿垂直方向排列 【答案】ABD 【解析】justifyContent设置主轴（垂直）对齐方式，alignItems设置交叉轴（水平）对齐，故C错误。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-27150edbf3",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 172,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 116,
+          "prompt": "关于自增和自减运算符（++和--），下列描述正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "后置自增（如 a++）会先使用a的当前值进行后续计算，然后才将a加1"
+            },
+            {
+              "key": "B",
+              "text": "前置自增（如++a）会先将a加1再使用a的新值进行后续计算"
+            },
+            {
+              "key": "C",
+              "text": "前置自减（如--a）与后置自减（如 a--）效果相同"
+            },
+            {
+              "key": "D",
+              "text": "自增和自减运算符每次只能加1和减1 【答案】ABD 【解析】前置运算符先修改变量值再使用，而后置运算符先使用变量原值再修改。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d844e67932",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 173,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 117,
+          "prompt": "以下关于Row容器内子组件在垂直方向上的对齐方式的描述中，正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "VerticalAlign.Center表示居中对齐"
+            },
+            {
+              "key": "B",
+              "text": "VerticalAlign.Top表示顶部对齐"
+            },
+            {
+              "key": "C",
+              "text": "VerticalAlign.Stretch表示拉伸对齐"
+            },
+            {
+              "key": "D",
+              "text": "VerticalAlign.Bottom表示底部对齐 【答案】ABD"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-850ac93dff",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 174,
+          "type": "multiple",
+          "typeLabel": "多选",
+          "mode": "multiple",
+          "originalNumber": 118,
+          "prompt": "关于组件的导出和导入，下列描述正确的有（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "可以通过添加default关键字实现默认导出"
+            },
+            {
+              "key": "B",
+              "text": "导出组件时必须使用import关键字"
+            },
+            {
+              "key": "C",
+              "text": "可以在一个文件中同时导出多个组件"
+            },
+            {
+              "key": "D",
+              "text": "使用import关键字可以对组件进行导入 【答案】ACD"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
           "id": "q-0f3dfb5f09",
           "subject": "鸿蒙",
           "source": "复习测试卷.txt",
@@ -12032,6 +15539,431 @@ window.QUESTION_BANK = {
               "implements"
             ],
             "text": "implements"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-39e4486e01",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 77,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 21,
+          "prompt": "Image组件的objectFit属性的取值【________】表示在保持宽高比的情况下进行缩小或者放大，使得图像完全显示在显示边界内。\n【答案】ImageFit.Contain",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-7fa9dd0a52",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 78,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 22,
+          "prompt": "【________】组件是堆叠容器组件，其子组件按照顺序依次入栈，后一个子组件覆盖前一个子组件。\n【答案】Stack",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-1cbf37cbf6",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 79,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 23,
+          "prompt": "为了简化重复的UI结构编写，可以使用【________】装饰器来封装并复用该结构。\n【答案】@Builder\n【解析】@Builder可用于封装和复用UI布局代码。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-3b3b7c897d",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 80,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 24,
+          "prompt": "在Slider组件中，通过【________】属性可以设置滑动条的滑块与滑轨显示样式。\n【答案】style",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d926513a88",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 81,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 25,
+          "prompt": "要从字符串\"Hello World!\"中提取出\"World\"，可以使用slice(【________】, 11)。\n【答案】6\n【解析】从索引6开始到索引11（不包括11）提取得到\"World\"。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-c69d412197",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 82,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 26,
+          "prompt": "在ArkUI中，通过【________】方法可以为组件的不同内部状态设置样式。\n【答案】stateStyles()\n【解析】stateStyles()方法用于为组件的不同内部状态设置样式。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-289fec5f12",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 83,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 27,
+          "prompt": "调用一个数字类型变量num的toString()方法，可以将其转换为【________】类型。\n【答案】string",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-ad69bc5678",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 84,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 28,
+          "prompt": "在ArkUI中，循环渲染语句使用的函数是【________】。\n【答案】ForEach()",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-3ff5f5e367",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 85,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 29,
+          "prompt": "鸿蒙提供的【________】平台可以让开发者通过一套代码实现多个平台的应用开发\n【答案】统一开发",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-030d2d2685",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 86,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 30,
+          "prompt": "若要访问数组fruits中的第2个元素，应写作【________】。\n【答案】fruits[1]",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-1d692a0a1e",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 122,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 66,
+          "prompt": "若要设置一个圆形样式的按钮，应将type属性设置为【________】。\n【答案】ButtonType.Circle\n【解析】将type属性设置为ButtonType.Circle可以创建一个圆形样式的按钮。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-f99883b10d",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 123,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 67,
+          "prompt": "在定义函数时，如果没有返回值，可以用【________】来表示。\n【答案】void",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-ed12c06400",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 124,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 68,
+          "prompt": "若要实现复选框的双向数据绑定，应使用【________】属性进行设置。\n【答案】select\n【解析】对于复选框组件，应使用select属性进行双向数据绑定。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-3a14b7f72f",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 125,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 69,
+          "prompt": "在Grid组件中，只能放置【________】子组件。\n【答案】GridItem",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-7d8d17787e",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 126,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 70,
+          "prompt": "如果希望接口中的某些属性或方法不是强制性的，可以在它们后面加上【________】符号。\n【答案】？\n【解析】如果想不强制实现接口中的某些属性或方法，可以在其名称后加上?表示它是可选的。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-de739d7842",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 127,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 71,
+          "prompt": "在类的大括号内定义【________】方法，用于初始化类成员。\n【答案】constructor",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-1c6a406fdd",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 128,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 72,
+          "prompt": "ArkUI中设置边框圆角半径的属性是【________】。\n【答案】borderRadius\n【解析】borderRadius属性用于设置边框的圆角半径。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-a3a61844e3",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 160,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 104,
+          "prompt": "在Grid组件中，通过【________】属性可以设置列与列之间的间距。\n【答案】columnsGap\n【解析】columnsGap属性用于设置列与列之间的间距。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-50beec4e8b",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 161,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 105,
+          "prompt": "若要将Stack组件内的子组件设置为底部起始端对齐，应将alignContent属性设置为【________】。\n【答案】Alignment.BottomStart\n【解析】将alignContent属性设置为Alignment.BottomStart可以使子组件位于底部起始端对齐。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-70ba3b8dda",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 162,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 106,
+          "prompt": "Stage模型将一个基础的鸿蒙项目划分为多个模块，默认提供【________】模块。\n【答案】entry",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-a005b526a3",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 163,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 107,
+          "prompt": "若要根据条件score >= 60来决定值为“及格”或“不及格”，利用三元表达式可以写作【________】。\n【答案】score >= 60 ? '及格' : '不及格'\n【解析】使用三元运算符可以根据score的值决定输出的内容。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-ff23dbf719",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 164,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 108,
+          "prompt": "在Column组件中，主轴为【________】方向。\n【答案】垂直",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-a15c2e8c48",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 165,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 109,
+          "prompt": "在ArkUI中，通过【________】关键字声明的结构体被@Component装饰后代表一个自定义组件。\n【答案】struct\n【解析】使用struct关键字声明的结构体被装饰为自定义组件。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-719e1a7228",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 166,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 110,
+          "prompt": "在创建鸿蒙项目时，【________】用于设置最低兼容的API版本。\n【答案】Compatible SDK\n【解析】Compatible SDK用于设置最低兼容的API版本。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-60c35f2d55",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 167,
+          "type": "blank",
+          "typeLabel": "填空题",
+          "mode": "blank",
+          "originalNumber": 111,
+          "prompt": "DevEco Studio中的【________】表示预览器，用于预览当前打开的页面。\n【答案】Previewer\n【解析】Previewer表示预览器，用于预览当前打开的页面。",
+          "options": [],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -12292,6 +16224,656 @@ window.QUESTION_BANK = {
           "answer": {
             "judge": false,
             "text": "错"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-1be35380bf",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 97,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 41,
+          "prompt": "在ArkTS中，所有变量都需要明确指定其类型，不能省略类型。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】错 【解析】如果通过赋值操作能够推断出变量的类型，则不需要显式指定类型。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-62a4295155",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 98,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 42,
+          "prompt": "Grid组件内应只放置GridItem子组件。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-eccc846a58",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 99,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 43,
+          "prompt": "Text组件默认的文本对齐方式是居中对齐。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】错"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-3bfedddef7",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 100,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 44,
+          "prompt": "TextInput组件的onChange事件会在用户输入内容发生变化时触发。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-c730886311",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 101,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 45,
+          "prompt": "当通过类创建对象时，变量类型必须显式指定为类名。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】错 【解析】由于通过类创建对象时变量的类型可以被自动推断，因此可以省略类型声明。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-c562233e41",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 102,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 46,
+          "prompt": "Row组件创建的容器内的子组件会按照代码中的顺序依次在水平方向上排列。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-e4ea990d39",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 103,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 47,
+          "prompt": "在DevEco Studio中创建鸿蒙项目时，Empty Ability模板是为Phone、Tablet等设备设计的基础模板。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-ee471dd1aa",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 104,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 48,
+          "prompt": "注释在程序解析时会被忽略，不影响程序的实际运行。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对 【解析】注释仅用于代码说明。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-6a2be353c0",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 105,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 49,
+          "prompt": "泛型函数可以在调用时省略具体的类型参数，由ArkTS自动推断。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对 【解析】调用泛型函数时的类型参数可以省略，由ArkTS自动推断类型。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-e1ef3a0d79",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 106,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 50,
+          "prompt": "使用接口有助于确保系统设计的清晰性和一致性。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对 ═══ 鸿蒙ArkTS测试卷（Word直接全选粘贴） ═══"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-e1b9dbebcc",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 138,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 82,
+          "prompt": "在ArkTS中，当执行浮点数相加时，可能会遇到精度问题。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-edea99624d",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 139,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 83,
+          "prompt": "如果开发者没有提供keyGenerator函数，则ForEach()函数将不会为数组元素生成任何键。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】错 【解析】若开发者没有提供keyGenerator函数，ForEach()函数会使用默认的键生成策略。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-23976c2e73",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 140,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 84,
+          "prompt": "Slider组件的默认滑动方向是水平方向。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对 【解析】Slider组件的direction属性默认值为Axis.Horizontal，即默认滑动方向为水平方向。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-904a6992df",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 141,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 85,
+          "prompt": "HAR中的代码和资源在被多个使用方引用时，每个使用方的编译产物中只会存在一份副本。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】错 【解析】当一个HAR被多个使用方引用时，在它们各自的编译产物中都会存在一份副本。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d8c97d4c0e",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 142,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 86,
+          "prompt": "switch语句中的每个case后面不需要加break语句，因为程序会自动跳出当前case。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】错 【解析】如果不手动添加break，程序将继续执行后续的case代码，直到遇到break或switch结束。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-bd3e2f3d7e",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 143,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 87,
+          "prompt": "箭头函数没有自己的this绑定。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-45434dc551",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 144,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 88,
+          "prompt": "在ArkTS中，a = b = c = 5;这样的多重赋值语句是可用的。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对 【解析】在ArkTS中可以从右到左依次进行赋值操作。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-2e6ca46496",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 145,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 89,
+          "prompt": "为了使用尾随闭包，需要确保组件内有且仅有一个使用@BuilderParam装饰的属性。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-397a1d2782",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 146,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 90,
+          "prompt": "ArkTS中可以使用 any 类型来表示任意类型。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】错"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-b9ee2f2920",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 147,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 91,
+          "prompt": "类的字段不必须显式声明类型。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对 ═══ 鸿蒙ArkTS测试题（直接全选复制粘贴Word） ═══"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-6bdde0f795",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 175,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 119,
+          "prompt": "ArkTS不允许在一行中同时声明多个变量并赋值。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】错 【解析】多个变量声明可以在一行中完成，各变量之间用逗号分隔。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-8538a6120d",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 176,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 120,
+          "prompt": "在Flex布局中，通过value参数的alignItems属性可以设置子组件在交叉轴上的对齐方式。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-beaa9c5378",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 177,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 121,
+          "prompt": "使用import关键字导入组件时，不需要知道组件的具体路径。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】错"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-c1cc8e0541",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 178,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 122,
+          "prompt": "如果父类有一个方法而子类没有定义该方法，则调用该方法时会出错。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】错 【解析】如果子类没有重写父类的方法，那么将直接使用父类中定义的方法。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-3ab97e7020",
+          "subject": "鸿蒙",
+          "source": "鸿蒙ArkTS&ArkUI测试题（含答案）_去重版.docx",
+          "order": 179,
+          "type": "judge",
+          "typeLabel": "判断题",
+          "mode": "judge",
+          "originalNumber": 123,
+          "prompt": "使用闭包可以实现数据的封装，从而保护数据不被外部直接访问。（）",
+          "options": [
+            {
+              "key": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "text": "错 【答案】对 【解析】通过闭包可以隐藏函数内部的变量，使其不能从外部直接访问，从而实现了数据的封装。"
+            }
+          ],
+          "answer": {
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": ""
         },

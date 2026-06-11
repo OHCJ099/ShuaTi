@@ -11,6 +11,7 @@ const TYPE_LABELS = BANK.typeLabels || {
 };
 const STORAGE_KEY = "shuati:progress:v3";
 const CUSTOM_QUESTIONS_KEY = "shuati:customQuestions:v1";
+const WRONG_BOOK_KEY = "shuati:wrongbook:v1";
 const OPEN_TYPES = ["short", "comprehensive", "programming"];
 const OPTION_KEYS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
@@ -26,6 +27,7 @@ const state = {
   drafts: {},
   responses: {},
   indexOpen: false,
+  wrongBookMode: false,
 };
 
 const app = document.getElementById("app");
@@ -79,6 +81,8 @@ function restoreRoute(route) {
     renderPractice("none");
   } else if (route.view === "summary" && state.session.length) {
     renderSummary("none");
+  } else if (route.view === "wrongbook") {
+    renderWrongBook("none");
   } else {
     renderHome("none");
   }
@@ -101,6 +105,10 @@ function handleAppBack() {
     return true;
   }
   if (state.view === "add") {
+    renderHome("replace");
+    return true;
+  }
+  if (state.view === "wrongbook") {
     renderHome("replace");
     return true;
   }
@@ -168,6 +176,46 @@ function customStorageWrite(items) {
   } catch {
     alert("保存失败：当前设备存储不可用。");
   }
+}
+
+function wrongBookRead() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(WRONG_BOOK_KEY) || "{}");
+    return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function wrongBookWrite(data) {
+  try {
+    localStorage.setItem(WRONG_BOOK_KEY, JSON.stringify(data));
+  } catch {}
+}
+
+function addToWrongBook(question) {
+  const data = wrongBookRead();
+  const existing = data[question.id] || {};
+  data[question.id] = {
+    subjectId: state.subjectId,
+    wrongCount: (existing.wrongCount || 0) + 1,
+    lastWrongAt: new Date().toISOString(),
+  };
+  wrongBookWrite(data);
+}
+
+function removeFromWrongBook(questionId) {
+  const data = wrongBookRead();
+  delete data[questionId];
+  wrongBookWrite(data);
+}
+
+function clearWrongBook() {
+  wrongBookWrite({});
+}
+
+function getWrongBookCount() {
+  return Object.keys(wrongBookRead()).length;
 }
 
 function modeFromType(type) {
@@ -259,6 +307,7 @@ function progressStats(progress) {
 
 function persistCurrentProgress() {
   if (!state.subjectId) return;
+  if (state.wrongBookMode) return; // 错题练习不写入正常科目存档，避免覆盖原有进度
   const data = storageRead();
   const subjects = data.subjects || {};
   subjects[state.subjectId] = {
@@ -360,13 +409,17 @@ function renderHome(historyAction = "replace") {
   setView("home");
   syncRoute("home", historyAction);
   const saved = getAllProgress();
+  const wrongTotal = getWrongBookCount();
   app.innerHTML = `
     <section class="panel home-panel">
       <div class="section-head">
         <div>
           <h2>选择科目</h2>
         </div>
-        <button class="btn primary compact-btn" type="button" id="addQuestionEntry">快速加题</button>
+        <div class="home-actions">
+          <button class="btn ghost compact-btn${wrongTotal ? ' wrongbook-has-items' : ''}" type="button" id="wrongBookEntry">📕 错题${wrongTotal ? ` · ${wrongTotal}` : ''}</button>
+          <button class="btn primary compact-btn" type="button" id="addQuestionEntry">快速加题</button>
+        </div>
       </div>
       <div class="subject-grid">
         ${BANK.subjects
@@ -399,6 +452,7 @@ function renderHome(historyAction = "replace") {
   `;
   triggerPageEnter();
 
+  document.getElementById("wrongBookEntry").addEventListener("click", () => renderWrongBook("push"));
   document.getElementById("addQuestionEntry").addEventListener("click", () => renderAddQuestion("push"));
 
   app.querySelectorAll("[data-subject]").forEach((button) => {
@@ -780,7 +834,7 @@ function renderSetup(historyAction = "replace") {
               <input class="number-input" id="questionLimit" type="number" min="1" max="${selectedTotal || 1}" value="${state.questionLimit || selectedTotal || 1}" />
             </label>
             <div class="button-row start-row">
-              <button class="btn primary" type="button" id="startPractice" ${canStart ? "" : "disabled"}>开始练习</button>
+              <button class="btn primary" type="button" id="startPractice" ${canStart ? "" : "disabled"}>${hasSavedSession(savedProgress) ? '重新开始' : '开始练习'}</button>
             </div>
           </div>
         </aside>
@@ -831,7 +885,13 @@ function renderSetup(historyAction = "replace") {
     const value = Number.parseInt(event.target.value, 10);
     state.questionLimit = Number.isFinite(value) ? value : selectedTotal;
   });
-  document.getElementById("startPractice").addEventListener("click", startPractice);
+  document.getElementById("startPractice").addEventListener("click", () => {
+    if (hasSavedSession(savedProgress) && savedStats.done > 0) {
+      const pos = Math.min(savedStats.currentIndex + 1, savedStats.total);
+      if (!confirm(`将清空第 ${pos} / ${savedStats.total} 题的练习进度并重新开始，确定吗？`)) return;
+    }
+    startPractice();
+  });
 }
 
 function shuffle(items) {
@@ -882,6 +942,7 @@ function startPractice() {
   state.drafts = {};
   state.responses = {};
   state.indexOpen = false;
+  state.wrongBookMode = false;
   setView("practice");
   persistCurrentProgress();
   renderPractice("push");
@@ -997,7 +1058,7 @@ function renderPractice(historyAction = "replace") {
       </button>
       <div class="practice-heading">
         <div>
-          <strong>${escapeHtml(subject.name)}</strong>
+          <strong>${escapeHtml(subject.name)}${state.wrongBookMode ? ' <span class="wrongbook-mode-badge">错题</span>' : ''}</strong>
           <span class="muted">${state.currentIndex + 1} / ${state.session.length}</span>
         </div>
       </div>
@@ -1228,6 +1289,11 @@ function wirePracticeEvents() {
       const response = state.responses[question.id];
       if (!response) return;
       response.isCorrect = button.dataset.self === "correct";
+      if (response.isCorrect === false) {
+        addToWrongBook(question);
+      } else {
+        removeFromWrongBook(question.id);
+      }
       persistCurrentProgress();
       renderPractice();
     });
@@ -1286,6 +1352,11 @@ function submitCurrentQuestion() {
     isCorrect,
     revealed: true,
   };
+  if (isCorrect === false) {
+    addToWrongBook(question);
+  } else if (isCorrect === true) {
+    removeFromWrongBook(question.id);
+  }
   persistCurrentProgress();
   renderPractice();
 }
@@ -1334,18 +1405,165 @@ function renderSummary(historyAction = "replace") {
         <div class="stat-box"><div class="stat-value">${summary.neutral}</div><div class="muted">已查看</div></div>
       </div>
       <div class="button-row">
-        <button class="btn primary" type="button" id="summaryRestart">再练一轮</button>
-        <button class="btn" type="button" id="summaryReview">回看题目</button>
+        <button class="btn primary" type="button" id="summaryRestart">${state.wrongBookMode ? '再练错题' : '再练一轮'}</button>
+        <button class="btn" type="button" id="summaryReview">${state.wrongBookMode ? '返回错题本' : '回看题目'}</button>
       </div>
     </section>
   `;
   triggerPageEnter();
-  document.getElementById("summarySetup").addEventListener("click", () => renderSetup("replace"));
-  document.getElementById("summaryRestart").addEventListener("click", startPractice);
-  document.getElementById("summaryReview").addEventListener("click", () => {
-    state.currentIndex = 0;
-    renderPractice();
+  document.getElementById("summarySetup").addEventListener("click", () => {
+    if (state.wrongBookMode) renderWrongBook("replace");
+    else renderSetup("replace");
   });
+  document.getElementById("summaryRestart").addEventListener("click", () => {
+    if (state.wrongBookMode) startWrongBookPractice(state.subjectId);
+    else startPractice();
+  });
+  document.getElementById("summaryReview").addEventListener("click", () => {
+    if (state.wrongBookMode) {
+      renderWrongBook("replace");
+    } else {
+      state.currentIndex = 0;
+      renderPractice();
+    }
+  });
+}
+
+function renderWrongBook(historyAction = "replace") {
+  setView("wrongbook");
+  syncRoute("wrongbook", historyAction);
+
+  const entries = wrongBookRead();
+  const total = Object.keys(entries).length;
+
+  // Group entries by subject
+  const bySubject = {};
+  for (const [questionId, entry] of Object.entries(entries)) {
+    const sid = entry.subjectId;
+    if (!bySubject[sid]) bySubject[sid] = [];
+    bySubject[sid].push({ questionId, ...entry });
+  }
+
+  // Resolve full question objects and filter valid ones
+  const subjectGroups = [];
+  for (const subject of BANK.subjects) {
+    const group = bySubject[subject.id];
+    if (!group || !group.length) continue;
+    const questions = group
+      .map((e) => ({ ...e, question: getQuestionById(subject, e.questionId) }))
+      .filter((e) => e.question);
+    if (!questions.length) continue;
+    subjectGroups.push({ subject, questions });
+  }
+
+  app.innerHTML = `
+    <section class="panel wrongbook-panel">
+      <div class="section-head">
+        <div>
+          <h2>错题本</h2>
+          <p class="muted">${total ? `共 <strong>${total}</strong> 道待复习` : "暂无错题，继续加油！"}</p>
+        </div>
+        <div class="wrongbook-header-actions">
+          ${total ? `<button class="btn coral compact-btn" type="button" id="clearWrongBook">清空</button>` : ""}
+          <button class="btn ghost" type="button" id="backFromWrongBook">返回</button>
+        </div>
+      </div>
+      ${
+        !total
+          ? `<div class="wrongbook-empty">
+               <div class="wrongbook-empty-icon">🎉</div>
+               <p class="wrongbook-empty-title">没有错题，太棒了！</p>
+               <p class="muted">做题时答错的题目会自动收录到这里。</p>
+             </div>`
+          : `<div class="wrongbook-groups">
+               ${subjectGroups
+                 .map(
+                   ({ subject, questions }) => `
+                     <div class="wrongbook-group">
+                       <div class="wrongbook-group-header">
+                         <div class="wrongbook-group-info">
+                           <span class="wrongbook-subject-name">${escapeHtml(subject.name)}</span>
+                           <span class="wrongbook-count-badge">${questions.length} 道</span>
+                         </div>
+                         <button class="btn primary compact-btn" type="button" data-practice-wrong="${escapeHtml(subject.id)}">练习</button>
+                       </div>
+                       <div class="wrongbook-list">
+                         ${questions
+                           .slice()
+                           .sort((a, b) => String(b.lastWrongAt || "").localeCompare(String(a.lastWrongAt || "")))
+                           .map(
+                             ({ questionId, wrongCount, question }) => `
+                               <div class="wrongbook-item">
+                                 <div class="wrongbook-item-content">
+                                   <div class="wrongbook-item-meta">
+                                     <span class="pill">${escapeHtml(question.typeLabel)}</span>
+                                     ${wrongCount > 1 ? `<span class="wrongbook-wrong-count">错 ${wrongCount} 次</span>` : ""}
+                                   </div>
+                                   <div class="wrongbook-item-prompt">${escapeHtml((question.prompt || "").slice(0, 120))}</div>
+                                 </div>
+                                 <button class="btn ghost wrongbook-remove-btn" type="button" data-remove-wrong="${escapeHtml(questionId)}" title="已掌握，移出错题本">✕</button>
+                               </div>
+                             `,
+                           )
+                           .join("")}
+                       </div>
+                     </div>
+                   `,
+                 )
+                 .join("")}
+             </div>`
+      }
+    </section>
+  `;
+  triggerPageEnter();
+  wireWrongBookEvents();
+}
+
+function wireWrongBookEvents() {
+  document.getElementById("backFromWrongBook")?.addEventListener("click", () => renderHome("replace"));
+  document.getElementById("clearWrongBook")?.addEventListener("click", () => {
+    if (!confirm("确认清空全部错题本记录吗？")) return;
+    clearWrongBook();
+    renderWrongBook("replace");
+  });
+  app.querySelectorAll("[data-practice-wrong]").forEach((button) => {
+    button.addEventListener("click", () => startWrongBookPractice(button.dataset.practiceWrong));
+  });
+  app.querySelectorAll("[data-remove-wrong]").forEach((button) => {
+    button.addEventListener("click", () => {
+      removeFromWrongBook(button.dataset.removeWrong);
+      renderWrongBook("replace");
+    });
+  });
+}
+
+function startWrongBookPractice(subjectId) {
+  const subject = BANK.subjects.find((s) => s.id === subjectId);
+  if (!subject) return;
+
+  const entries = wrongBookRead();
+  const wrongIds = new Set(
+    Object.entries(entries)
+      .filter(([, e]) => e.subjectId === subjectId)
+      .map(([id]) => id),
+  );
+
+  const questions = subject.questions.filter((q) => wrongIds.has(q.id));
+  if (!questions.length) {
+    alert("该科目错题本暂无题目。");
+    return;
+  }
+
+  state.subjectId = subjectId;
+  state.selectedTypes = new Set(questions.map((q) => q.type));
+  state.session = shuffle(questions);
+  state.currentIndex = 0;
+  state.drafts = {};
+  state.responses = {};
+  state.indexOpen = false;
+  state.wrongBookMode = true;
+  persistCurrentProgress();
+  renderPractice("push");
 }
 
 function handleKeyboard(event) {

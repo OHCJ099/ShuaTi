@@ -1,4 +1,4 @@
-﻿node_modules/
+node_modules/
 dist/
 dist-desktop/
 .tmp/
@@ -19,3 +19,9 @@ android/local.properties
 Thumbs.db
 .vscode/
 .idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd

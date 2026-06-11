@@ -86,6 +86,8 @@ def clean_line(line: str) -> str:
 
 def type_from_heading(heading: str) -> tuple[str | None, str]:
     h = heading.strip()
+    if "DEFAULT_HEADER" in h:
+        return "single", "single"
     if "判断" in h:
         return "judge", "judge"
     if "填空" in h:
@@ -109,6 +111,8 @@ def is_section_heading(line: str) -> bool:
         return True
     if re.match(r"^(判断题|填空题|选择题|单选题|多选题|简答题|综合题|编程题|论述题)\s*[:：]$", stripped):
         return True
+    if re.match(r"^(单选题|单项选择题|多选题|多项选择题|填空题|判断题|简答题|综合题|编程题|选择题|论述题)\s*(（[^）]+）|\([^)]+\))?$", stripped):
+        return True
     return False
 
 
@@ -120,7 +124,7 @@ def split_sections(text: str) -> list[tuple[str, str]]:
     for line in text.splitlines():
         if is_section_heading(line):
             if current_lines:
-                heading = current_heading or "选择题"
+                heading = current_heading or "DEFAULT_HEADER_选择题"
                 sections.append((heading, current_lines))
             current_heading = line.strip()
             current_lines = []
@@ -128,7 +132,7 @@ def split_sections(text: str) -> list[tuple[str, str]]:
             current_lines.append(line)
 
     if current_lines:
-        heading = current_heading or "选择题"
+        heading = current_heading or "DEFAULT_HEADER_选择题"
         sections.append((heading, current_lines))
 
     return [(heading, "\n".join(lines).strip()) for heading, lines in sections if "\n".join(lines).strip()]
@@ -375,10 +379,19 @@ def question_from_block(
     prompt = "\n".join(line for line in prompt.splitlines() if line.strip() not in NOISE_LINES).strip()
     if not prompt or prompt.startswith("题型说明"):
         return None
+    if not re.search(r"[\u4e00-\u9fa5a-zA-Z0-9]", prompt):
+        return None
 
     if q_type == "single" and (group == "multiple" or (raw_answer and len(re.findall(r"[A-H]", raw_answer.upper())) > 1)):
         q_type = "multiple"
     mode = q_type
+
+    if q_type in {"single", "multiple"} and not options:
+        if "【" in prompt or "_" in prompt or "（" in prompt:
+            q_type = "blank"
+        else:
+            q_type = "short"
+        mode = q_type
 
     return {
         "id": source_id(subject, source, index),
@@ -411,6 +424,8 @@ def parse_generic_source(subject: str, source: Path, text: str) -> list[dict[str
 
         blocks = split_numbered_blocks(question_part)
         if not blocks:
+            if "DEFAULT_HEADER" in heading:
+                continue
             raw_lines = [line.strip() for line in question_part.splitlines() if line.strip()]
             raw_lines = [line for line in raw_lines if not line.startswith("题型说明")]
             blocks = [{"number": idx + 1, "header": "", "text": line} for idx, line in enumerate(raw_lines)]
@@ -538,6 +553,9 @@ def parse_algorithm_source(subject: str, source: Path, text: str) -> list[dict[s
 
 
 def parse_source(subject: str, source: Path) -> list[dict[str, Any]]:
+    if source.suffix.lower() == ".json":
+        with open(source, encoding="utf-8") as f:
+            return json.load(f)
     text = normalize_text(read_source(source))
     if "【算法补充题】" in text:
         return parse_algorithm_source(subject, source, text)
@@ -559,7 +577,7 @@ def main() -> None:
         subject_questions: list[dict[str, Any]] = []
         sources: list[str] = []
         for source in sorted(subject_dir.iterdir()):
-            if source.suffix.lower() not in {".txt", ".docx", ".pdf"}:
+            if source.suffix.lower() not in {".txt", ".docx", ".pdf", ".json"}:
                 continue
             parsed = parse_source(subject_name, source)
             base_order = len(subject_questions)
