@@ -5,6 +5,12 @@ $assetRoot = Join-Path $root "android\app\src\main\assets\shuati"
 $dataRoot = Join-Path $assetRoot "data"
 $appAssetsRoot = Join-Path $assetRoot "assets"
 
+New-Item -ItemType Directory -Force -Path $assetRoot | Out-Null
+
+# Keep Android assets exactly in sync with the web source. Without this, files
+# removed from the source assets folder can remain packaged into later APKs.
+Get-ChildItem -LiteralPath $assetRoot -Force | Remove-Item -Recurse -Force
+
 New-Item -ItemType Directory -Force -Path $assetRoot, $dataRoot, $appAssetsRoot | Out-Null
 
 Copy-Item -Force (Join-Path $root "index.html") (Join-Path $assetRoot "index.html")
