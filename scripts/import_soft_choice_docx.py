@@ -17,30 +17,29 @@ IMAGE_PREFIX = "assets/answers/soft-choice"
 # showing the same question twice. Question 41 is intentionally not skipped
 # because the old source lacks the required figure; the old figure-less item is
 # removed below instead.
-DUPLICATE_CHOICE_NUMBERS = {
-    2,
-    3,
-    4,
-    8,
-    9,
-    10,
-    11,
-    13,
-    18,
-    19,
-    24,
-    27,
-    29,
-    31,
-    36,
-    37,
-    39,
-    46,
-    56,
-}
+DUPLICATE_CHOICE_NUMBERS = set()
 
 LEGACY_DUPLICATE_IDS_TO_REMOVE = {
-    "q-75f318df3f",  # old sequence-diagram return-message item without its figure
+    "q-0190d55105",
+    "q-4446fad68b",
+    "q-8dfb9ff42f",
+    "q-8238e5939f",
+    "q-63cf607640",
+    "q-a0e9584db7",
+    "q-eba867fe78",
+    "q-75f318df3f",
+    "q-74035686ad",
+    "q-893e03a6ca",
+    "q-43a3899128",
+    "q-ade7415197",
+    "q-48740d2598",
+    "q-25c0a48bc1",
+    "q-34d2038291",
+    "q-b123474ecf",
+    "q-e29869f6cd",
+    "q-eb7bbe93ec",
+    "q-ad0fa54866",
+    "q-516a9b6e07",
 }
 
 NS = {

@@ -100,6 +100,9 @@ const extraSoftQuestions = [
 ];
 
 for (const question of soft.questions) {
+  if (question.source !== "2025-2026第二学期软件工程测试.txt") {
+    continue;
+  }
   const number = Number(question.originalNumber);
   if (blankAnswers[number]) {
     question.answer = {

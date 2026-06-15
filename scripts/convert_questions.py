@@ -579,6 +579,8 @@ def main() -> None:
         for source in sorted(subject_dir.iterdir()):
             if source.suffix.lower() not in {".txt", ".docx", ".pdf", ".json"}:
                 continue
+            if subject_name == "软工" and source.name == "选择题.docx":
+                continue
             parsed = parse_source(subject_name, source)
             base_order = len(subject_questions)
             for offset, item in enumerate(parsed, start=1):
