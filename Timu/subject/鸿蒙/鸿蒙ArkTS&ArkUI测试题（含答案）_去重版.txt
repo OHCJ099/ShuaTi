@@ -1,0 +1,701 @@
+鸿蒙ArkTS & ArkUI测试题（含答案）
+共 3 套试卷，150 题
+═══ 鸿蒙ArkTS&ArkUI测试题（Word可直接全选粘贴） ═══
+单选题（每题1分，共20分）
+──────────────────────────────────────────────────
+1. 下列属性中，用于设置Scroll组件是否启用水平滚动的是（）
+A.bounce
+B.horizontal
+C.scrollable
+D.vertical
+正确答案：B
+答案解析：horizontal属性用于设置是否启用水平滚动。
+2. 加载1000条数据时，下列哪种做法可能引发性能问题？（）
+A.在ListItem内部嵌套3层Column/Row
+B.启用懒加载（lazyForEach）
+C.使用ForEach绑定数据源
+D.设置cachedCount=5
+正确答案：A
+3. 下列选项中，在构建UI时通常依赖的数据被称为（）
+A.状态
+B.组件
+C.生命周期
+D.事件处理程序
+正确答案：A
+4. 下面代码执行后，可能正确的顺序是（）
+console.log('1');
+async function main() {
+console.log('2');
+await task();
+console.log('4');
+}
+async function task() {
+console.log('3');
+}
+main();
+new Promise<void>((resolve: Function) => {
+console.log('5');
+resolve();
+}).then(() => console.log('6'));
+console.log('7');
+A.1  2  3  5  7  4  6
+B.1  5  2  3  7  6  4
+C.1  2  3  5  4  6  7
+D.1  2  3  4  5  6  7
+正确答案：A
+5. 应该在哪个生命周期函数中释放组件占用的资源？（）
+A.onDestroy
+B.aboutToRecycle
+C.onPageHide
+D.aboutToDisappear
+正确答案：D
+6. 如果一个应用需要访问网络，需要申请的权限是（）
+A.ohos.permission.LOCATION
+B.ohos.permission.READ_CONTACTS
+C.ohos.permission.INTERNET
+D.ohos.permission.CAMERA
+正确答案：C
+7. 在ArkUI中，Grid组件主要用于的布局方式是（）
+A.网格布局
+B.固定布局
+C.弹性布局
+D.表格布局
+正确答案：A
+答案解析：Grid组件是网格容器组件，用于创建网格布局。
+8. 在面向对象编程中，以下哪项说法不正确？（）
+A.接口定义了一组方法签名作为行为契约，但本身不能被直接实例化为对象
+B.一个类可以实现多个接口，但该类的对象必须同时满足所有接口的规范要求
+C.接口可以通过继承机制扩展其他接口，形成新的行为契约，且子接口可被直接实例化
+D.对象是类的具体实例，包含实际的状态（属性）和行为实现（方法），可直接用于业务逻辑执行
+正确答案：C
+9. 在ArkUI中，用于决定是否渲染某个组件的条件渲染语句不包括的是（）
+A.if...else语句
+B.if...else if...else语句
+C.while语句
+D.if语句
+正确答案：C
+10. 关于Flex组件属性配置说法错误的是（）
+A.justifyContent属性用于设置Flex容器中子组件在主轴方向上的对齐方式
+B.wrap属性用于设置Flex容器中子组件的换行方式
+C.alignItems属性用于设置Flex容器中子组件在交叉轴方向上的对齐方式
+D.direction属性用于设置Flex容器中子组件的排列方式，即交叉轴的方向
+正确答案：D
+11. 下列代码执行后，最终在控制台打印的结果为（）。
+function test(): string {
+try {
+console.log("A");
+throw new Error("Intentional error");
+return "Try return";
+} catch (e) {
+console.log("B");
+return "Catch return";
+} finally {
+console.log("C");
+return "Finally return";
+}
+}
+console.log(test());
+A.A B C Try return
+B.A B C Finally return
+C.A B C Catch return
+D.A C Finally return
+正确答案：B
+12. UIAbility从前台转到后台时触发的方法是（）
+A.onBackground()
+B.onWindowStageDestroy()
+C.onDestroy()
+D.onForeground()
+正确答案：A
+13. 在ArkUI中设置组件宽度时，默认使用的单位是（）
+A.dp
+B.vp
+C.mm
+D.px
+正确答案：B
+14. 以下哪种组件嵌套关系是正确的？（）
+A.ImageSpan ＞ Text ＞ Span
+B.Text ＞ Span ＞ ImageSpan
+C.ContainerSpan ＞ Span ＞ Text
+D.Span ＞ Text＞ ContainerSpan
+正确答案：B
+15. 下列选项中，不属于鸿蒙模拟器对计算机的基本要求的是（）
+A.支持OpenGL 4.1及以上版本
+B.至少16GB内存
+C.安装了Android Studio
+D.屏幕分辨率不低于1280x800像素
+正确答案：C
+答案解析：安装鸿蒙模拟器不需要Android Studio，但需要满足内存、图形处理能力和屏幕分辨率的要求。
+16. 在路由中，用于实现页面跳转并保留当前页的状态的方法是（）
+A.clear()
+B.back()
+C.replaceUrl()
+D.pushUrl()
+正确答案：D
+17. 在ArkUI中，List组件的主要作用是（）
+A.创建列表视图
+B.显示图片
+C.输入文本内容
+D.调节设置值
+正确答案：A
+答案解析：List组件用于创建可以展示多个项目的列表视图。
+18. 下列选项中，正确的箭头函数写法是（）
+B.let add = function(a:number, b:number) { return a + b; }
+C.let add = (a:number, b:number) => return a + b;
+D.let add = (a:number, b:number) => { return a + b; };
+A.let add = function(a:number, b:number) => a + b;
+正确答案：D
+19. 在NavPathStack对象中，用于将指定子页压入栈中的方法是（）
+A.popToName()
+B.pop()
+C.replacePath()
+D.pushPath()
+正确答案：D
+20. 下列选项中，鸿蒙项目中默认提供的主模块目录是（）
+A.entry
+B.oh_modules
+C.AppScope
+D.hvigor
+正确答案：A
+答案解析：entry目录用于存放应用模块文件，包括入口文件、代码和资源等，是默认的主模块目录。
+填空题（每题1分，共10分）
+──────────────────────────────────────────────────
+21. Image组件的objectFit属性的取值【________】表示在保持宽高比的情况下进行缩小或者放大，使得图像完全显示在显示边界内。
+正确答案：ImageFit.Contain
+22. 【________】组件是堆叠容器组件，其子组件按照顺序依次入栈，后一个子组件覆盖前一个子组件。
+正确答案：Stack
+23. 为了简化重复的UI结构编写，可以使用【________】装饰器来封装并复用该结构。
+正确答案：@Builder
+答案解析：@Builder可用于封装和复用UI布局代码。
+24. 在Slider组件中，通过【________】属性可以设置滑动条的滑块与滑轨显示样式。
+正确答案：style
+25. 要从字符串"Hello World!"中提取出"World"，可以使用slice(【________】, 11)。
+正确答案：6
+答案解析：从索引6开始到索引11（不包括11）提取得到"World"。
+26. 在ArkUI中，通过【________】方法可以为组件的不同内部状态设置样式。
+正确答案：stateStyles()
+答案解析：stateStyles()方法用于为组件的不同内部状态设置样式。
+27. 调用一个数字类型变量num的toString()方法，可以将其转换为【________】类型。
+正确答案：string
+28. 在ArkUI中，循环渲染语句使用的函数是【________】。
+正确答案：ForEach()
+29. 鸿蒙提供的【________】平台可以让开发者通过一套代码实现多个平台的应用开发
+正确答案：统一开发
+30. 若要访问数组fruits中的第2个元素，应写作【________】。
+正确答案：fruits[1]
+多选题（每题2分，共20分）
+──────────────────────────────────────────────────
+31. 下列选项中，Button组件支持的类型有（）
+A.ButtonType.Capsule
+B.ButtonType.Normal
+C.ButtonType.Square
+D.ButtonType.Circle
+正确答案：ABD
+32. 关于变量的作用域，下列说法正确的有（）
+A.变量的作用域决定了变量的可见性和生命周期
+B.块级作用域在大括号{}范围内
+C.函数内部无法访问到外部的变量
+D.在同一作用域内不能声明两个同名的变量
+正确答案：ABD
+答案解析：在函数内部可以访问外部的变量。
+33. 关于JavaScript、TypeScript和ArkTS的关系，下列说法正确的有（）
+A.ArkTS扩展了TypeScript的功能
+B.这3种语言都属于强类型语言
+C.JavaScript是ECMAScript标准的一种实现
+D.TypeScript是JavaScript的一个严格子集
+正确答案：AC
+答案解析：JavaScript实现了ECMAScript标准；ArkTS在TypeScript基础上进行了扩展，增强了执行稳定性和性能。
+34. 关于ArkUI中Input组件的描述，正确的有哪些？
+A.placeholder属性用于显示输入提示文本
+B.type属性可以设置输入框类型（如text、password）
+C.value属性可以双向绑定输入框内容
+D.onChange事件可以监听输入内容的变化
+正确答案：ABCD
+答案解析：Input组件的type、placeholder、onChange事件、双向绑定均正确，ABCD均符合特性。
+35. 以下关于ArkTS运算符和流程控制的说法，正确的有哪些？
+A.for循环的初始化表达式可以声明多个变量
+B.switch语句的case分支必须包含break
+C.三元运算符的结果类型由第二个操作数决定
+D.&&运算符具有短路求值特性
+正确答案：AD
+答案解析：switch的case分支可以没有break（会穿透），三元运算符结果类型由两个操作数共同决定。
+36. 关于ArkUI条件渲染和循环渲染的描述，正确的有哪些？
+A.条件渲染的条件变量必须是@State装饰的状态变量
+B.LazyForEach比ForEach更适合大数据量渲染
+C.ForEach的itemGenerator参数用于生成列表数据
+D.if/else可以根据条件渲染不同组件
+正确答案：BCD
+答案解析：条件渲染的条件变量可以是任意响应式变量（如@State、@Prop等），并非必须是@State。
+37. 关于ArkTS函数和泛型的描述，正确的有哪些？
+A.箭头函数的this指向定义时的上下文
+B.函数参数可以指定默认值
+C.泛型类可以约束类型参数的范围
+D.泛型方法的类型参数必须显式指定
+正确答案：ABC
+答案解析：泛型方法的类型参数可以通过类型推断省略。
+38. 下列选项中，属于鸿蒙提供的开发技术的有（）
+A.Android SDK
+B.ArkTS
+C.ArkCompiler
+D.DevEco Studio
+正确答案：BCD
+39. 下列选项中，需要用到super关键字的有（）
+A.创建父类的对象
+B.调用父类的普通方法
+C.访问父类的属性
+D.调用父类的构造方法
+正确答案：BD
+答案解析：super关键字用于调用父类的构造方法和非构造方法，但不直接用于访问父类的属性或创建父类对象。
+40. 关于ArkUI中Text组件的说法，正确的有哪些？
+A.textAlign属性用于设置文本的对齐方式
+B.maxLines属性可以限制文本的最大行数
+C.可以通过fontSize属性设置字体大小
+D.Text组件默认支持长按复制文本
+正确答案：ABC
+答案解析：Text组件默认不支持长按复制（需额外配置）。
+判断题（每题1分，共10分）
+──────────────────────────────────────────────────
+41. 在ArkTS中，所有变量都需要明确指定其类型，不能省略类型。（）
+A.对
+B.错
+正确答案：错
+答案解析：如果通过赋值操作能够推断出变量的类型，则不需要显式指定类型。
+42. Grid组件内应只放置GridItem子组件。（）
+A.对
+B.错
+正确答案：对
+43. Text组件默认的文本对齐方式是居中对齐。（）
+A.对
+B.错
+正确答案：错
+44. TextInput组件的onChange事件会在用户输入内容发生变化时触发。（）
+A.对
+B.错
+正确答案：对
+45. 当通过类创建对象时，变量类型必须显式指定为类名。（）
+A.对
+B.错
+正确答案：错
+答案解析：由于通过类创建对象时变量的类型可以被自动推断，因此可以省略类型声明。
+46. Row组件创建的容器内的子组件会按照代码中的顺序依次在水平方向上排列。（）
+A.对
+B.错
+正确答案：对
+47. 在DevEco Studio中创建鸿蒙项目时，Empty Ability模板是为Phone、Tablet等设备设计的基础模板。（）
+A.对
+B.错
+正确答案：对
+48. 注释在程序解析时会被忽略，不影响程序的实际运行。（）
+A.对
+B.错
+正确答案：对
+答案解析：注释仅用于代码说明。
+49. 泛型函数可以在调用时省略具体的类型参数，由ArkTS自动推断。（）
+A.对
+B.错
+正确答案：对
+答案解析：调用泛型函数时的类型参数可以省略，由ArkTS自动推断类型。
+50. 使用接口有助于确保系统设计的清晰性和一致性。（）
+A.对
+B.错
+正确答案：对
+═══ 鸿蒙ArkTS测试卷（Word直接全选粘贴） ═══
+单选题（共20题，每题1分，共20分）
+──────────────────────────────────────────────────
+51. 在Column组件的value参数的属性中，用于设置垂直方向上子组件之间间距的是（）
+A.space
+B.margin
+C.padding
+D.gap
+正确答案：A
+答案解析：space属性用于设置垂直方向上子组件之间的间距。
+52. 在ArkTS中，定义泛型函数时，在函数名右侧指定泛型的符号是（）
+A.<>
+B.()
+C.{}
+D.[]
+正确答案：A
+答案解析：定义泛型函数时，在函数名右侧添加<>符号来指定泛型。
+53. 下列关于@Link装饰器的描述中，正确的有（）
+A.支持父子组件状态双向同步
+B.只能在入口组件中使用
+C.不支持设置初始值
+D.用于装饰子组件中的状态变量
+正确答案：A
+54. 在ArkUI中，Scroll组件的主要作用是（）
+A.显示图片
+B.创建滚动视图
+C.调节设置值
+D.输入文本内容
+正确答案：B
+55. 在ArkUI中，Stack组件主要用于的布局方式是（）
+A.网格布局
+B.堆叠布局
+C.弹性布局
+D.固定布局
+正确答案：B
+答案解析：Stack组件是堆叠容器组件，其子组件按照顺序依次入栈。
+56. 在ArkUI中，用来定义一个方法使得该方法能够被组件调用以复用通用属性和事件的装饰器是（）
+A.@Styles
+B.@BuilderParam
+C.@Builder
+D.@Extend
+正确答案：A
+57. 下列属性中，用于设置Flex容器内子组件在主轴上的对齐方式的是（）
+A.alignItems
+B.alignContent
+C.justifyContent
+D.flexWrap
+正确答案：C
+58. 下列选项中，属于华为应用市场推出的应用一站式服务平台的是（）
+A.AppGallery Connect(AGC)
+B.DevEco Studio
+C.ArkTS
+D.ArkCompiler
+正确答案：A
+答案解析：AppGallery Connect（AGC）是华为应用市场推出的应用一站式服务平台。
+59. 鸿蒙ArkTS中，以下关于异常处理的描述错误的是？
+A.Exception是所有异常的父类
+B.可以使用try-catch-finally语句捕获异常
+C.finally块中的代码无论是否发生异常都会执行
+D.throw语句可以抛出任意类型的对象
+正确答案：D
+答案解析：ArkTS中throw语句只能抛出Exception及其子类的实例，不能抛出任意类型对象。
+60. 在ArkUI中，用于实现导航页的组件是（）
+A.NavPathStack
+B.Router
+C.Navigation
+D.NavDestination
+正确答案：C
+61. 在路由表文件router_map.json中，用于指定子页名称的字段是（）
+A.routerMap
+B.buildFunction
+C.name
+D.pageSourceFile
+正确答案：C
+62. 下列选项中，正确的导入组件的方式是（）
+A.import MyComponent
+B.import MyComponent='./MyComponent'
+C.import './MyComponent' as MyComponent
+D.import MyComponent from './MyComponent'
+正确答案：D
+63. 在Navigation组件中，用于设置页面标题的属性是（）
+A.mode
+B.title
+C.menus
+D.titleMode
+正确答案：B
+64. 下列选项中，鸿蒙系统采用的设计架构的是（）
+A.分布式架构
+B.集中式架构
+C.模块化架构
+D.层次架构
+正确答案：A
+答案解析：鸿蒙采用了分布式架构设计，以实现设备间的高效连接和通信。
+65. 下列选项中，用于保存状态数据，并且状态数据变化会触发UI重新渲染的装饰器是（）
+A.@State
+B.@Entry
+C.@Preview
+D.@Component
+正确答案：A
+填空题（共10题，每题1分，共10分）
+──────────────────────────────────────────────────
+66. 若要设置一个圆形样式的按钮，应将type属性设置为【________】。
+正确答案：ButtonType.Circle
+答案解析：将type属性设置为ButtonType.Circle可以创建一个圆形样式的按钮。
+67. 在定义函数时，如果没有返回值，可以用【________】来表示。
+正确答案：void
+68. 若要实现复选框的双向数据绑定，应使用【________】属性进行设置。
+正确答案：select
+答案解析：对于复选框组件，应使用select属性进行双向数据绑定。
+69. 在Grid组件中，只能放置【________】子组件。
+正确答案：GridItem
+70. 如果希望接口中的某些属性或方法不是强制性的，可以在它们后面加上【________】符号。
+正确答案：？
+答案解析：如果想不强制实现接口中的某些属性或方法，可以在其名称后加上?表示它是可选的。
+71. 在类的大括号内定义【________】方法，用于初始化类成员。
+正确答案：constructor
+72. ArkUI中设置边框圆角半径的属性是【________】。
+正确答案：borderRadius
+答案解析：borderRadius属性用于设置边框的圆角半径。
+多选题（共10题，每题2分，共20分）
+──────────────────────────────────────────────────
+73. 关于ArkUI中Button组件的说法，正确的有哪些？
+A.onClick事件用于绑定点击回调函数
+B.Button组件可以嵌套其他组件（如Image）
+C.disabled属性可以设置按钮是否禁用
+D.type属性可以设置按钮样式（如capsule、circle）
+正确答案：ABCD
+答案解析：Button组件的type样式、onClick事件、嵌套能力、disabled状态均正确。
+74. 下列选项中，关于导入和导出的描述正确的有（）
+A.在一个文件中，导入的代码必须写在其他代码的前面
+B.导入使用的关键字是import
+C.如果想要更改导入的名称，可以在名称后面加上“as新名称”
+D.默认导出和命名导出的导入方式相同
+正确答案：ABC
+答案解析：默认导出和命名导出导入格式不一致。
+75. 关于鸿蒙应用路由管理的说法，正确的有哪些？
+A.router.clear可以清空路由栈
+B.可以通过router.pushUrl实现页面跳转
+C.路由参数可以通过params传递
+D.router.back可以返回上一页
+正确答案：ABCD
+76. 关于继承关系，下列说法是正确的有（）
+A.继承层次不宜过深
+B.继承只能单继承，不能多继承
+C.使用继承可以减少重复代码
+D.继承有助于代码复用
+正确答案：ACD
+答案解析：继承确实有助于代码复用，并且建议继承层次不要过深以保持代码清晰，同时它可以减少重复代码。
+77. 下列选项中，属于ArkUI中的通用属性和事件的有（）
+A.width
+B.border
+C.backgroundColor
+D.onClick
+正确答案：ABCD
+78. 下列关于循环渲染语句的描述中，正确的有（）
+A.可以减少重复代码的编写
+B.用于控制组件的显示和隐藏
+C.能够根据数组元素动态创建组件
+D.无法自定义键生成规则
+正确答案：AC
+答案解析：循环渲染不仅减少了重复代码，还允许根据数组内容动态创建组件，并且可以通过keyGenerator自定义键生成规则。
+79. 下列选项中，TypeScript相对于JavaScript的优势有（）
+A.不支持接口和泛型
+B.支持静态类型检查
+C.只能在浏览器环境中运行
+D.提供更严格的语法规则
+正确答案：BD
+答案解析：TypeScript支持静态类型检查和更严格的语法规则，并且它不仅仅限于浏览器环境。
+80. 关于装饰器的使用，下列说法正确的有（）
+A.@Preview仅用于预览非入口组件
+B.@Entry和@Component可以同时使用
+C.装饰器可以写在同一行或单独一行
+D.@State装饰器不需要设置初始值
+正确答案：ABC
+81. 下列关于条件渲染语句的描述中，正确的有（）
+A.不能嵌套使用
+B.可以用来控制组件是否渲染
+C.仅支持Image组件
+D.可以根据用户交互更新渲染
+正确答案：BD
+判断题（共10题，每题1分，共10分）
+──────────────────────────────────────────────────
+82. 在ArkTS中，当执行浮点数相加时，可能会遇到精度问题。（）
+A.对
+B.错
+正确答案：对
+83. 如果开发者没有提供keyGenerator函数，则ForEach()函数将不会为数组元素生成任何键。（）
+A.对
+B.错
+正确答案：错
+答案解析：若开发者没有提供keyGenerator函数，ForEach()函数会使用默认的键生成策略。
+84. Slider组件的默认滑动方向是水平方向。（）
+A.对
+B.错
+正确答案：对
+答案解析：Slider组件的direction属性默认值为Axis.Horizontal，即默认滑动方向为水平方向。
+85. HAR中的代码和资源在被多个使用方引用时，每个使用方的编译产物中只会存在一份副本。（）
+A.对
+B.错
+正确答案：错
+答案解析：当一个HAR被多个使用方引用时，在它们各自的编译产物中都会存在一份副本。
+86. switch语句中的每个case后面不需要加break语句，因为程序会自动跳出当前case。（）
+A.对
+B.错
+正确答案：错
+答案解析：如果不手动添加break，程序将继续执行后续的case代码，直到遇到break或switch结束。
+87. 箭头函数没有自己的this绑定。（）
+A.对
+B.错
+正确答案：对
+88. 在ArkTS中，a = b = c = 5;这样的多重赋值语句是可用的。（）
+A.对
+B.错
+正确答案：对
+答案解析：在ArkTS中可以从右到左依次进行赋值操作。
+89. 为了使用尾随闭包，需要确保组件内有且仅有一个使用@BuilderParam装饰的属性。（）
+A.对
+B.错
+正确答案：对
+90. ArkTS中可以使用 any 类型来表示任意类型。（）
+A.对
+B.错
+正确答案：错
+91. 类的字段不必须显式声明类型。（）
+A.对
+B.错
+正确答案：对
+═══ 鸿蒙ArkTS测试题（直接全选复制粘贴Word） ═══
+单选题（共20题，每题1分，共20分）
+──────────────────────────────────────────────────
+92. 在子类构造方法中，如果需要调用父类构造方法并传入参数，应该使用的是（）
+A.father()
+B.super()
+C.base()
+D.parent()
+正确答案：B
+答案解析：调用父类构造方法的语法格式为super()。
+93. 当把一个字面量对象赋值给变量时，指定变量类型的方式为（）
+A.枚举
+B.接口
+C.数组
+D.函数
+正确答案：B
+答案解析：当把一个字面量对象赋值给变量时，可以通过接口定义变量的类型。
+94. 下列选项中，对枚举的使用正确的是（）
+A.enum Color: {Red, Green, Blue}
+B.enum Color (Red, Green, Blue)
+C.enum Color {Red, Green, Blue}
+D.enum Color = {Red, Green, Blue}
+正确答案：C
+答案解析：正确的语法是使用enum关键字后跟枚举名和枚举常量列表。
+95. 下列选项中，可以让子组件的状态与父组件的状态建立单向同步关系的装饰器是（）
+A.@Link
+B.@State
+C.@Provide
+D.@Prop
+正确答案：D
+96. Image支持渐进式图片加载的属性是（）
+A.progressive
+B.interlaced
+C.gradual
+D.ArkUI5.0不支持
+正确答案：D
+97. 当使用router.back()方法时，若要返回到指定页面而不是前一页，应使用的属性是（）
+A.url
+B.callback
+C.params
+D.mode
+正确答案：A
+98. 下列关于@Builder装饰器的说法中，正确的是（）
+A.必须定义在struct外
+B.只能用于定义样式
+C.可以被多个组件调用
+D.不能传递参数
+正确答案：C
+99. 当UIAbility被创建时调用，可以进行页面初始化操作的方法是（）
+A.onForeground()
+B.onCreate()
+C.onWindowStageCreate()
+D.onDestroy()
+正确答案：B
+100. 在ArkUI中，循环渲染语句主要使用的函数是（）
+A.Map()
+B.If()
+C.ForEach()
+D.List()
+正确答案：C
+101. 创建鸿蒙项目时，Bundle name通常使用的形式为（）
+A.随机字符组合
+B.数字序列
+C.简单英文单词
+D.反写域名的形式
+正确答案：D
+答案解析：Bundle name一般采用反写域名的形式设置，例如com.example.myapp。
+102. 以下关于鸿蒙状态管理的描述，正确的是？
+A.@Link装饰的变量需要父组件传递不可变数据
+B.@Provide/@Consume是用于父子组件间的双向同步
+C.@State装饰的变量只能在当前组件内部修改
+D.@Prop装饰的变量是单向同步的父组件状态
+正确答案：D
+答案解析：@Prop是单向同步父组件的状态，子组件修改不会影响父组件；@State可以在组件内部修改且影响UI；@Link是双向同步；@Provide/@Consume是跨层级的状态传递。
+103. 在ArkUI中，用于将一个自定义组件标记为页面入口组件的装饰器是（）
+A.@Entry
+B.@State
+C.@Component
+D.@Preview
+正确答案：A
+答案解析：@Entry装饰器用于将自定义组件标记为页面的入口组件。
+104. 在Grid组件中，通过【________】属性可以设置列与列之间的间距。
+正确答案：columnsGap
+答案解析：columnsGap属性用于设置列与列之间的间距。
+105. 若要将Stack组件内的子组件设置为底部起始端对齐，应将alignContent属性设置为【________】。
+正确答案：Alignment.BottomStart
+答案解析：将alignContent属性设置为Alignment.BottomStart可以使子组件位于底部起始端对齐。
+106. Stage模型将一个基础的鸿蒙项目划分为多个模块，默认提供【________】模块。
+正确答案：entry
+107. 若要根据条件score >= 60来决定值为“及格”或“不及格”，利用三元表达式可以写作【________】。
+正确答案：score >= 60 ? '及格' : '不及格'
+答案解析：使用三元运算符可以根据score的值决定输出的内容。
+108. 在Column组件中，主轴为【________】方向。
+正确答案：垂直
+109. 在ArkUI中，通过【________】关键字声明的结构体被@Component装饰后代表一个自定义组件。
+正确答案：struct
+答案解析：使用struct关键字声明的结构体被装饰为自定义组件。
+110. 在创建鸿蒙项目时，【________】用于设置最低兼容的API版本。
+正确答案：Compatible SDK
+答案解析：Compatible SDK用于设置最低兼容的API版本。
+111. DevEco Studio中的【________】表示预览器，用于预览当前打开的页面。
+正确答案：Previewer
+答案解析：Previewer表示预览器，用于预览当前打开的页面。
+多选题（共10题，每题2分，共20分）
+──────────────────────────────────────────────────
+112. 下列选项中，Row组件的常用属性有（）
+A.rowsTemplate
+B.columnsTemplate
+C.alignItems
+D.justifyContent
+正确答案：CD
+113. 以下关于Column容器内子组件在水平方向上的对齐方式的描述中，正确的有（）
+A.HorizontalAlign.End表示右对齐
+B.HorizontalAlign.Stretch表示拉伸对齐
+C.HorizontalAlign.Start表示左对齐
+D.HorizontalAlign.Center表示居中对齐
+正确答案：ACD
+114. 下列关于@Builder装饰器的描述中，正确的有（）
+A.不能传递参数
+B.可作为方法被多次调用
+C.能提高代码复用性
+D.能封装复杂布局
+正确答案：BCD
+115. 关于ArkUI垂直布局（Column）的描述，正确的有哪些？
+A.Column的宽度默认与父组件一致
+B.可以通过space属性设置子组件间距
+C.justifyContent属性用于设置交叉轴对齐方式
+D.子组件默认沿垂直方向排列
+正确答案：ABD
+答案解析：justifyContent设置主轴（垂直）对齐方式，alignItems设置交叉轴（水平）对齐，故C错误。
+116. 关于自增和自减运算符（++和--），下列描述正确的有（）
+A.后置自增（如 a++）会先使用a的当前值进行后续计算，然后才将a加1
+B.前置自增（如++a）会先将a加1再使用a的新值进行后续计算
+C.前置自减（如--a）与后置自减（如 a--）效果相同
+D.自增和自减运算符每次只能加1和减1
+正确答案：ABD
+答案解析：前置运算符先修改变量值再使用，而后置运算符先使用变量原值再修改。
+117. 以下关于Row容器内子组件在垂直方向上的对齐方式的描述中，正确的有（）
+A.VerticalAlign.Center表示居中对齐
+B.VerticalAlign.Top表示顶部对齐
+C.VerticalAlign.Stretch表示拉伸对齐
+D.VerticalAlign.Bottom表示底部对齐
+正确答案：ABD
+118. 关于组件的导出和导入，下列描述正确的有（）
+A.可以通过添加default关键字实现默认导出
+B.导出组件时必须使用import关键字
+C.可以在一个文件中同时导出多个组件
+D.使用import关键字可以对组件进行导入
+正确答案：ACD
+判断题（共10题，每题1分，共10分）
+──────────────────────────────────────────────────
+119. ArkTS不允许在一行中同时声明多个变量并赋值。（）
+A.对
+B.错
+正确答案：错
+答案解析：多个变量声明可以在一行中完成，各变量之间用逗号分隔。
+120. 在Flex布局中，通过value参数的alignItems属性可以设置子组件在交叉轴上的对齐方式。（）
+A.对
+B.错
+正确答案：对
+121. 使用import关键字导入组件时，不需要知道组件的具体路径。（）
+A.对
+B.错
+正确答案：错
+122. 如果父类有一个方法而子类没有定义该方法，则调用该方法时会出错。（）
+A.对
+B.错
+正确答案：错
+答案解析：如果子类没有重写父类的方法，那么将直接使用父类中定义的方法。
+123. 使用闭包可以实现数据的封装，从而保护数据不被外部直接访问。（）
+A.对
+B.错
+正确答案：对
+答案解析：通过闭包可以隐藏函数内部的变量，使其不能从外部直接访问，从而实现了数据的封装。

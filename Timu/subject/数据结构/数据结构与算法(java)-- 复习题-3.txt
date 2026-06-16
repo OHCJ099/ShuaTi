@@ -1,0 +1,408 @@
+【算法补充题】顺序表的插入
+// 顺序表类，T表示数据元素的数据类型；默认继承Object
+public class SeqList<T> extends Object implements List<T>
+{
+protected int n;               // 顺序表元素个数（长度）
+protected Object[] element;     // 对象数组，保护成员
+private static final int MIN_CAPACITY=16;    // 常量，指定element数组容量的最小值
+// 插入x为第i个元素，x!=null，返回插入元素序号。
+// 对i容错，若i<0，则头插入；若i>长度，则尾插入。
+public int insert(int i, T x)
+{   if(x==null)
+return -1;   // 没有插入。//返回一种执行结果，不是错误，不抛出空对象异常
+if(i<0)
+i=0;       // 插入位置i容错，插入在最前（头插入）
+if(i>this.n)
+i=this.n;    // 插入在最后（尾插入）
+Object[] source = this.element;  // 数组变量引用赋值，source也引用element数组
+if(this.n==element.length)      // 若数组满，则扩充顺序表的数组容量
+{
+this.element = new Object[source.length*2];  // 再申请一个容量更大的数组
+for(int j=0; j<i; j++)            // 复制当前数组前i-1个元素
+this.element[j] = source[j];   // 复制数组元素，传递对象引用
+}
+for(int j=this.n-1; j>=i; j--)    // 从i开始至表尾的元素向后移动，次序从后向前
+1                  ； 	// 复制数组元素，传递对象引用
+this.element[i] = x;
+2                 ； 	//表长增1
+return i;   // 返回插入元素序号
+}
+}
+【算法补充题】顺序表的删除
+public class SeqList<T> extends Object implements List<T>
+{
+protected int n;               // 顺序表元素个数（长度）
+protected Object[] element;     // 对象数组，保护成员
+private static final int MIN_CAPACITY=16;    // 常量，指定element数组容量的最小值
+//顺序表的删除操作
+public T remove(int i) //删除第i个元素，0≤i<n，返回被删除元素。若i越界，返回null。
+{
+if(i>=0 && i<this.n)
+{   T x = (T)this.element[i];            // x中存储被删除元素
+for(int j=i; j<this.n-1; j++)
+1               ;	 	// 元素前移一个位置
+this.element[this.n-1]=null;    // 设置数组元素对象为空，释放原引用实例
+2                ; 	//表长减1
+return x;        // 返回x局部变量引用的对象，传递对象引用
+}
+return null;
+}
+}
+【算法补充题】单链表的插入
+public class Node<T> {   //单链表结点类，T是数据元素的类型
+public T data;       //数据域，存储数据元素
+public Node<T> next;  //地址域，引用后续结点
+public Node(T data, Node<T> next) { //由指定的两个域来构造结点
+this.data = data;
+this.next = next;
+}
+public Node () {  this(null,null);  }	//空构造
+}
+public class SinglyLinkedList<T> {
+public Node<T> head;   //单链表的头指针，指向头结点
+public SinglyLinkedList() { //构造空单链表
+head=new Node<T> ( ); //创建头结点，data和next的值均为null
+}
+// 在ai前插入元素t，若插入成功，返回i，否则返回-1
+public int insert(int i, T t) {
+int j=0;
+if(t==null)  throw new NullPointerException("不能插入空对象！")
+//抛出空对象异常
+Node<T> p=this.head;
+while(p.next!=null&&j<i){	//寻找ai-1结点
+1				;
+j++;
+}
+if(p!=null&&j==i){     	//找到ai-1结点
+Node<T> s=new Node<T> (t,p.next); //建立新结点，数据域为t，地址为p.next
+2				 ;  //在p之后插入新结点
+return i;       //插入成功，返回i
+}else{
+return -1;      //插入失败，返回-1
+}
+}
+}
+【算法补充题】单链表的删除
+public class Node<T> {   		//单链表结点类，T是数据元素的类型
+public T data;       	//数据域，存储数据元素
+public Node<T> next;  	//地址域，引用后续结点
+public Node(T data, Node<T> next) { //由指定的两个域来构造结点
+this.data = data;
+this.next = next;
+}
+public Node () { this(null,null);  } 	//空构造
+}
+public class SinglyLinkedList<T>{
+public Node<T> head;   	//单链表的头指针，指向头结点
+public SinglyLinkedList( ) { 	//构造空单链表
+head=new Node<T> (); 	//创建头结点，data和next的值均为null
+}
+//删除结点ai
+public T remove(int i) {
+int j=0;
+Node<T> p=this.head;
+while(p.next!=null&&j<i){   //寻找ai-1结点
+1				;
+j++;
+}
+if(p.next!=null&&j==i){  	//ai结点存在
+T old=p.next.data; 		//保存待删除结点的数据域
+2				 ;	//删除结点，包括开始、中间和尾结点删除
+return old;       		//返回已删除结点的数据域
+}else{
+return null;      		//i越界，返回null
+}
+}
+}
+【算法补充题】链栈的出/入栈
+//链栈结点
+public class LinkedNode<T> {
+private T data;
+private LinkedNode<T> next;
+//构造方法
+public LinkedNode() {
+}
+public LinkedNode(T data) {	this.data = data;	}
+public LinkedNode(T data, LinkedNode<T> next) {
+this.data = data;	this.next = next;
+}
+//setter和getter方法
+public T getData() {	return data;	}
+public void setData(T data) {	this.data = data;	}
+public LinkedNode<T> getNext() {	return next;	}
+public void setNext(LinkedNode<T> next) {	this.next = next;	}
+}
+//链栈类
+public class LinkedStack<T> implements Stack<T>{
+private LinkedNode<T> top;   //代表栈顶指针
+//栈初始化
+public LinkedStack() {
+top=null;   //将栈顶指针top置空，构造一个空链栈
+}
+//元素入栈
+public void push(T t) {
+//将新结点指向栈顶，再移动栈顶指针指向新结点，新结点成为栈顶元素
+LinkedNode<T> node=new LinkedNode<T>(t);  //先构造新结点
+1				 ;	//设置新结点指向栈顶指针
+top=node;   		//设置栈顶指针指向新结点
+}
+//元素出栈
+public T pop() {
+//判断链栈是否为空
+if(this.isEmpty()) {
+throw new RuntimeException("栈为空，没有元素可出栈");
+}
+T topData=top.getData(); 	//获取栈顶元素值
+2				;	//修改栈顶指针，指向下一个结点
+return topData;
+}
+}
+【算法补充题】循环队列的入队
+public interface Queue<T> {
+public void enqueue(T t);  	//元素入队,在队尾插入元素T
+public T dequeue();  		//元素出队，队头元素出队
+public T peek();  			//取队头元素值,但队头元素不出队
+public boolean isEmpty();  	//判断队列是否为空
+}
+//顺序循环队列类
+public class SeqCirQueue<T> implements Queue<T> {
+private T[] queue=null;  //声明一维数组，存储队列元素
+private int length;   		//数组的大小，表示队列的最大容量
+private int front;   		//表示队头位置
+private int rear;    		//表示队尾位置
+//队列初始化
+public SeqCirQueue() {
+queue=(T[])new Object[16];   //构造一维的泛型数组，默认大小为16
+length=16;
+front=rear=0;   		//初始队列为空
+}
+public SeqCirQueue(int length) {
+queue=(T[])new Object[length];   //构造一维的泛型数组，存储队列元素
+this.length=length;
+front=rear=0;    	//初始队列为空
+}
+//元素入队
+public void enqueue(T t) {
+//判断队列是否满，若已满，则抛出异常，若未满，队尾位置向前移动1，插入元素
+if(front==(rear+1) % length) {
+throw new RuntimeException("队列已满，元素不能入队");
+}else {
+1				 ;	//队尾指针加1
+2	     	  	;	//新元素插入队尾
+}
+}
+}
+【算法补充题】循环队列的出队
+public interface Queue<T> {
+public void enqueue(T t);  	//元素入队,在队尾插入元素T
+public T dequeue();  		//元素出队，队头元素出队
+public T peek();  			//取队头元素值,但队头元素不出队
+public boolean isEmpty();  	//判断队列是否为空
+}
+//顺序循环队列类
+public class SeqCirQueue<T> implements Queue<T> {
+private T[] queue=null;  //声明一维数组，存储队列元素
+private int length;   		//数组的大小，表示队列的最大容量
+private int front;   		//表示队头位置
+private int rear;    		//表示队尾位置
+//队列初始化
+public SeqCirQueue() {
+queue=(T[])new Object[16];   //构造一维的泛型数组，默认大小为16
+length=16;
+front=rear=0;   		//初始队列为空
+}
+public SeqCirQueue(int length) {
+queue=(T[])new Object[length];   //构造一维的泛型数组，存储队列元素
+this.length=length;
+front=rear=0;    	//初始队列为空
+}
+//元素出队
+public T dequeue() {
+//判断队列是否空，若为空，抛出异常，若不为空，队头位置向前移动1，取出元素
+if(isEmpty()) {
+throw new RuntimeException("队列空，没有元素出队");
+}else {
+1				 ; //队头指针加1
+2				 ; //保存队头元素
+queue[front]=null;
+return t;
+}
+}
+}
+【算法补充题】链队的出/入队
+//队列数据类型，其中T表示队列中数据的类型
+public interface Queue<T> {
+public void enqueue(T t);  //元素入队,在队尾插入元素T
+public T dequeue();  		//元素出队，队头元素出队
+public T peek();  			//取队头元素值,但队头元素不出队
+public boolean isEmpty(); 	//判断队列是否为空
+}
+//链栈结点
+public class LinkedNode<T> {
+private T data;
+private LinkedNode<T> next;
+//构造方法
+public LinkedNode() {
+}
+public LinkedNode(T data) {	this.data = data;	}
+public LinkedNode(T data, LinkedNode<T> next) {
+this.data = data;		this.next = next;
+}
+//setter和getter方法
+public T getData() {	return data;	}
+public void setData(T data) {	this.data = data;	}
+public LinkedNode<T> getNext() {	return next;	}
+public void setNext(LinkedNode<T> next) {		this.next = next;	}
+}
+//链式队列类
+public class LinkedQueue<T> implements Queue<T> {
+private LinkedNode<T> front, rear; 	// 表示队头,队尾指针
+// 队列初始化
+public LinkedQueue() {
+front = rear = new LinkedNode<T>();	 // 初始空队列，队头和队尾指向一个空的头结点
+}
+// 元素入队
+public void enqueue(T t) {
+// 先构造新结点，再将新元素入队，在队尾处插入新结点，再移动队尾指针指向新结点
+LinkedNode<T> node = new LinkedNode<T>(t, null);
+1			 ;  //新结点插入队尾
+rear = node;   		 //移动队尾指针
+}
+// 元素出队
+public T dequeue() {
+// 先获取队头元素，再移动队头指针指向下一个结点，若队列只有一个元素，出队后队列为空，则移动队尾指针指向头结点
+if (isEmpty())
+throw new RuntimeException("队列为空，没有元素可出队");
+LinkedNode<T> node = front.getNext();   //保存要出队的队头结点
+front.setNext(node.getNext());    		//队头指针指向node的后继结点
+if (node.getNext() == null)    			//若队列中只有一个元素
+2			 ; 	//元素出队后，队列为空，队尾和队头指针都指向头结点
+return node.getData();
+}
+}
+【算法补充题】二叉树的中序遍历
+public class BinaryNode<T> {
+public T data;						 //数据域，存储数据元素
+public BinaryNode<T> lchild,rchild;	 //链域，分别指向左右孩子结点
+//构造结点，分别指定元和左右结点
+public BinaryNode(T data,BinaryNode<T> lchild,BinaryNode<T> rchild){
+this.data=data;
+this.lchild=lchild;
+this.rchild=rchild;
+}
+public BinaryNode(T data){	this(data, null, null);	}
+public BinaryNode(){	this(null,null,null);}
+}
+public interface BinaryTTree<T> {
+public void inOrder();	//中序遍历
+}
+public class BinaryTree<T> implements BinaryTTree<T> {
+    public BinaryNode<T> root;
+    public BinaryTree() { this.root = null; }    
+    public BinaryTree(BinaryNode<T> root) { this.root = root;  }
+// 中序遍历
+    public void inOrder() {  inOrder(this.root);  }
+    public void inOrder(BinaryNode<T> p) {
+       if (p != null) {
+          		     	1	    		 ;
+          System.out.print(p.data.toString() + " ");
+          		    	2				 ;
+}
+    }
+}
+【算法补充题】计算二叉树高度
+public class BinaryNode<T> {
+public T data; 						//数据域，存储数据元素
+public BinaryNode<T> lchild,rchild; 	//链域，分别指向左右孩子结点
+//构造结点，分别指定元和左右结点
+public BinaryNode(T data,BinaryNode<T> lchild,BinaryNode<T> rchild){
+this.data=data;
+this.lchild=lchild;
+this.rchild=rchild;
+}
+public BinaryNode(T data){	this(data, null, null);	}
+public BinaryNode(){	this(null,null,null);}
+}
+public interface BinaryTTree<T> {
+public boolean isEmpty();		//判断是否为空
+public int height();			//返回二叉树的高度
+}
+public class BinaryTree<T> implements BinaryTTree<T> {
+    public BinaryNode<T> root;
+    public BinaryTree() { this.root = null; }    
+    public BinaryTree(BinaryNode<T> root) { this.root = root;  }
+// 求二叉树的高度
+    public int height() {   return height(this.root);    }
+    public int height(BinaryNode<T> p) {
+       if (p == null) {
+          return 0;
+       }
+       int m = height(p.lchild);
+       int n = height(p.rchild);
+if(m >n ) 			1				;
+else 			2				;
+}
+}
+【算法补充题】统计二叉树的结点个数
+public class BinaryNode<T> {
+public T data; 						//数据域，存储数据元素
+public BinaryNode<T> lchild,rchild;	//链域，分别指向左右孩子结点
+//构造结点，分别指定元和左右结点
+public BinaryNode(T data,BinaryNode<T> lchild,BinaryNode<T> rchild){
+this.data=data;
+this.lchild=lchild;
+this.rchild=rchild;
+}
+public BinaryNode(T data){	this(data, null, null);	}
+public BinaryNode(){	this(null,null,null);}
+}
+public interface BinaryTTree<T> {
+public boolean isEmpty();		//判断是否为空
+public int count();			//统计二叉树结点的个数
+}
+public class BinaryTree<T> implements BinaryTTree<T> {
+    public BinaryNode<T> root;
+    public BinaryTree() { this.root = null; }    
+    public BinaryTree(BinaryNode<T> root) { this.root = root;  }
+// 统计结点的个数
+    public int count() { return count(this.root);  }
+    public int count(BinaryNode<T> p) {
+       if (		   1			) {	//如果是空树，则叶子结点个数为 0
+          return 0;
+       }
+       return 			 2		 	 ;
+    }
+}
+【算法补充题】折半插入查找
+public class BinarySearch {
+//在数组data中查找关键字为kx的数据元素， 如果找到，返回元素的数组下标，否则返回0 。线性表的n个数据元素存放到data[1]至data[n]中
+public static int binarySearch(RecT[] data, Integer kx) {
+int low = 1;				// 表示查找区间的下界
+int high = data.length -1;	// 表示查找区间上界
+int mid;					// 表示查找区间中间位置
+while (low <= high) {
+1				 ;	// 表示查找区间的中间位置
+if (data[mid].key.equals(kx)) {		// 查找成功，返回mid
+return mid;
+} else if (kx.compareTo((Integer) data[mid].key) < 0) {// 继续在左半区查找
+high = mid - 1;
+} else {// 继续在右半区查找
+2				 ;
+}
+}
+return 0;
+}
+}
+参考答案:
+1. this.element[j+1] = source[j];   		this.n++
+2. this.element[j] = this.element[j+1]；  	this.n--
+3. p=p.next；							p.next=s
+4.p=p.next；							p.next=p.next.next
+5.node.setNext(top)；					top=top.getNext()
+6.rear=(rear+1)%length；					queue[rear]=t
+7.front=(front+1) %length；				T t=queue[front]
+8.rear.setNext(node)；					rear = front
+9.inOrder(p.lchild)；						inOrder(p.rchild)
+10.return(m+1)；						return (n+1)
+11. p == null；							1 + count(p.lchild) + count(p.rchild)
+12. mid = (low + high) /2；				low = mid + 1
