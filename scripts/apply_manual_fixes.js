@@ -100,6 +100,41 @@ const extraSoftQuestions = [
 ];
 
 for (const question of soft.questions) {
+  // Image fixes for 选择题.txt
+  if (question.source === "选择题.txt") {
+    const num = Number(question.originalNumber);
+    if (num === 8) {
+      question.images = [image("assets/answers/soft/soft-dfd-transform.png", "数据流图数据变换符号选项")];
+    } else if (num === 24) {
+      question.images = [image("assets/answers/soft/soft-pad-selection.png", "PAD图选择性结构选项")];
+    } else if (num === 27) {
+      question.images = [image("assets/answers/soft/soft-dfd-ticket.png", "飞机票预定系统数据流图")];
+    } else if (num === 37) {
+      question.images = [image("assets/answers/soft/soft-class-association.png", "两个类的关联关系图")];
+    } else if (num === 38) {
+      question.images = [image("assets/answers/soft/soft-class-shape.png", "Shape类的类图")];
+    }
+  }
+
+  // Option/Image fix for Question 8 in 2025-2026第二学期软件工程测试.txt (originally parsed incorrectly as short question)
+  if (question.source === "2025-2026第二学期软件工程测试.txt" && Number(question.originalNumber) === 8) {
+    question.type = "single";
+    question.typeLabel = bank.typeLabels.single;
+    question.mode = "single";
+    question.prompt = "以下符号哪个是在顺序图中表示返回消息的符号(        )。";
+    question.options = [
+      { key: "A", text: "A" },
+      { key: "B", text: "B" },
+      { key: "C", text: "C" },
+      { key: "D", text: "D" }
+    ];
+    question.answer = {
+      keys: ["B"],
+      text: "B. B"
+    };
+    question.images = [image("assets/answers/soft/soft-seq-return.png", "顺序图返回消息符号选项")];
+  }
+
   if (question.source !== "2025-2026第二学期软件工程测试.txt") {
     continue;
   }
@@ -127,41 +162,6 @@ for (const question of soft.questions) {
     question.typeLabel = bank.typeLabels.comprehensive;
     question.mode = "comprehensive";
     question.answer = { images: [comprehensiveImages[number]] };
-  }
-
-  // Option/Image fix for Question 8 in 2025-2026第二学期软件工程测试.txt (originally parsed incorrectly as short question)
-  if (question.source === "2025-2026第二学期软件工程测试.txt" && Number(question.originalNumber) === 8) {
-    question.type = "single";
-    question.typeLabel = bank.typeLabels.single;
-    question.mode = "single";
-    question.prompt = "以下符号哪个是在顺序图中表示返回消息的符号(        )。";
-    question.options = [
-      { key: "A", text: "A" },
-      { key: "B", text: "B" },
-      { key: "C", text: "C" },
-      { key: "D", text: "D" }
-    ];
-    question.answer = {
-      keys: ["B"],
-      text: "B. B"
-    };
-    question.images = [image("assets/answers/soft/soft-seq-return.png", "顺序图返回消息符号选项")];
-  }
-
-  // Image fixes for 选择题.txt
-  if (question.source === "选择题.txt") {
-    const num = Number(question.originalNumber);
-    if (num === 8) {
-      question.images = [image("assets/answers/soft/soft-dfd-transform.png", "数据流图数据变换符号选项")];
-    } else if (num === 24) {
-      question.images = [image("assets/answers/soft/soft-pad-selection.png", "PAD图选择性结构选项")];
-    } else if (num === 27) {
-      question.images = [image("assets/answers/soft/soft-dfd-ticket.png", "飞机票预定系统数据流图")];
-    } else if (num === 37) {
-      question.images = [image("assets/answers/soft/soft-class-association.png", "两个类的关联关系图")];
-    } else if (num === 38) {
-      question.images = [image("assets/answers/soft/soft-class-shape.png", "Shape类的类图")];
-    }
   }
 }
 

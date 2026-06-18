@@ -1,5 +1,5 @@
 window.QUESTION_BANK = {
-  "generatedAt": "2026-06-18T00:53:57.853Z",
+  "generatedAt": "2026-06-18T01:04:07.559Z",
   "typeLabels": {
     "single": "单选",
     "multiple": "多选",
@@ -8910,7 +8910,13 @@ window.QUESTION_BANK = {
             ],
             "text": "A. A"
           },
-          "explanation": ""
+          "explanation": "",
+          "images": [
+            {
+              "src": "assets/answers/soft/soft-dfd-transform.png",
+              "alt": "数据流图数据变换符号选项"
+            }
+          ]
         },
         {
           "id": "q-6b0f65e387",
@@ -9486,7 +9492,13 @@ window.QUESTION_BANK = {
             ],
             "text": "B. B"
           },
-          "explanation": ""
+          "explanation": "",
+          "images": [
+            {
+              "src": "assets/answers/soft/soft-pad-selection.png",
+              "alt": "PAD图选择性结构选项"
+            }
+          ]
         },
         {
           "id": "q-83b7d9f925",
@@ -9594,7 +9606,13 @@ window.QUESTION_BANK = {
             ],
             "text": "A. 外部实体"
           },
-          "explanation": ""
+          "explanation": "",
+          "images": [
+            {
+              "src": "assets/answers/soft/soft-dfd-ticket.png",
+              "alt": "飞机票预定系统数据流图"
+            }
+          ]
         },
         {
           "id": "q-1e87456a44",
@@ -9954,7 +9972,13 @@ window.QUESTION_BANK = {
             ],
             "text": "B. 聚合"
           },
-          "explanation": ""
+          "explanation": "",
+          "images": [
+            {
+              "src": "assets/answers/soft/soft-class-association.png",
+              "alt": "两个类的关联关系图"
+            }
+          ]
         },
         {
           "id": "q-f7db07689f",
@@ -9990,7 +10014,13 @@ window.QUESTION_BANK = {
             ],
             "text": "C. 3个"
           },
-          "explanation": ""
+          "explanation": "",
+          "images": [
+            {
+              "src": "assets/answers/soft/soft-class-shape.png",
+              "alt": "Shape类的类图"
+            }
+          ]
         },
         {
           "id": "q-6ab7264abd",
