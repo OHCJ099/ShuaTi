@@ -1,5 +1,5 @@
 window.QUESTION_BANK = {
-  "generatedAt": "2026-06-18T00:48:30.264Z",
+  "generatedAt": "2026-06-18T00:53:57.853Z",
   "typeLabels": {
     "single": "单选",
     "multiple": "多选",
@@ -10054,37 +10054,13 @@ window.QUESTION_BANK = {
             {
               "key": "D",
               "text": "PAD图"
-            },
-            {
-              "key": "B",
-              "text": "2、D \t3、\tC \t4、A \t5、C \t6、C \t7、\tB \t8、A \t9、D \t10、C"
-            },
-            {
-              "key": "B",
-              "text": "12、B\t13、A\t14、D\t15、B\t16、A\t17、C\t18、D\t19、A\t20、C"
-            },
-            {
-              "key": "B",
-              "text": "22、C\t23、A\t24、B\t25、C\t26、B\t27、B\t28、A\t29、B\t30、B"
-            },
-            {
-              "key": "B",
-              "text": "32、A\t33、B\t34、D\t35、B\t36、D\t37、B\t38、A\t39、C\t40、B"
-            },
-            {
-              "key": "C",
-              "text": "42、B\t43、D\t44、A\t45、A\t46、A\t47、B\t48、A\t49、C\t50、D"
-            },
-            {
-              "key": "A",
-              "text": "52、B\t53、B\t54、B\t55、C\t56、B\t57、B\t58、C\t59、D\t60、C"
             }
           ],
           "answer": {
             "keys": [
               "C"
             ],
-            "text": "C. 42、B\t43、D\t44、A\t45、A\t46、A\t47、B\t48、A\t49、C\t50、D"
+            "text": "C. DFD图"
           },
           "explanation": ""
         },
