@@ -253,7 +253,7 @@ def extract_after_label(text: str, label: str) -> str:
     if not match:
         return ""
     tail = text[match.end() :]
-    stop = re.search(r"(?m)^\s*(答案解析|知识点|AI讲解|我的答案|正确答案)\s*[:：]?\s*$", tail)
+    stop = re.search(r"(?m)^\s*(答案解析|知识点|AI讲解|我的答案|正确答案)\s*([:：]|\s*$)", tail)
     if stop:
         tail = tail[: stop.start()]
     tail = re.split(r"\n\s*(知识点：|知识点:|AI讲解)\s*", tail, maxsplit=1)[0]
@@ -330,7 +330,7 @@ def build_answer(q_type: str, raw_answer: str, options: list[dict[str, str]]) ->
     raw_answer = normalize_answer_value(raw_answer)
     if not raw_answer:
         if q_type == "short":
-            return {"text": ""}
+            return {"text": "待补充"}
         return {"missing": True, "text": "待补充"}
     if q_type in {"single", "multiple"}:
         letters = re.findall(r"[A-H]", raw_answer.upper())

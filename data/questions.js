@@ -1,5 +1,5 @@
 window.QUESTION_BANK = {
-  "generatedAt": "2026-06-18T01:04:07.559Z",
+  "generatedAt": "2026-06-18T01:39:12.740Z",
   "typeLabels": {
     "single": "单选",
     "multiple": "多选",
@@ -4760,7 +4760,7 @@ window.QUESTION_BANK = {
           "prompt": "简述云计算的定义。",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4776,7 +4776,7 @@ window.QUESTION_BANK = {
           "prompt": "请阐述云计算与传统计算机和网络技术的关系。",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4792,7 +4792,7 @@ window.QUESTION_BANK = {
           "prompt": "请简述云计算的四种部署模型及其特点。",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4808,7 +4808,7 @@ window.QUESTION_BANK = {
           "prompt": "请简述云计算的三种服务模式（IaaS、PaaS、SaaS）及其主要区别。",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4824,7 +4824,7 @@ window.QUESTION_BANK = {
           "prompt": "简述虚拟化技术在云计算中的作用。",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4840,7 +4840,7 @@ window.QUESTION_BANK = {
           "prompt": "简述云计算与虚拟化的关系。",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4856,7 +4856,7 @@ window.QUESTION_BANK = {
           "prompt": "请简述 Intel VT 和 AMD SVM 在硬件虚拟化技术方面的主要差异。",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4872,7 +4872,7 @@ window.QUESTION_BANK = {
           "prompt": "简述虚拟机的三个典型特征及其含义。",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4888,7 +4888,7 @@ window.QUESTION_BANK = {
           "prompt": "简述 vCPU 的基本操作及其含义。",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4904,7 +4904,7 @@ window.QUESTION_BANK = {
           "prompt": "描述云计算的三种部署模式以及各自的优缺点。",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4920,7 +4920,7 @@ window.QUESTION_BANK = {
           "prompt": "什么是虚拟化？为什么要使用虚拟化？",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4936,7 +4936,7 @@ window.QUESTION_BANK = {
           "prompt": "简述该如何实现云安全？",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4952,7 +4952,7 @@ window.QUESTION_BANK = {
           "prompt": "什么是 I 型虚拟化？什么是 II 型虚拟化？它们各有什么优缺点？",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4968,7 +4968,7 @@ window.QUESTION_BANK = {
           "prompt": "全虚拟化与半虚拟化有何区别？各有什么优缺点？",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -4984,7 +4984,7 @@ window.QUESTION_BANK = {
           "prompt": "论述云计算与虚拟化的相互作用和促进关系，并结合实际案例说明两者如何协\n同推动信息技术发展。",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         },
@@ -5000,7 +5000,7 @@ window.QUESTION_BANK = {
           "prompt": "分析 SDN（软件定义网络）与 NFV（网络功能虚拟化）的技术特点及两者在网\n络架构转型中的协同作用。",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "待补充"
           },
           "explanation": ""
         }
@@ -10294,7 +10294,7 @@ window.QUESTION_BANK = {
           "typeLabel": "判断题",
           "mode": "judge",
           "originalNumber": 31,
-          "prompt": "用例的包含关系与扩展关系在表示法上相似，都是将虚线箭头从基用例指向包含用例(扩展用例)。(        )\nA\n对\nB\n错",
+          "prompt": "用例的包含关系与扩展关系在表示法上相似，都是将虚线箭头从基用例指向包含用例(扩展用例)。(        )",
           "options": [
             {
               "key": "A",
@@ -10320,7 +10320,7 @@ window.QUESTION_BANK = {
           "typeLabel": "判断题",
           "mode": "judge",
           "originalNumber": 32,
-          "prompt": "在UML中，当接口使用小圆圈表示时，该接口与其他类的实现关系可以被简化为一条实线段。(        )\nA\n对\nB\n错",
+          "prompt": "在UML中，当接口使用小圆圈表示时，该接口与其他类的实现关系可以被简化为一条实线段。(        )",
           "options": [
             {
               "key": "A",
@@ -10346,7 +10346,7 @@ window.QUESTION_BANK = {
           "typeLabel": "判断题",
           "mode": "judge",
           "originalNumber": 33,
-          "prompt": "软件的开发工作中，为了保证工作的进度，开发工作与测试工作应交给同一部分人完成。(        )\nA\n对\nB\n错",
+          "prompt": "软件的开发工作中，为了保证工作的进度，开发工作与测试工作应交给同一部分人完成。(        )",
           "options": [
             {
               "key": "A",
@@ -10372,7 +10372,7 @@ window.QUESTION_BANK = {
           "typeLabel": "判断题",
           "mode": "judge",
           "originalNumber": 34,
-          "prompt": "软件危机的主要表现是软件需求增加，软件价格上升。(        )\nA\n对\nB\n错",
+          "prompt": "软件危机的主要表现是软件需求增加，软件价格上升。(        )",
           "options": [
             {
               "key": "A",
@@ -10398,7 +10398,7 @@ window.QUESTION_BANK = {
           "typeLabel": "判断题",
           "mode": "judge",
           "originalNumber": 35,
-          "prompt": "参与者位于系统边界外，并不是系统的一部分。(        )\nA\n对\nB\n错",
+          "prompt": "参与者位于系统边界外，并不是系统的一部分。(        )",
           "options": [
             {
               "key": "A",
@@ -10424,7 +10424,7 @@ window.QUESTION_BANK = {
           "typeLabel": "判断题",
           "mode": "judge",
           "originalNumber": 36,
-          "prompt": "UML用例图中的扩展关系在无扩展时基础用例依然完整。(        )\nA\n对\nB\n错",
+          "prompt": "UML用例图中的扩展关系在无扩展时基础用例依然完整。(        )",
           "options": [
             {
               "key": "A",
@@ -10450,7 +10450,7 @@ window.QUESTION_BANK = {
           "typeLabel": "判断题",
           "mode": "judge",
           "originalNumber": 37,
-          "prompt": "软件就是程序，编写软件就是编写程序。(        )\nA\n对\nB\n错",
+          "prompt": "软件就是程序，编写软件就是编写程序。(        )",
           "options": [
             {
               "key": "A",
@@ -10476,7 +10476,7 @@ window.QUESTION_BANK = {
           "typeLabel": "判断题",
           "mode": "judge",
           "originalNumber": 38,
-          "prompt": "黑盒测试只检查程序功能是否按照需求规格说明书的规定正常使用，程序是否能适当地接收输入数据而产生正确的输出信息，而不考虑模块的内部执行与程序结构。(        )\nA\n对\nB\n错",
+          "prompt": "黑盒测试只检查程序功能是否按照需求规格说明书的规定正常使用，程序是否能适当地接收输入数据而产生正确的输出信息，而不考虑模块的内部执行与程序结构。(        )",
           "options": [
             {
               "key": "A",
@@ -10502,7 +10502,7 @@ window.QUESTION_BANK = {
           "typeLabel": "判断题",
           "mode": "judge",
           "originalNumber": 39,
-          "prompt": "类图可被看作是对象图的实例。(        )\nA\n对\nB\n错",
+          "prompt": "类图可被看作是对象图的实例。(        )",
           "options": [
             {
               "key": "A",
@@ -10528,7 +10528,7 @@ window.QUESTION_BANK = {
           "typeLabel": "判断题",
           "mode": "judge",
           "originalNumber": 40,
-          "prompt": "在绘制用例图时，其中用例的粒度越细越好。(        )\nA\n对\nB\n错",
+          "prompt": "在绘制用例图时，其中用例的粒度越细越好。(        )",
           "options": [
             {
               "key": "A",
@@ -14550,9 +14550,9 @@ window.QUESTION_BANK = {
           "options": [],
           "answer": {
             "blanks": [
-              "borderRadius 答案解析：borderRadius属性用于设置边框的圆角半径"
+              "borderRadius"
             ],
-            "text": "borderRadius 答案解析：borderRadius属性用于设置边框的圆角半径"
+            "text": "borderRadius"
           },
           "explanation": "borderRadius属性用于设置边框的圆角半径。"
         },
@@ -14645,10 +14645,8 @@ window.QUESTION_BANK = {
           "prompt": "要从字符串\"Hello World!\"中提取出\"World\"，可以使用slice(【】, 11)。",
           "options": [],
           "answer": {
-            "blanks": [
-              "答案解析：从索引6开始到索引11（不包括11）提取得到\"World\""
-            ],
-            "text": "答案解析：从索引6开始到索引11（不包括11）提取得到\"World\""
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": "从索引6开始到索引11（不包括11）提取得到\"World\"。"
         },
@@ -14665,9 +14663,9 @@ window.QUESTION_BANK = {
           "options": [],
           "answer": {
             "blanks": [
-              "stateStyles() 答案解析：stateStyles()方法用于为组件的不同内部状态设置样式"
+              "stateStyles()"
             ],
-            "text": "stateStyles() 答案解析：stateStyles()方法用于为组件的不同内部状态设置样式"
+            "text": "stateStyles()"
           },
           "explanation": "stateStyles()方法用于为组件的不同内部状态设置样式。"
         },
@@ -14684,9 +14682,9 @@ window.QUESTION_BANK = {
           "options": [],
           "answer": {
             "blanks": [
-              "@Builder 答案解析：@Builder可用于封装和复用UI布局代码"
+              "@Builder"
             ],
-            "text": "@Builder 答案解析：@Builder可用于封装和复用UI布局代码"
+            "text": "@Builder"
           },
           "explanation": "@Builder可用于封装和复用UI布局代码。"
         },
@@ -14760,9 +14758,9 @@ window.QUESTION_BANK = {
           "options": [],
           "answer": {
             "blanks": [
-              "@Builder 答案解析：@Builder可用于封装和复用UI布局代码"
+              "@Builder"
             ],
-            "text": "@Builder 答案解析：@Builder可用于封装和复用UI布局代码"
+            "text": "@Builder"
           },
           "explanation": "@Builder可用于封装和复用UI布局代码。"
         },
@@ -14797,10 +14795,8 @@ window.QUESTION_BANK = {
           "prompt": "要从字符串\"Hello World!\"中提取出\"World\"，可以使用slice(【________】, 11)。",
           "options": [],
           "answer": {
-            "blanks": [
-              "答案解析：从索引6开始到索引11（不包括11）提取得到\"World\""
-            ],
-            "text": "答案解析：从索引6开始到索引11（不包括11）提取得到\"World\""
+            "missing": true,
+            "text": "待补充"
           },
           "explanation": "从索引6开始到索引11（不包括11）提取得到\"World\"。"
         },
@@ -14817,9 +14813,9 @@ window.QUESTION_BANK = {
           "options": [],
           "answer": {
             "blanks": [
-              "stateStyles() 答案解析：stateStyles()方法用于为组件的不同内部状态设置样式"
+              "stateStyles()"
             ],
-            "text": "stateStyles() 答案解析：stateStyles()方法用于为组件的不同内部状态设置样式"
+            "text": "stateStyles()"
           },
           "explanation": "stateStyles()方法用于为组件的不同内部状态设置样式。"
         },
@@ -14950,9 +14946,9 @@ window.QUESTION_BANK = {
           "options": [],
           "answer": {
             "blanks": [
-              "select 答案解析：对于复选框组件，应使用select属性进行双向数据绑定"
+              "select"
             ],
-            "text": "select 答案解析：对于复选框组件，应使用select属性进行双向数据绑定"
+            "text": "select"
           },
           "explanation": "对于复选框组件，应使用select属性进行双向数据绑定。"
         },
@@ -14988,9 +14984,9 @@ window.QUESTION_BANK = {
           "options": [],
           "answer": {
             "blanks": [
-              "？ 答案解析：如果想不强制实现接口中的某些属性或方法，可以在其名称后加上?表示它是可选的"
+              "？"
             ],
-            "text": "？ 答案解析：如果想不强制实现接口中的某些属性或方法，可以在其名称后加上?表示它是可选的"
+            "text": "？"
           },
           "explanation": "如果想不强制实现接口中的某些属性或方法，可以在其名称后加上?表示它是可选的。"
         },
@@ -15026,9 +15022,9 @@ window.QUESTION_BANK = {
           "options": [],
           "answer": {
             "blanks": [
-              "borderRadius 答案解析：borderRadius属性用于设置边框的圆角半径"
+              "borderRadius"
             ],
-            "text": "borderRadius 答案解析：borderRadius属性用于设置边框的圆角半径"
+            "text": "borderRadius"
           },
           "explanation": "borderRadius属性用于设置边框的圆角半径。"
         },
@@ -15045,9 +15041,9 @@ window.QUESTION_BANK = {
           "options": [],
           "answer": {
             "blanks": [
-              "columnsGap 答案解析：columnsGap属性用于设置列与列之间的间距"
+              "columnsGap"
             ],
-            "text": "columnsGap 答案解析：columnsGap属性用于设置列与列之间的间距"
+            "text": "columnsGap"
           },
           "explanation": "columnsGap属性用于设置列与列之间的间距。"
         },
@@ -15102,9 +15098,9 @@ window.QUESTION_BANK = {
           "options": [],
           "answer": {
             "blanks": [
-              "score >= 60 ? '及格' : '不及格' 答案解析：使用三元运算符可以根据score的值决定输出的内容"
+              "score >= 60 ? '及格' : '不及格'"
             ],
-            "text": "score >= 60 ? '及格' : '不及格' 答案解析：使用三元运算符可以根据score的值决定输出的内容"
+            "text": "score >= 60 ? '及格' : '不及格'"
           },
           "explanation": "使用三元运算符可以根据score的值决定输出的内容。"
         },
@@ -15140,9 +15136,9 @@ window.QUESTION_BANK = {
           "options": [],
           "answer": {
             "blanks": [
-              "struct 答案解析：使用struct关键字声明的结构体被装饰为自定义组件"
+              "struct"
             ],
-            "text": "struct 答案解析：使用struct关键字声明的结构体被装饰为自定义组件"
+            "text": "struct"
           },
           "explanation": "使用struct关键字声明的结构体被装饰为自定义组件。"
         },
@@ -15178,9 +15174,9 @@ window.QUESTION_BANK = {
           "options": [],
           "answer": {
             "blanks": [
-              "Previewer 答案解析：Previewer表示预览器，用于预览当前打开的页面"
+              "Previewer"
             ],
-            "text": "Previewer 答案解析：Previewer表示预览器，用于预览当前打开的页面"
+            "text": "Previewer"
           },
           "explanation": "Previewer表示预览器，用于预览当前打开的页面。"
         },
