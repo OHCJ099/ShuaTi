@@ -1,5 +1,5 @@
 window.QUESTION_BANK = {
-  "generatedAt": "2026-06-18T00:37:51.909Z",
+  "generatedAt": "2026-06-18T00:48:30.264Z",
   "typeLabels": {
     "single": "单选",
     "multiple": "多选",
@@ -7892,11 +7892,11 @@ window.QUESTION_BANK = {
         "选择题.txt"
       ],
       "counts": {
-        "single": 59,
+        "single": 60,
         "multiple": 0,
         "blank": 10,
         "judge": 10,
-        "short": 8,
+        "short": 7,
         "comprehensive": 3,
         "programming": 0
       },
@@ -8153,6 +8153,48 @@ window.QUESTION_BANK = {
             "text": "D. 方法、工具和过程"
           },
           "explanation": ""
+        },
+        {
+          "id": "q-75f318df3f",
+          "subject": "软工",
+          "source": "2025-2026第二学期软件工程测试.txt",
+          "order": 8,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 8,
+          "prompt": "以下符号哪个是在顺序图中表示返回消息的符号(        )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "A"
+            },
+            {
+              "key": "B",
+              "text": "B"
+            },
+            {
+              "key": "C",
+              "text": "C"
+            },
+            {
+              "key": "D",
+              "text": "D"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. B"
+          },
+          "explanation": "",
+          "images": [
+            {
+              "src": "assets/answers/soft/soft-seq-return.png",
+              "alt": "顺序图返回消息符号选项"
+            }
+          ]
         },
         {
           "id": "q-74035686ad",
@@ -10494,22 +10536,6 @@ window.QUESTION_BANK = {
           "answer": {
             "judge": false,
             "text": "错"
-          },
-          "explanation": ""
-        },
-        {
-          "id": "q-75f318df3f",
-          "subject": "软工",
-          "source": "2025-2026第二学期软件工程测试.txt",
-          "order": 8,
-          "type": "short",
-          "typeLabel": "简答题",
-          "mode": "short",
-          "originalNumber": 8,
-          "prompt": "以下符号哪个是在顺序图中表示返回消息的符号(        )。\nAB\nBC\nCD\nDA",
-          "options": [],
-          "answer": {
-            "text": "B"
           },
           "explanation": ""
         },
