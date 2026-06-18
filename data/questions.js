@@ -1,5 +1,5 @@
 window.QUESTION_BANK = {
-  "generatedAt": "2026-06-16T07:04:17.033Z",
+  "generatedAt": "2026-06-18T00:37:51.909Z",
   "typeLabels": {
     "single": "单选",
     "multiple": "多选",
@@ -7888,10 +7888,11 @@ window.QUESTION_BANK = {
       "id": "subject-89a7e03e",
       "name": "软工",
       "sources": [
-        "2025-2026第二学期软件工程测试.txt"
+        "2025-2026第二学期软件工程测试.txt",
+        "选择题.txt"
       ],
       "counts": {
-        "single": 19,
+        "single": 59,
         "multiple": 0,
         "blank": 10,
         "judge": 10,
@@ -7899,7 +7900,7 @@ window.QUESTION_BANK = {
         "comprehensive": 3,
         "programming": 0
       },
-      "total": 50,
+      "total": 90,
       "questions": [
         {
           "id": "q-0190d55105",
@@ -7930,8 +7931,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "C"
+            ],
+            "text": "C. 0到多个"
           },
           "explanation": ""
         },
@@ -7964,8 +7967,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "A"
+            ],
+            "text": "A. 测试"
           },
           "explanation": ""
         },
@@ -7998,8 +8003,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "B"
+            ],
+            "text": "B. 当一个类拥有另外一个类的全部属性和方法时，它们之间是实现关系"
           },
           "explanation": ""
         },
@@ -8032,8 +8039,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "B"
+            ],
+            "text": "B. 链没有多重性"
           },
           "explanation": ""
         },
@@ -8066,8 +8075,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "D"
+            ],
+            "text": "D. 软件工程材料"
           },
           "explanation": ""
         },
@@ -8100,8 +8111,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "C"
+            ],
+            "text": "C. 编码阶段"
           },
           "explanation": ""
         },
@@ -8134,8 +8147,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "D"
+            ],
+            "text": "D. 方法、工具和过程"
           },
           "explanation": ""
         },
@@ -8168,8 +8183,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "B"
+            ],
+            "text": "B. 关联关系"
           },
           "explanation": ""
         },
@@ -8202,8 +8219,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "C"
+            ],
+            "text": "C. 依赖关系"
           },
           "explanation": ""
         },
@@ -8236,8 +8255,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "C"
+            ],
+            "text": "C. 一般使用从用例指向参与者的箭头表示关联关系"
           },
           "explanation": ""
         },
@@ -8270,8 +8291,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "C"
+            ],
+            "text": "C. 分叉节点"
           },
           "explanation": ""
         },
@@ -8304,8 +8327,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "B"
+            ],
+            "text": "B. 开发人员可以同步开发"
           },
           "explanation": ""
         },
@@ -8338,8 +8363,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "C"
+            ],
+            "text": "C. 打开页面"
           },
           "explanation": ""
         },
@@ -8372,8 +8399,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "B"
+            ],
+            "text": "B. 螺旋模型"
           },
           "explanation": ""
         },
@@ -8406,8 +8435,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "A"
+            ],
+            "text": "A. 基于对象的面向对象的方法"
           },
           "explanation": ""
         },
@@ -8440,8 +8471,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "B"
+            ],
+            "text": "B. 依赖关系"
           },
           "explanation": ""
         },
@@ -8474,8 +8507,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "C"
+            ],
+            "text": "C. 程序的逻辑结构"
           },
           "explanation": ""
         },
@@ -8508,8 +8543,10 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "D"
+            ],
+            "text": "D. 瀑布模型和快速原型模型"
           },
           "explanation": ""
         },
@@ -8542,8 +8579,1470 @@ window.QUESTION_BANK = {
             }
           ],
           "answer": {
-            "missing": true,
-            "text": "待补充"
+            "keys": [
+              "A"
+            ],
+            "text": "A. 软件本身的特点及开发方法不满足"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-55ea7263a8",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 48,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 1,
+          "prompt": "下列说法中正确的是(    )",
+          "options": [
+            {
+              "key": "A",
+              "text": "20世纪50年代提出了软件工程的概念"
+            },
+            {
+              "key": "B",
+              "text": "20世纪60年代提出了软件工程的概念"
+            },
+            {
+              "key": "C",
+              "text": "20世纪70年代出现了客户机/服务器技术"
+            },
+            {
+              "key": "D",
+              "text": "在20世纪80年代软件工程学科达到成熟"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. 20世纪60年代提出了软件工程的概念"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-72afeb6a9c",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 49,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 2,
+          "prompt": "增量模型本质上是一种（    ）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "线性顺序模型"
+            },
+            {
+              "key": "B",
+              "text": "整体开发模型"
+            },
+            {
+              "key": "C",
+              "text": "非整体开发模型"
+            },
+            {
+              "key": "D",
+              "text": "螺旋模型"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "C"
+            ],
+            "text": "C. 非整体开发模型"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-04a98d790a",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 50,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 3,
+          "prompt": "软件过程是（    ）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "特定的开发模型"
+            },
+            {
+              "key": "B",
+              "text": "一种软件求解的计算逻辑"
+            },
+            {
+              "key": "C",
+              "text": "软件开发活动的集合"
+            },
+            {
+              "key": "D",
+              "text": "软件生命周期模型"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "C"
+            ],
+            "text": "C. 软件开发活动的集合"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-f970776218",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 51,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 4,
+          "prompt": "软件生命周期模型不包括（    ）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "瀑布模型"
+            },
+            {
+              "key": "B",
+              "text": "用例模型"
+            },
+            {
+              "key": "C",
+              "text": "增量模型"
+            },
+            {
+              "key": "D",
+              "text": "螺旋模型"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. 用例模型"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-431639ca54",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 52,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 5,
+          "prompt": "在UML中表示一般事物与特殊事物之间的关系是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "关联关系"
+            },
+            {
+              "key": "B",
+              "text": "泛化关系"
+            },
+            {
+              "key": "C",
+              "text": "依赖关系"
+            },
+            {
+              "key": "D",
+              "text": "实现关系"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. 泛化关系"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-360cd4d359",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 53,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 6,
+          "prompt": "UML使用(    )来描述接口和实现接口的类之间的关系。",
+          "options": [
+            {
+              "key": "A",
+              "text": "关联关系"
+            },
+            {
+              "key": "B",
+              "text": "泛化关系"
+            },
+            {
+              "key": "C",
+              "text": "依赖关系"
+            },
+            {
+              "key": "D",
+              "text": "实现关系"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "D"
+            ],
+            "text": "D. 实现关系"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-13c449eb38",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 54,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 7,
+          "prompt": "下列UML图中不属于结构图的一项是(    )。\n对象图",
+          "options": [
+            {
+              "key": "A",
+              "text": "类图"
+            },
+            {
+              "key": "B",
+              "text": "顺序图"
+            },
+            {
+              "key": "C",
+              "text": "组件图"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. 顺序图"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-aa3d0f818f",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 55,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 8,
+          "prompt": "以下符号哪一个是数据流图中表示数据变换的符号(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "A"
+            },
+            {
+              "key": "B",
+              "text": "B"
+            },
+            {
+              "key": "C",
+              "text": "C"
+            },
+            {
+              "key": "D",
+              "text": "D"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "A"
+            ],
+            "text": "A. A"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-6b0f65e387",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 56,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 9,
+          "prompt": "在“4+1”架构中，(    )主要用来描述软件的各个模块的组织方式。",
+          "options": [
+            {
+              "key": "A",
+              "text": "逻辑视图"
+            },
+            {
+              "key": "B",
+              "text": "进程视图"
+            },
+            {
+              "key": "C",
+              "text": "开发视图"
+            },
+            {
+              "key": "D",
+              "text": "物理视图"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "C"
+            ],
+            "text": "C. 开发视图"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-6d80d12d0c",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 57,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 10,
+          "prompt": "下面不是用例图组成要素的是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "用例"
+            },
+            {
+              "key": "B",
+              "text": "系统边界"
+            },
+            {
+              "key": "C",
+              "text": "泳道"
+            },
+            {
+              "key": "D",
+              "text": "参与者"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "C"
+            ],
+            "text": "C. 泳道"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-9fb238271e",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 58,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 11,
+          "prompt": "下列说法中，不正确的是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "用例和参与者之间的对应关系是关联关系，它表示参与者使用了系统的用例"
+            },
+            {
+              "key": "B",
+              "text": "参与者指的是人，不能是子系统和时间等概念"
+            },
+            {
+              "key": "C",
+              "text": "在扩展关系中，基础用例提供了一个或多个插入点，扩展用例在这些插入点中提供了另外的行为"
+            },
+            {
+              "key": "D",
+              "text": "特殊需求指的是一个用例的非功能需求和设计约束"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. 参与者指的是人，不能是子系统和时间等概念"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-b16fe2e8a8",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 59,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 12,
+          "prompt": "对于ATM系统的“取款”用例（客户通过插入银行卡并输入正确的密码从ATM机中成功取款的过程），(    )应该作为该用例的参与者。",
+          "options": [
+            {
+              "key": "A",
+              "text": "ATM机"
+            },
+            {
+              "key": "B",
+              "text": "银行工作人员"
+            },
+            {
+              "key": "C",
+              "text": "取款客户"
+            },
+            {
+              "key": "D",
+              "text": "取款"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "C"
+            ],
+            "text": "C. 取款客户"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-2c827f6026",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 60,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 13,
+          "prompt": "下列UML关系中用例之间不会出现的一项是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "关联关系"
+            },
+            {
+              "key": "B",
+              "text": "扩展关系"
+            },
+            {
+              "key": "C",
+              "text": "包含关系"
+            },
+            {
+              "key": "D",
+              "text": "泛化关系"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "A"
+            ],
+            "text": "A. 关联关系"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-87e539b683",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 61,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 14,
+          "prompt": "下列关于类图的说法中正确的是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "类图是由类、组件、包等模型元素以及它们间的关系构成的"
+            },
+            {
+              "key": "B",
+              "text": "类图的目的在于描述系统的运行方式，而不是系统如何构成"
+            },
+            {
+              "key": "C",
+              "text": "类图通过系统中的类和类间关系描述了系统的静态特性"
+            },
+            {
+              "key": "D",
+              "text": "类图和数据模型有许多相似之处，区别是数据模型不仅描述了内部信息的结构，也包含了系统的内部行为"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "C"
+            ],
+            "text": "C. 类图通过系统中的类和类间关系描述了系统的静态特性"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-0613092739",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 62,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 15,
+          "prompt": "当类的属性与操作添加了(    )限定符后表示该属性或操作只对本类可见，不能被其他类访问。",
+          "options": [
+            {
+              "key": "A",
+              "text": "public"
+            },
+            {
+              "key": "B",
+              "text": "private"
+            },
+            {
+              "key": "C",
+              "text": "protected"
+            },
+            {
+              "key": "D",
+              "text": "package"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. private"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-0d454f4eb9",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 63,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 16,
+          "prompt": "汽车（Car）由轮子、发动机、油箱、座椅、方向盘等组成，那么Car类和其他类（Wheel、Engin、Tank、Chair、SteeringWheel）之间的关系是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "关联关系"
+            },
+            {
+              "key": "B",
+              "text": "依赖关系"
+            },
+            {
+              "key": "C",
+              "text": "实现关系"
+            },
+            {
+              "key": "D",
+              "text": "泛化关系"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "A"
+            ],
+            "text": "A. 关联关系"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-8421f55fb4",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 64,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 17,
+          "prompt": "在下列选项中不属于类图的元素的是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "类"
+            },
+            {
+              "key": "B",
+              "text": "用例"
+            },
+            {
+              "key": "C",
+              "text": "接口"
+            },
+            {
+              "key": "D",
+              "text": "关联类"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. 用例"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-58aed17c8b",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 65,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 18,
+          "prompt": "在UML的顺序图中将交互关系表现成一幅二维图，其中纵向是(    )，横向是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "时间，对象角色"
+            },
+            {
+              "key": "B",
+              "text": "交互，泛化"
+            },
+            {
+              "key": "C",
+              "text": "时间，消息"
+            },
+            {
+              "key": "D",
+              "text": "交互，消息"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "A"
+            ],
+            "text": "A. 时间，对象角色"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-e360663075",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 66,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 19,
+          "prompt": "关于状态机图的说法，不正确的是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "状态机图通过建立类对象的生命周期模型来描述对象随时间变化的动态行为"
+            },
+            {
+              "key": "B",
+              "text": "状态机图用于对系统的静态方面建模"
+            },
+            {
+              "key": "C",
+              "text": "状态机图用于模型元素的实例（对象、交互等）的行为"
+            },
+            {
+              "key": "D",
+              "text": "状态机图适用于描述状态和动作的顺序，不仅可以展现一个对象拥有的状态，还可以说明事件如何随着事件的推移来影响这些状态"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. 状态机图用于对系统的静态方面建模"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-d66a87136b",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 67,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 20,
+          "prompt": "在活动图中用于对元素按照负责对象分组的元素是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "判断节点"
+            },
+            {
+              "key": "B",
+              "text": "控制流"
+            },
+            {
+              "key": "C",
+              "text": "分叉节点"
+            },
+            {
+              "key": "D",
+              "text": "泳道"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "D"
+            ],
+            "text": "D. 泳道"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-c5c21a6f70",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 68,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 21,
+          "prompt": "UML的全称是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "Unify Modeling Language"
+            },
+            {
+              "key": "B",
+              "text": "Unified Modeling Language"
+            },
+            {
+              "key": "C",
+              "text": "Unified Making Language"
+            },
+            {
+              "key": "D",
+              "text": "Unified Modem Language"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. Unified Modeling Language"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-110e74a710",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 69,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 22,
+          "prompt": "UML中有四种交互图, 其中强调控制流时间顺序的是（）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "顺序图"
+            },
+            {
+              "key": "B",
+              "text": "通信图"
+            },
+            {
+              "key": "C",
+              "text": "定时图"
+            },
+            {
+              "key": "D",
+              "text": "交互概述图"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "A"
+            ],
+            "text": "A. 顺序图"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-3cf49dd6c6",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 70,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 23,
+          "prompt": "假设选修课程数目的输入范围为1-4，则根据黑盒测试中的等价类划分技术，下列划分正确的是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "2个有效等价类，2个无效等价类"
+            },
+            {
+              "key": "B",
+              "text": "1个有效等价类，2个无效等价类"
+            },
+            {
+              "key": "C",
+              "text": "2个有效等价类，1个无效等价类"
+            },
+            {
+              "key": "D",
+              "text": "1个有效等价类，1个无效等价类"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. 1个有效等价类，2个无效等价类"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-aa2e49bb95",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 71,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 24,
+          "prompt": "以下图形哪一个是PAD图中表示选择性的结构（）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "A"
+            },
+            {
+              "key": "B",
+              "text": "B"
+            },
+            {
+              "key": "C",
+              "text": "C"
+            },
+            {
+              "key": "D",
+              "text": "D"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. B"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-83b7d9f925",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 72,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 25,
+          "prompt": "面向对象分析的首要工作是建立（）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "系统的动态模型"
+            },
+            {
+              "key": "B",
+              "text": "系统的功能模型"
+            },
+            {
+              "key": "C",
+              "text": "基本的E-R图"
+            },
+            {
+              "key": "D",
+              "text": "问题的对象模型"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "D"
+            ],
+            "text": "D. 问题的对象模型"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-500d25ab18",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 73,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 26,
+          "prompt": "顺序图是(    )的：(    )表示时间，(    )表示不同的对象或参与者。",
+          "options": [
+            {
+              "key": "A",
+              "text": "二维，垂直方向，水平方向"
+            },
+            {
+              "key": "B",
+              "text": "一维，水平方向，垂直方向"
+            },
+            {
+              "key": "C",
+              "text": "二维，水平方向，垂直方向"
+            },
+            {
+              "key": "D",
+              "text": "一维，垂直方向，水平方向"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "A"
+            ],
+            "text": "A. 二维，垂直方向，水平方向"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-1add97fa87",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 74,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 27,
+          "prompt": "题图为一个飞机票预定系统的数据流图,图中5表示的基本术语是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "外部实体"
+            },
+            {
+              "key": "B",
+              "text": "数据存储"
+            },
+            {
+              "key": "C",
+              "text": "数据流"
+            },
+            {
+              "key": "D",
+              "text": "加工"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "A"
+            ],
+            "text": "A. 外部实体"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-1e87456a44",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 75,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 28,
+          "prompt": "假设某网站发帖数目的输入范围为0—20,则根据黑盒测试中的等价类划分技术,下列划分正确的是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "可划分为2个有效等价类,2个无效等价类"
+            },
+            {
+              "key": "B",
+              "text": "可划分为1个有效等价类,2个无效等价类"
+            },
+            {
+              "key": "C",
+              "text": "可划分为2个有效等价类,1个无效等价类"
+            },
+            {
+              "key": "D",
+              "text": "可划分为1个有效等价类,1个无效等价类"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. 可划分为1个有效等价类,2个无效等价类"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-c9493f8fe2",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 76,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 29,
+          "prompt": "在面向对象的动态模型中，每张状态图表示（）的动态行为。",
+          "options": [
+            {
+              "key": "A",
+              "text": "某一个类"
+            },
+            {
+              "key": "B",
+              "text": "有关联的若干个类"
+            },
+            {
+              "key": "C",
+              "text": "一系列事件"
+            },
+            {
+              "key": "D",
+              "text": "一系列状态"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "A"
+            ],
+            "text": "A. 某一个类"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-77a1c6cfe4",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 77,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 30,
+          "prompt": "黑盒测试技术,又称为(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "路径测试技术"
+            },
+            {
+              "key": "B",
+              "text": "系统测试技术"
+            },
+            {
+              "key": "C",
+              "text": "功能测试技术"
+            },
+            {
+              "key": "D",
+              "text": "结构测试技术"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "C"
+            ],
+            "text": "C. 功能测试技术"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-3d1137d848",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 78,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 31,
+          "prompt": "对象模型的描述工具是（）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "状态图"
+            },
+            {
+              "key": "B",
+              "text": "数据流图"
+            },
+            {
+              "key": "C",
+              "text": "结构图"
+            },
+            {
+              "key": "D",
+              "text": "类图"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "D"
+            ],
+            "text": "D. 类图"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-524801deef",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 79,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 32,
+          "prompt": "在面向数据流的软件设计方法中，一般将信息流分为（）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "变换流和事务流"
+            },
+            {
+              "key": "B",
+              "text": "数据流和控制流"
+            },
+            {
+              "key": "C",
+              "text": "变换流和控制流"
+            },
+            {
+              "key": "D",
+              "text": "事务流和控制流"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "A"
+            ],
+            "text": "A. 变换流和事务流"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-b460cc9c4a",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 80,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 33,
+          "prompt": "在UML类图中,聚合关系的图形表示符号是以下哪一种(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "实心菱形"
+            },
+            {
+              "key": "B",
+              "text": "空心菱形"
+            },
+            {
+              "key": "C",
+              "text": "空心三角形"
+            },
+            {
+              "key": "D",
+              "text": "实心三角形"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. 空心菱形"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-44598c15e2",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 81,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 34,
+          "prompt": "UML用例图中用例的标准表示符号是什么(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "矩形"
+            },
+            {
+              "key": "B",
+              "text": "椭圆"
+            },
+            {
+              "key": "C",
+              "text": "小人图标"
+            },
+            {
+              "key": "D",
+              "text": "菱形"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. 椭圆"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-9161208a0a",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 82,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 35,
+          "prompt": "在UML类图中,接口的矩形表示法需要在顶部显式标注以下哪种构造型()。",
+          "options": [
+            {
+              "key": "A",
+              "text": "<<class>>"
+            },
+            {
+              "key": "B",
+              "text": "<<interface>>"
+            },
+            {
+              "key": "C",
+              "text": "<<abstract>>"
+            },
+            {
+              "key": "D",
+              "text": "<<implement>>"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. <<interface>>"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-cbb118a1e5",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 83,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 36,
+          "prompt": "在敏捷开发中，系统交付的周期称之为（  ）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "需求"
+            },
+            {
+              "key": "B",
+              "text": "设计"
+            },
+            {
+              "key": "C",
+              "text": "冲刺（sprint）"
+            },
+            {
+              "key": "D",
+              "text": "测试"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "C"
+            ],
+            "text": "C. 冲刺（sprint）"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-533d97f469",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 84,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 37,
+          "prompt": "如图所示的两个类的关联关系是（      ）。",
+          "options": [
+            {
+              "key": "A",
+              "text": "泛化"
+            },
+            {
+              "key": "B",
+              "text": "聚合"
+            },
+            {
+              "key": "C",
+              "text": "细化"
+            },
+            {
+              "key": "D",
+              "text": "实现"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "B"
+            ],
+            "text": "B. 聚合"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-f7db07689f",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 85,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 38,
+          "prompt": "已知Shape类的类图如图所示,则方法个数有(      )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "1个"
+            },
+            {
+              "key": "B",
+              "text": "2个"
+            },
+            {
+              "key": "C",
+              "text": "3个"
+            },
+            {
+              "key": "D",
+              "text": "4个"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "C"
+            ],
+            "text": "C. 3个"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-6ab7264abd",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 86,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 39,
+          "prompt": "关于统一建模语言UML说法正确的是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "UML是一种可视化的程序设计语言"
+            },
+            {
+              "key": "B",
+              "text": "UML只在需求分析阶段有重要作用"
+            },
+            {
+              "key": "C",
+              "text": "UML是工具或知识库的规格说明"
+            },
+            {
+              "key": "D",
+              "text": "UML以面向对象的方式来描述系统"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "D"
+            ],
+            "text": "D. UML以面向对象的方式来描述系统"
+          },
+          "explanation": ""
+        },
+        {
+          "id": "q-022426b14f",
+          "subject": "软工",
+          "source": "选择题.txt",
+          "order": 87,
+          "type": "single",
+          "typeLabel": "单选",
+          "mode": "single",
+          "originalNumber": 40,
+          "prompt": "下列工具中,常用在需求分析阶段的是(      )。",
+          "options": [
+            {
+              "key": "A",
+              "text": "HIPO图"
+            },
+            {
+              "key": "B",
+              "text": "N-S图"
+            },
+            {
+              "key": "C",
+              "text": "DFD图"
+            },
+            {
+              "key": "D",
+              "text": "PAD图"
+            },
+            {
+              "key": "B",
+              "text": "2、D \t3、\tC \t4、A \t5、C \t6、C \t7、\tB \t8、A \t9、D \t10、C"
+            },
+            {
+              "key": "B",
+              "text": "12、B\t13、A\t14、D\t15、B\t16、A\t17、C\t18、D\t19、A\t20、C"
+            },
+            {
+              "key": "B",
+              "text": "22、C\t23、A\t24、B\t25、C\t26、B\t27、B\t28、A\t29、B\t30、B"
+            },
+            {
+              "key": "B",
+              "text": "32、A\t33、B\t34、D\t35、B\t36、D\t37、B\t38、A\t39、C\t40、B"
+            },
+            {
+              "key": "C",
+              "text": "42、B\t43、D\t44、A\t45、A\t46、A\t47、B\t48、A\t49、C\t50、D"
+            },
+            {
+              "key": "A",
+              "text": "52、B\t53、B\t54、B\t55、C\t56、B\t57、B\t58、C\t59、D\t60、C"
+            }
+          ],
+          "answer": {
+            "keys": [
+              "C"
+            ],
+            "text": "C. 42、B\t43、D\t44、A\t45、A\t46、A\t47、B\t48、A\t49、C\t50、D"
           },
           "explanation": ""
         },
@@ -9010,7 +10509,7 @@ window.QUESTION_BANK = {
           "prompt": "以下符号哪个是在顺序图中表示返回消息的符号(        )。\nAB\nBC\nCD\nDA",
           "options": [],
           "answer": {
-            "text": ""
+            "text": "B"
           },
           "explanation": ""
         },
