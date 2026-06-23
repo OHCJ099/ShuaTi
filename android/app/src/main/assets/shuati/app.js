@@ -991,7 +991,39 @@ function hasReferenceAnswer(question) {
 function normalizeForCompare(value) {
   return String(value ?? "")
     .toLowerCase()
-    .replace(/[ \t\r\n"'“”‘’`·。！？?，,、；;：:（）()[\]{}<>《》【】]/g, "");
+    .replace(/[ \t\r\n"'“”‘’`·。！？?，,、；;：:（）()[\]{}<>《》【】\-_]/g, "");
+}
+
+function editDistance(a, b) {
+  const m = a.length;
+  const n = b.length;
+  const dp = Array.from({ length: m + 1 }, () => Array(n + 1).fill(0));
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      dp[i][j] = a[i - 1] === b[j - 1]
+        ? dp[i - 1][j - 1]
+        : 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+    }
+  }
+  return dp[m][n];
+}
+
+function evaluateBlankSingle(expected, userInput) {
+  const ne = normalizeForCompare(expected);
+  const nu = normalizeForCompare(userInput);
+  if (!ne || !nu) return false;
+  if (ne === nu) return true;
+  // If user answer contains expected answer, e.g. "面向对象分析方法" vs "面向对象分析"
+  if (nu.includes(ne) && nu.length <= ne.length * 2) return true;
+  // If it's a small typo in a longer word
+  if (ne.length >= 4) {
+    const dist = editDistance(ne, nu);
+    const threshold = Math.max(1, Math.floor(ne.length * 0.2));
+    if (dist <= threshold) return true;
+  }
+  return false;
 }
 
 function evaluate(question, userAnswer) {
@@ -1009,11 +1041,15 @@ function evaluate(question, userAnswer) {
     const expected = question.answer?.blanks || [];
     if (!expected.length) return null;
     const text = String(userAnswer || "");
-    const parts = text.split(/[\n;；]+/).map(normalizeForCompare).filter(Boolean);
+    // Split by newlines, semicolons, commas, or ideographic commas
+    const parts = text.split(/[\n;；,，、]+/).map((s) => s.trim()).filter(Boolean);
     const full = normalizeForCompare(text);
     if (normalizeForCompare(question.answer.text) === full) return true;
-    if (expected.length === 1) return normalizeForCompare(expected[0]) === full;
-    return expected.every((answer, index) => normalizeForCompare(answer) === parts[index]);
+    if (expected.length === 1) return evaluateBlankSingle(expected[0], text);
+    return expected.every((answer, index) => {
+      const userPart = parts[index] || "";
+      return evaluateBlankSingle(answer, userPart);
+    });
   }
   return null;
 }
