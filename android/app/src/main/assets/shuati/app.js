@@ -1280,7 +1280,11 @@ function wirePracticeEvents() {
       setDraft(getCurrentQuestion(), textarea.value);
     });
     textarea.addEventListener("focus", () => document.body.classList.add("is-writing"));
-    textarea.addEventListener("blur", () => document.body.classList.remove("is-writing"));
+    textarea.addEventListener("blur", () => {
+      setTimeout(() => {
+        document.body.classList.remove("is-writing");
+      }, 150);
+    });
   }
 
   app.querySelectorAll("[data-self]").forEach((button) => {
@@ -1581,7 +1585,21 @@ function handleKeyboard(event) {
   if (state.view !== "practice") return;
 
   if (isTyping && !(event.ctrlKey && event.key === "Enter") && event.key !== "Escape") {
-    return;
+    const question = getCurrentQuestion();
+    if (
+      event.key === "Enter" &&
+      !event.shiftKey &&
+      !event.ctrlKey &&
+      !event.metaKey &&
+      !event.altKey &&
+      question &&
+      question.type === "blank" &&
+      (!question.answer || !question.answer.blanks || question.answer.blanks.length <= 1)
+    ) {
+      // Allow single-blank fill-in-the-blank questions to submit/proceed on Enter
+    } else {
+      return;
+    }
   }
 
   const question = getCurrentQuestion();
