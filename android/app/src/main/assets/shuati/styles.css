@@ -1028,20 +1028,13 @@ body[data-view="summary"] .btn.primary {
   background: var(--accent);
 }
 
+
 body[data-view="summary"] #summarySetup {
   width: auto;
   min-height: 40px;
   padding: 0 8px;
   color: rgba(255, 255, 255, 0.82);
   background: transparent;
-}
-
-body.is-writing .nav-row {
-  position: static;
-}
-
-body.is-writing .app-shell {
-  padding-bottom: 24px;
 }
 
 @media (min-width: 768px) {
