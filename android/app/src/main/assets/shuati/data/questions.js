@@ -1,5 +1,5 @@
 window.QUESTION_BANK = {
-  "generatedAt": "2026-06-18T01:39:12.740Z",
+  "generatedAt": "2026-06-23T09:41:18.635Z",
   "typeLabels": {
     "single": "单选",
     "multiple": "多选",

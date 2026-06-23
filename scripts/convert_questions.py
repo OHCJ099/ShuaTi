@@ -616,6 +616,20 @@ def main() -> None:
         counts = ", ".join(f"{TYPE_LABELS[key]} {subject['counts'][key]}" for key in TYPE_ORDER)
         print(f"{subject['name']}: {subject['total']} ({counts})")
 
+    # Automatically apply manual fixes to prevent image loss
+    import subprocess
+    try:
+        script_dir = Path(__file__).parent
+        fixes_script = script_dir / "apply_manual_fixes.js"
+        if fixes_script.exists():
+            print("Applying manual fixes...")
+            subprocess.run(["node", str(fixes_script)], check=True)
+            print("Manual fixes applied successfully.")
+        else:
+            print(f"Warning: Manual fixes script not found at {fixes_script}")
+    except Exception as e:
+        print(f"Failed to apply manual fixes: {e}")
+
 
 if __name__ == "__main__":
     main()
